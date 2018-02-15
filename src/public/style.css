@@ -1,3 +1,10 @@
 body {
-	font-family: monospace
+	font-family: monospace;
+}
+
+li.job a,
+li.job a:visited,
+li.job a:active,
+li.job a:hover {
+	text-decoration: none;
 }
