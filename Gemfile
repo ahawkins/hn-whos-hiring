@@ -7,6 +7,9 @@ gem 'parallel', '~> 1.12.1'
 gem 'excon', '~> 0.54.0'
 gem 'sinatra'
 gem 'htmlentities'
+gem 'mongo'
+
+gem 'logger-better'
 
 group :development do
 	gem 'capybara'

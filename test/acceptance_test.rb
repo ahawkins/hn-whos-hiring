@@ -2,18 +2,9 @@ require_relative 'test_helper'
 
 class AcceptanceTest < MiniTest::Test
   include Capybara::DSL
+  include DBTest
 
   CLOCK = Time.now
-
-  def setup
-    super
-
-    WebServer.set(:repo, FakeRepo.new)
-  end
-
-  def repo
-    WebServer.settings.repo
-  end
 
   def test_simple_case
     repo << JobAd.new({

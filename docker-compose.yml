@@ -7,9 +7,19 @@ services:
     build: .
     environment:
       PORT: 8080
+      MONGODB_URI: mongodb://mongo
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:3
 
   tests:
     build: .
+    environment:
+      MONGODB_URI: mongodb://mongo
+    depends_on:
+      - mongo
     volumes:
       - .:/app
 

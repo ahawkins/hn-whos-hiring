@@ -6,8 +6,6 @@ class HTTPCachingTest < MiniTest::Test
   attr_reader :app
 
   def setup
-    WebServer.set(:repo, FakeRepo.new)
-
     @app = WebServer
   end
 
