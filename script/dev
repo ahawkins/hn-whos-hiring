@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if make -q Gemfile.lock; then
+	make Gemfile.lock
+fi
+
+docker-compose build tests
+docker-compose run --rm -p 9090:9090 tests \
+	bundle exec shotgun --server puma --host 0.0.0.0 --port 9090 script/shotgun.ru

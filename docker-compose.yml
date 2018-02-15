@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  app:
+    # TODO: Replace this with your image name
+    image: slashdeploy/docker-ruby-boilerplate
+    build: .
+    environment:
+      PORT: 8080
+
+  tests:
+    build: .
+    volumes:
+      - .:/app
+
+  smoke:
+    build: .
+    command: ruby test/smoke.rb http://app:8080

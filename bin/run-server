@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+require_relative '../src/app'
+require_relative '../src/fakes'
+
+require 'optparse'
+
+options = {
+	port: ENV.fetch('PORT', 8080).to_i,
+	expire: 60 * 60 * 15 # 15 Minutes
+}
+
+WebServer.set(:repo, FakeRepo.new)
+WebServer.set(:expire, options.fetch(:expire))
+
+Rack::Server.start({
+	app: WebServer,
+	environment: 'deployment',
+	Port: options.fetch(:port)
+})

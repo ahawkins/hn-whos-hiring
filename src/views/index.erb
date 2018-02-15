@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Job postings from Hackernews hiring threads">
+    <meta name="author" content="Adam Hawkins">
+
+    <title>Who's Hiring on HackerNews</title>
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+	<body>
+		<p>
+			RSS feed of Hacker News Who's Hiring Threads. Made by <a href="https://twitter.com/adman65">Adam Hawkins</a>. <a href="https://github.com/ahawkins/whos-hiring">Source</a>.
+		</p>
+		<p>
+			<a id="remote-only" href="/?remote=true">Remote Jobs Only</a>
+		</p>
+
+		<% @jobs.each do |job| %>
+			<li class="job">
+				<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="https://news.ycombinator.com/item?id=<%= job.id %>"><%=h job.to_s %></a>
+			</li>
+		<% end %>
+	</body>
+</html>
