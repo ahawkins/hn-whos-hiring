@@ -11,12 +11,8 @@ require 'capybara/dsl'
 
 Capybara.app = WebServer
 
-logger = NullLogger.new.tap do |log|
-  log.level = :debug
-end
-
 repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
-  logger: logger
+  logger: NullLogger.new
 }))
 
 WebServer.set(:repo, repo)
