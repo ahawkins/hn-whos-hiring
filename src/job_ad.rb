@@ -34,5 +34,9 @@ class JobAd
   def to_s
     HTMLEntities.new.decode(text)
   end
+
+  def link
+    "https://news.ycombinator.com/item?id=#{id}"
+  end
 end
 

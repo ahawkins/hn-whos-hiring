@@ -22,9 +22,11 @@
 			<a id="all-jobs" <%= all_jobs? ? 'class="is-active"' : nil %> href="/">All Jobs</a>
 		</p>
 
+		<p><a href="<%= rss_url %>">RSS Feed</a></p>
+
 		<% @jobs.each do |job| %>
 			<li class="job">
-				<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="https://news.ycombinator.com/item?id=<%= job.id %>"><%=h job.to_s %></a>
+				<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%=h job.to_s %></a>
 			</li>
 		<% end %>
 	</body>
