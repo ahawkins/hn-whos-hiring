@@ -2,6 +2,10 @@ li.job {
 	margin: 0.25em 0
 }
 
+.filters a {
+	margin: 0 0.25em
+}
+
 .filters a,
 .filters a:active,
 .filters a:visited,
