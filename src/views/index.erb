@@ -45,13 +45,13 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<ol>
+					<ul>
 						<% @jobs.each do |job| %>
 							<li class="job">
 								<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%=h(truncate(job.to_s)) %></a>
 							</li>
 						<% end %>
-					</ol>
+					</ul>
 				</div>
 			</div>
 		</div>
