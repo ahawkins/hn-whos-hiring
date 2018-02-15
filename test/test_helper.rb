@@ -16,7 +16,7 @@ logger = NullLogger.new.tap do |log|
 end
 
 repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
-	logger: logger
+  logger: logger
 }))
 
 WebServer.set(:repo, repo)
