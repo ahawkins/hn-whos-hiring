@@ -7,9 +7,13 @@ class FakeRepo < DelegateClass(Array)
 
   def query(remote_only: false)
     if remote_only
-      select(&:remote?)
+      select(&:remote?).sort do |j1, j2|
+        j2.timestamp <=> j1.timestamp
+      end
     else
-      each
+      sort do |j1, j2|
+        j2.timestamp <=> j1.timestamp
+      end
     end
   end
 end
