@@ -22,6 +22,20 @@ class HiringParserTest < MiniTest::Test
     end
   end
 
+  def test_lops_off_trailing_pipe
+    job = parse({
+      text: 'Company | Position | Location | Tags | Salary |<p>Junk'
+    })
+
+    assert_equal 'Company | Position | Location | Tags | Salary', job.text
+
+    job = parse({
+      text: 'Company | Position | Location | Tags | Salary |'
+    })
+
+    assert_equal 'Company | Position | Location | Tags | Salary', job.text
+  end
+
   def test_lops_off_extra_paragraphs
     job = parse({
       text: 'Company | Position | Location | Tags | Salary<p>Junk'

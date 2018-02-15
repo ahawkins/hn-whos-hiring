@@ -6,11 +6,20 @@ class JobAd
       new.tap do |job|
         job.id = data.fetch('id')
         job.timestamp = Time.at(data.fetch('time'))
-        job.text = data.fetch('text').
+
+        sanatized = data.fetch('text').
           split('<p>').
           first.
           gsub(/<a[^>]+>.+<\/a>+/, "").
           strip
+
+        decoded = HTMLEntities.new.decode(sanatized)
+
+        if decoded.end_with?("|")
+          job.text = decoded.chop.strip
+        else
+          job.text = decoded
+        end
       end
     end
   end
@@ -32,7 +41,7 @@ class JobAd
   end
 
   def to_s
-    HTMLEntities.new.decode(text)
+    text
   end
 
   def link
