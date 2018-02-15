@@ -15,9 +15,11 @@
 		<p>
 			RSS feed of Hacker News Who's Hiring Threads. Made by <a href="https://twitter.com/adman65">Adam Hawkins</a>. <a href="https://github.com/ahawkins/whos-hiring">Source</a>.
 		</p>
-		<p>
-			<a id="remote-only" href="/?remote=true">Remote Jobs Only</a>
-			<a id="all-jobs" href="/">All Jobs</a>
+
+		<p class="filters">
+			Show:
+			<a id="remote-only" <%= remote_only? ? 'class="is-active"' : nil %> href="/?remote=true">Remote Jobs</a>
+			<a id="all-jobs" <%= all_jobs? ? 'class="is-active"' : nil %> href="/">All Jobs</a>
 		</p>
 
 		<% @jobs.each do |job| %>

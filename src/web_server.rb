@@ -9,13 +9,21 @@ class WebServer < Sinatra::Base
     def h(text)
       HTMLEntities.new.encode(text)
     end
+
+    def remote_only?
+		  params.fetch('remote', 'false') == 'true'
+    end
+
+    def all_jobs?
+      !remote_only?
+    end
   end
 
   set :expire, nil
 
   get '/' do
     @jobs = repo.query({
-      remote_only: params.fetch('remote', false) == 'true'
+      remote_only: remote_only?
     })
 
     expires(settings.expire, :public) if settings.expire?

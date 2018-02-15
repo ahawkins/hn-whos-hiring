@@ -2,6 +2,17 @@ li.job {
 	margin: 0.25em 0
 }
 
+.filters a,
+.filters a:active,
+.filters a:visited,
+.filters a:hover {
+	color: inherit;
+}
+
+.filters a.is-active {
+	font-weight: bold;
+}
+
 li.job a,
 li.job a:visited,
 li.job a:active,

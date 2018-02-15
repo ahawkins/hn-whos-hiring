@@ -22,7 +22,7 @@ class AcceptanceTest < MiniTest::Test
     end
   end
 
-  def test_remote_job_filter
+  def test_remote_only_job_filter
     repo << JobAd.new({
       id: 1,
       text: 'Foo | Bar',
@@ -38,16 +38,20 @@ class AcceptanceTest < MiniTest::Test
     open_homepage
 
     assert_results 2
+		assert_all_jobs_selected
 
-    click_remote
+    click_remote_only
 
     assert_results 1
-
     assert_job_id 2
+		assert_remote_only_selected
+		refute_all_jobs_selected
 
     click_all_jobs
 
     assert_results 2
+		assert_all_jobs_selected
+		refute_remote_only_selected
   end
 
   private
@@ -66,11 +70,27 @@ class AcceptanceTest < MiniTest::Test
     end
   end
 
-  def click_remote
+  def click_remote_only
     find('#remote-only').click
   end
 
   def click_all_jobs
     find('#all-jobs').click
   end
+
+	def assert_all_jobs_selected
+		assert page.has_css?('#all-jobs.is-active'), 'Incorrect filter display'
+	end
+
+	def refute_all_jobs_selected
+		refute page.has_css?('#all-jobs.is-active'), 'Incorrect filter display'
+	end
+
+	def assert_remote_only_selected
+		assert page.has_css?('#remote-only.is-active'), 'Incorrect filter display'
+	end
+
+	def refute_remote_only_selected
+		refute page.has_css?('#remote-only.is-active'), 'Incorrect filter display'
+	end
 end
