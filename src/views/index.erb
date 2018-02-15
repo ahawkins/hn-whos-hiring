@@ -9,25 +9,51 @@
     <title>Who's Hiring on HackerNews</title>
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
 	<body>
-		<p>
-			RSS feed of Hacker News Who's Hiring Threads. Made by <a href="https://twitter.com/adman65">Adam Hawkins</a>. <a href="https://github.com/ahawkins/whos-hiring">Source</a>.
-		</p>
+		<div class="container">
+			<nav class="navbar navbar-dark bg-dark">
+				<a class="navbar-brand" href="/">HackerNews Who's Hiring RSS</a>
+				<span class="navbar-text">
+					Made by <a href="https://twitter.com/adman65">Adam Hawkins</a>. <a href="https://github.com/ahawkins/whos-hiring">Source</a>
+				</span>
+			</nav>
+		</div>
 
-		<p class="filters">
-			Show:
-			<a id="remote-only" <%= remote_only? ? 'class="is-active"' : nil %> href="/?remote=true">Remote Jobs</a>
-			<a id="all-jobs" <%= all_jobs? ? 'class="is-active"' : nil %> href="/">All Jobs</a>
-		</p>
-
-		<p><a href="<%= rss_url %>">RSS Feed</a></p>
-
-		<% @jobs.each do |job| %>
-			<li class="job">
-				<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%=h job.to_s %></a>
-			</li>
-		<% end %>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="button-toolbar filters" role="toolbar">
+						<div class="btn-group mr-2" role="group">
+							<button type="button" class="btn <%= all_jobs? ? 'btn-primary' : 'btn-secondary' %>">
+								<a id="all-jobs" <%= all_jobs? ? 'class="is-active"' : nil %> href="<%= url('/') %>">All Jobs</a>
+							</button>
+							<button type="button" class="btn <%= remote_only? ? 'btn-primary' : 'btn-secondary' %>">
+								<a id="remote-only" <%= remote_only? ? 'class="is-active"' : nil %> href="<%= url('/?remote=true') %>">Remote Jobs</a>
+							</button>
+						</div>
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-link">
+								<a href="<%= rss_url %>">Subscribe</a>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<ol>
+						<% @jobs.each do |job| %>
+							<li class="job">
+								<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%=h(truncate(job.to_s)) %></a>
+							</li>
+						<% end %>
+					</ol>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

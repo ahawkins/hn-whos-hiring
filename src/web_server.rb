@@ -11,6 +11,14 @@ class WebServer < Sinatra::Base
       HTMLEntities.new.encode(text)
     end
 
+    def truncate(string, length: 100, tail: '...')
+      if string.length > length - tail.length
+        string[0..(length - tail.length)] + tail
+      else
+        string
+      end
+    end
+
     def remote_only?
       params.fetch('remote', 'false') == 'true'
     end
