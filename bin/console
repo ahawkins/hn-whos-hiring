@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative '../src/app'
+require 'logger/better'
+
+logger = Logger::Better.new($stdout).tap do |log|
+	log.level = ENV.fetch('LOG_LEVEL', 'warn').to_sym
+end
+
+repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
+	logger: logger
+}))
+
+require 'irb'
+
+IRB.start
