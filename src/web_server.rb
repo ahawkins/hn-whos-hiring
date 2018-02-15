@@ -28,14 +28,10 @@ class WebServer < Sinatra::Base
     end
   end
 
-  set :expire, nil
-
   get '/' do
     @jobs = repo.query({
       remote_only: remote_only?
     })
-
-    expires(settings.expire, :public) if settings.expire?
 
     erb(:index)
   end
