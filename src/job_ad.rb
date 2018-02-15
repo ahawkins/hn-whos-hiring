@@ -48,4 +48,3 @@ class JobAd
     "https://news.ycombinator.com/item?id=#{id}"
   end
 end
-

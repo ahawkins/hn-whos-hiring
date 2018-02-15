@@ -1,0 +1,3873 @@
+---
+- !ruby/object:JobAd
+  id: 16283471
+  text: Blinkist | Growth Developer | Onsite or remote | Berlin, Germany | EUR 60-
+    70k
+  timestamp: 2018-02-01 17:03:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284383
+  text: Kindly Care | San Francisco | Multiple Engineering Positions | REMOTE | $100k-$150k
+    + equity
+  timestamp: 2018-02-01 18:31:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284873
+  text: Lots of YC companies | Software engineers of all kinds | Everywhere, though
+    mostly in the US | Mostly on-site, but some remote too | Full-time and intern
+  timestamp: 2018-02-01 19:17:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285296
+  text: PKC Security | Mid- or Senior- engineer | Huntington Beach, CA | ONSITE, FULL-TIME
+    | $120-$160k |  PKC Security is a small, elite custom dev shop. Our engineers
+    build cutting-edge, innovative products to solve our clients’ most wicked problems.
+    Our work spans across the fintech, e-commerce, NGO, and education spaces.
+  timestamp: 2018-02-01 19:58:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284133
+  text: Ansaro | Back-end developer | San Francisco, CA | ONSITE, Full-time, Salary:120K-150K
+    (1.0%-1.5%)
+  timestamp: 2018-02-01 18:10:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283614
+  text: Netherlands Forensic Institute | Forensic exploit developer | The Hague, the
+    Netherlands | ONSITE | VISA | Full-time | €45k - €88k
+  timestamp: 2018-02-01 17:15:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284960
+  text: One Eighty | Frontend Developer | $100k - $150k + equity + benefits | Fulltime
+    | ONSITE in Los Angeles | one-eighty.co ()
+  timestamp: 2018-02-01 19:25:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283725
+  text: 'Qualys Inc. (qualys.com, NASDAQ: QLYS) | Foster City CA | Full-time, ONSITE/REMOTE
+    | $110k-$125k, RSUs, 401(k) matching, bonuses, health benefits Qualys is a provider
+    of cloud security, compliance and related services for small and medium-sized
+    businesses and large corporations.'
+  timestamp: 2018-02-01 17:27:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283252
+  text: 'Southeast USA including: Texas (Austin and San Antonio), Virginia (Arlington
+    and Dulles), Alabama (Huntsville), Florida (beach east of Melbourne), South Carolina
+    (Greenville), Maryland (Annapolis Junction), and possibly others, all ONSITE.
+    Citizenship is a job requirement.'
+  timestamp: 2018-02-01 16:42:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285065
+  text: |-
+    Cerego | SF FiDi | Full-time Full Stack Engineer | $100k - $120k
+    Cerego helps people learn faster, remember longer, and quantify what they know. We build software and APIs that make a real difference in the world: we help people study less but learn more. We have an incredibly impressive suite of partners, from leading publishers (Cengage, Elsevier, McGraw-Hill) to online course providers (edX) to innovative institutions (ASU) and foundations (The Bill and Melinda Gates Foundation).
+  timestamp: 2018-02-01 19:33:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285073
+  text: You Need a Budget (YNAB) | Full Stack Developer | Remote
+  timestamp: 2018-02-01 19:34:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285465
+  text: Shogun (YC W18) | Mid-Senior Full Stack Engineer | REMOTE, ON SITE (SF) |  |
+    $100-$140k + generous equity
+  timestamp: 2018-02-01 20:18:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16375959
+  text: Fullscript | Senior Front-End Developer | Onsite | Ottawa, Canada | CAD 80-120K
+  timestamp: 2018-02-14 14:36:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283906
+  text: |-
+    Uncountable | Machine Learning Engineers | San Francisco (Onsite) | $150k-220k
+    & Enterprise Sales | San Francisco (Onsite) | $70-120k + Commission
+  timestamp: 2018-02-01 17:47:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285656
+  text: Dataquest | SF | Director of Marketing | Remote, Full-time | $90k - $130k
+  timestamp: 2018-02-01 20:41:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283974
+  text: Thorn | San Francisco or Remote (US based) | Full-time | $100k - $150k | Software
+    Engineer
+  timestamp: 2018-02-01 17:54:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283328
+  text: Shopify | Developers and Designers! | Toronto, Ottawa, Montreal, Waterloo
+    | FULL-TIME ONSITE VISA
+  timestamp: 2018-02-01 16:50:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283498
+  text: Wepow | Guadalajara, MEXICO | ONSITE | VISA SPONSORSHIP | Full-time | Senior
+    | Engineering | 420K MXN - 780K MXN + Options
+  timestamp: 2018-02-01 17:06:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285066
+  text: 'Top Hat |  | Toronto, ON, Canada | ONSITE Full-time '
+  timestamp: 2018-02-01 19:33:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284359
+  text: ZenMate | Berlin | ONSITE | VISA | €50k - €80k depending on a role
+  timestamp: 2018-02-01 18:29:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283690
+  text: Occipital (Computer Vision) | Full-time | ONSITE | Boulder,CO & San Francisco,
+    CA
+  timestamp: 2018-02-01 17:23:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283443
+  text: ReferWell | node.js contractor - 8-12 weeks | New York, NY / Upstate SC |
+    REMOTE OK (US only), Contract | $50-$60 /hour
+  timestamp: 2018-02-01 17:01:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284558
+  text: Finix | Software Engineer | San Francisco, CA | Onsite | Full-Time | $100k
+    - $150k
+  timestamp: 2018-02-01 18:51:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283277
+  text: Pornhub | Adult content | Montreal QC | On-site
+  timestamp: 2018-02-01 16:44:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282883
+  text: Experienced Go backend developer $90-$120/hr ($14.4-19.2K/mo) FULLY REMOTE
+    full-time contract (US and Canada only)
+  timestamp: 2018-02-01 16:06:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286157
+  text: CareGuide | Toronto, ON | Onsite |  | CAD$70-120 + equity
+  timestamp: 2018-02-01 21:37:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284420
+  text: The Farmer's Dog | Software Engineer | New York, NY | ONSITE, SALARY:100-140k,
+  timestamp: 2018-02-01 18:35:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284157
+  text: Elastic | Sr. UI Engineer, Sr. JavaScript Engineer, Anywhere (aka REMOTE)
+  timestamp: 2018-02-01 18:13:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285664
+  text: Replicated | QA Automation Engineer | $100k - $130k + equity | Los Angeles
+  timestamp: 2018-02-01 20:42:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284699
+  text: Polly | Seattle | Full-stack Dev, Technical PM | Full-time |  $110-150k +
+    equity | ONSITE
+  timestamp: 2018-02-01 19:04:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16369152
+  text: Shell TechWorks | Software, EE, MechE, Marketing Interns & Senior Software
+    Developer | Cambridge, MA | Onsite
+  timestamp: 2018-02-13 17:55:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285265
+  text: Zulip |  | REMOTE or in person | Frontend Engineer | Full-time | SF
+  timestamp: 2018-02-01 19:55:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16372947
+  text: Modular Science | Hardware/Software Generalist | Onsite | Petaluma, CA
+  timestamp: 2018-02-14 02:32:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288268
+  text: Churchill Navigation | Multiple Positions | ONSITE in Boulder, CO | $90k -
+    $130K + equity
+  timestamp: 2018-02-02 03:51:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284151
+  text: |-
+    Segment | Engineering | San Francisco, CA or Vancouver, BC | Full-Time | Onsite
+    Segment is building the analytics routing layer for the world. We transform data into over 150 different services, adding new ones every day. We're processing billions of events each month, and maintaining the analytics infrastructure for companies like DigitalOcean, Atlassian, New Relic, and Docker. Our goal is to help companies learn from how their users interact with the products to build even better products. We also like to share our work and what we learn, here are some recent examples:
+  timestamp: 2018-02-01 18:12:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284752
+  text: Outreach | Software Engineers, Data Scientists, Machine Learning Engineers
+    | Seattle | ONSITE
+  timestamp: 2018-02-01 19:08:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16378113
+  text: Cobalt | Senior Software Engineer | Onsite | San Francisco, CA | Competitive
+    salary
+  timestamp: 2018-02-14 18:42:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286127
+  text: ACLU -- National HQ, NYC | (remote is fine for eng positions)
+  timestamp: 2018-02-01 21:34:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288050
+  text: Caper (YC W16) | Head of Machine Learning | $100k - $150k + equity + benefits
+    | Fulltime | ONSITE in New York | CaperLab.com
+  timestamp: 2018-02-02 03:01:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283819
+  text: Plectica | Onsite or Remote | NYC | Senior Frontend Engineer, Senior Full-Stack
+  timestamp: 2018-02-01 17:37:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284327
+  text: Alloy | San Francisco, Vancouver BC, or Berlin | Full-time, Onsite
+  timestamp: 2018-02-01 18:26:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287658
+  text: CompilerWorks | San Francisco Bay Area | Full-time, REMOTE| $100k-$220k driven
+    by your productivity. We are currently a team of 8 across 6 countries, 3 continents.
+  timestamp: 2018-02-02 01:37:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288284
+  text: Reddit | Senior Rust Engineer | San Francisco, CA | ONSITE, FULL-TIME
+  timestamp: 2018-02-02 03:55:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284991
+  text: O(1) Labs | Engineer | San Francisco | On-Site | Full Time
+  timestamp: 2018-02-01 19:27:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283822
+  text: AdRoll | San Francisco | On-site/remote | Full-time
+  timestamp: 2018-02-01 17:38:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283012
+  text: CompilerWorks | San Francisco Bay Area | Full-time, remote | $100k-$220k driven
+    by your productivity. We are currently a team of 8 across 6 countries, 3 continents.
+  timestamp: 2018-02-01 16:18:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284539
+  text: RiskIdent|Scala Developer|Visa, Onsite|Hamburg, Germany|Relocation|50-75K
+    EUR
+  timestamp: 2018-02-01 18:50:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283597
+  text: 'Game Closure | Engineer | SALARY: $100k - 150k | San Francisco Bay area (SF)
+    | Tokyo, Japan | Eugene, Oregon | VISA REMOTE'
+  timestamp: 2018-02-01 17:13:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283991
+  text: London (Soho) | Senior Backend Engineer | Onsite | Full-time | £75k+, bonus,
+    equity
+  timestamp: 2018-02-01 17:56:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284692
+  text: 'Voltaiq | Battery Analytics | SF Bay Area | Brooklyn, NY | Multiple Positions:
+    $110k-$180k | Onsite'
+  timestamp: 2018-02-01 19:03:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16371925
+  text: Smarkets|Los Angeles, CA|Software Engineers, Front-end Software Engineers|Onsite
+  timestamp: 2018-02-13 23:28:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282970
+  text: "United States Digital Service | Senior Software Engineers, Senior Site Reliability
+    Engineers, Senior Designers, and more! | Washington, DC | ONSITE \nThe best of
+    technology. The best of government. And we want you."
+  timestamp: 2018-02-01 16:14:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283237
+  text: Citymapper | Backend/iOS/Android Engineers | London, UK | ONSITE, VISA
+  timestamp: 2018-02-01 16:40:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16366364
+  text: Kialo | Full Stack Web Developer | ONSITE | Full-time | Berlin, Germany |
+    €55k-€90k
+  timestamp: 2018-02-13 11:36:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284817
+  text: Discord | Senior Engineers | San Francisco | ONSITE
+  timestamp: 2018-02-01 19:13:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285356
+  text: MailChimp () | Atlanta Brooklyn Oakland | Full-Time (FT) & Internships (INTERNS)
+  timestamp: 2018-02-01 20:04:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16357649
+  text: ZDEV | London, UK | Full-time, Remote | Engineer / Manager | $80-130k
+  timestamp: 2018-02-12 09:54:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284086
+  text: PagerDuty | San Francisco, Toronto, Remote
+  timestamp: 2018-02-01 18:06:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284830
+  text: Remix | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 19:14:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284442
+  text: |-
+    RainforestQA (YC12) | Data Scientists, Software Engineers, Ops, other roles | San Francisco + the world | REMOTE | Full-Time
+    We're hiring Data Scientists, Software Engineers, and Ops people, among other roles, to change the way software companies do Quality Assurance.
+  timestamp: 2018-02-01 18:38:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284689
+  text: Berlin Phil | Frontend Engineer | Berlin, DE | Onsite | Full Time
+  timestamp: 2018-02-01 19:03:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16367220
+  text: MAARK | Senior Web Developer | Cambridge, MA | Contractor/Freelance | Onsite
+    or Remote
+  timestamp: 2018-02-13 14:14:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282828
+  text: Full Fact, building automated factchecking tools | London, UK | ONSITE | Full-time
+    | £30-50k
+  timestamp: 2018-02-01 16:01:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287114
+  text: |-
+    Sure, Inc |  | New York, NY or Santa Monica, CA | Full Time | ONSITE | $120-$160k
+    At Sure, our vision is to change the way billions of people interact with insurance. Our engineers are developing the experiences that will change how current and future generations protect their valuables. We're looking for team members who are big thinkers in all areas, including mobile apps, artificial intelligence, and UI design.
+  timestamp: 2018-02-01 23:59:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286834
+  text: 280 CapMarkets | San Francisco, CA | Sr. C# Engineer | Full-time | Salary
+    $125-160K & Equity | Onsite
+  timestamp: 2018-02-01 23:09:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283823
+  text: Datadog | Software Engineers | ONSITE (Boston, New York City, Paris) and REMOTE
+    | Full-time
+  timestamp: 2018-02-01 17:38:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286059
+  text: Wealthsimple | Fullstack Engineer, Ruby Engineer, Java Software Engineer,
+    JavaScript Software Engineer, Mobile Software Engineer (React), iOS Developer
+    and more! | Toronto, New York City (Onsite)
+  timestamp: 2018-02-01 21:27:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16368254
+  text: MaxMind | System Administrator - Telecommute Opportunity (U.S./Canada) | Remote
+    | Full Time | salary range begins at $100k USD
+  timestamp: 2018-02-13 16:17:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283603
+  text: PayJoy | Android, Infrastructure, Data Science, and Full Stack Engineers |
+    San Francisco, CA | Full-time, on site | $100k-$150k + equity | www.payjoy.com
+  timestamp: 2018-02-01 17:14:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286604
+  text: TrustFlight | iOS & Full Stack Developers | Warwick, UK ONSITE | £30-60k +
+    equity
+  timestamp: 2018-02-01 22:35:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283469
+  text: GoCardless (YC S11) | London | SRE, Data, Backend, Full-Stack, and Pre-sales/Solutions
+    Engineers | Onsite | Full-time | Visa
+  timestamp: 2018-02-01 17:03:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283846
+  text: Stowga | London, UK | ONSITE | £40-60k + Options | Full-Stack Rails Developer
+  timestamp: 2018-02-01 17:41:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288076
+  text: Degica | Multiple Positions | Tokyo, Japan | ONSITE | VISA
+  timestamp: 2018-02-02 03:07:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284352
+  text: LBRY | Manchester, NH | Remote | Blockchain Engineer, Protocol Engineer, Web
+    Developer
+  timestamp: 2018-02-01 18:28:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287156
+  text: SerpApi |  | Senior Backend Engineer | Austin, TX | Full-time | ONSITE or
+    REMOTE | $130-$160k + equity
+  timestamp: 2018-02-02 00:09:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283491
+  text: "| Sr Site Reliability Engineer (AWS/GKE Kubernetes) | Full-Time; 155-160k
+    DoE; 0.01% equity | Remote, Right-to-work-in USA"
+  timestamp: 2018-02-01 17:05:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287269
+  text: HVF Labs | Company Builders, Designers and Developers | San Francisco | Salary
+    $75-$120k
+  timestamp: 2018-02-02 00:27:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284951
+  text: Apple, Inc. | Cupertino
+  timestamp: 2018-02-01 19:24:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283858
+  text: Cabana Blockchain | San Francisco, CA | Full-time | ONSITE, REMOTE | $80k
+    - $140k (USD/BTC)
+  timestamp: 2018-02-01 17:43:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288030
+  text: NEURALINK | Software engineering | San Francisco, CA | Full-time | Onsite
+  timestamp: 2018-02-02 02:56:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16357501
+  text: |-
+    WEB APPLICATIONS DEVELOPER
+    Kaunas, Lithuania (Remote working possible) | up to 42K EUR
+  timestamp: 2018-02-12 09:17:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282965
+  text: StreetShares | Software Engineer | Washington, DC (Reston, VA) | Full-time,
+    onsite |  | $80k-$100k+ and equity
+  timestamp: 2018-02-01 16:14:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287634
+  text: Second Measure (YC S15) | SF Bay Area - San Mateo, CA (downtown) | ONSITE
+  timestamp: 2018-02-02 01:34:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292613
+  text: Lighthouse AI, Inc. | Palo Alto, CA | ONSITE, VISA, FULLTIME | Relocation
+    available | www.light.house
+  timestamp: 2018-02-02 18:04:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285560
+  text: KloudTrader | Senior/Junior/Fullstack Software Engineer | Rails, Python scientific
+    software, JavaScript | REMOTE | OPTIONAL INTERN, Full-time
+  timestamp: 2018-02-01 20:29:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285303
+  text: "SoundHound | All roles available in Santa Clara/San Francisco. Engineering
+    roles only in Toronto. | ONSITE - \nI'm an Engineering Manager at SH. We've just
+    raised $75 Million from NVIDIA, Samsung, KP and others to take on Amazon and Google
+    in AI with our \"Collective AI\" Houndify platform. Our open Houndify platform
+    has the world’s fastest speech recognition and most sophisticated natural language
+    understanding. We've had a lot of interest from partners and there are a LOT of
+    really interesting projects being worked on requiring complex problem solvers
+    who can work well independently. Things have come a long way since our leaked
+    demo video took top spot on Reddit a year ago!"
+  timestamp: 2018-02-01 19:58:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282830
+  text: |-
+    Commure, Inc. | San Francisco, CA | Multiple positions | Fulltime | ONSITE We are a stealth startup working to fix the software doctors use. If you have seen what physicians have to put up with, it's a bad version of the 90s, and makes medical care worse and more expensive for everyone. We are a group of previously successful engineers and entrepreneurs (MIT, Dartmouth, Datapower, Stripe, Salesforce, etc) and senior doctors (John Hopkins, UCSF, etc) who are determined to finally fix this.
+    Compensation: market salary & equity -- we are well funded.
+  timestamp: 2018-02-01 16:01:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287406
+  text: Ripple + XRP | Senior/Principle/Staff Java Engineer x 7 | San Francisco, CA
+    | Full-time |Onsite or WFH 1-2x a week|Can process H1b transfers ,GC and i40's|  www.ripple.com
+  timestamp: 2018-02-02 00:50:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283148
+  text: ESO Solutions | Fire Application QA Engineer | Urbandale, IA | ONSITE, Full-time
+    | $70k
+  timestamp: 2018-02-01 16:32:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284097
+  text: LaunchDarkly | ONSITE | Oakland, CA | Software Engineers | Full-time | Unable
+    to sponsor visas at the moment
+  timestamp: 2018-02-01 18:07:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287259
+  text: Prevoty | Software Engineer | Los Angeles | Fulltime
+  timestamp: 2018-02-02 00:26:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283755
+  text: RINSE | San Francisco, Los Angeles, Washington DC, Chicago, Boston | Onsite
+  timestamp: 2018-02-01 17:30:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283482
+  text: BIDMOTION | BACKEND ENGINEER | PARIS, FRANCE | ONSITE, Full-time
+  timestamp: 2018-02-01 17:04:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286892
+  text: Triage | Developers (Rails, ML/AI, iOS, Android, React, FED), Designers |
+    Remote | $60-100k + equity
+  timestamp: 2018-02-01 23:19:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283194
+  text: Geckoboard | Backend Go Developers | ONSITE | London, UK | Full Time with
+    flexible working | £60-75k
+  timestamp: 2018-02-01 16:35:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285956
+  text: Wärtsilä | Software Engineers of all kinds, Data Engineers, and Data Scientists
+    | Helsinki (FI), Hamburg (DE) | ONSITE, PERMANENT OR CONTRACT
+  timestamp: 2018-02-01 21:13:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282962
+  text: Gambit Research Ltd () | London, UK | ONSITE | Full time
+  timestamp: 2018-02-01 16:13:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284371
+  text: "Tripping | San Francisco, CA | FULLTIME | \nDo you love Travel?"
+  timestamp: 2018-02-01 18:30:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286371
+  text: Remind, Inc | Backend Engineer (mid-senior) | San Francisco, CA | Full-Time,
+    OnSite or Remote OK (within 3 hours of CA)
+  timestamp: 2018-02-01 22:05:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16355173
+  text: ASAPP is a stealth startup in NYC (1 World Trade Center, 80th floor, and yes,
+    our views are quite amazing!)
+  timestamp: 2018-02-11 22:25:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283452
+  text: Braze | Senior Mobile Engineer | New York City, NY | FULL-TIME ONSITE VISA
+  timestamp: 2018-02-01 17:01:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282837
+  text: Seat Scouts | Remote (US-only) | React Native / Front-end Developer | Full-time
+  timestamp: 2018-02-01 16:02:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287642
+  text: Netflix | Senior Frontend Engineer | Los Gatos, CA | ONSITE, FULL TIME | We
+    pay top of market
+  timestamp: 2018-02-02 01:35:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284431
+  text: The RealReal | Lead + Senior Software Engineer | San Francisco | Onsite |
+    Full-time
+  timestamp: 2018-02-01 18:36:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287991
+  text: "Sentenai | Multiple Positions | Boston | ONSITE | FULL-TIME | \nContact:
+    jobs@sentenai.com"
+  timestamp: 2018-02-02 02:47:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283591
+  text: PRIVATE INTERNET ACCESS |  | DevOps, Rails and Desktop Engineers | Full-Time
+  timestamp: 2018-02-01 17:12:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286009
+  text: 'Square: Developer Platform, San Francisco + Seattle + Remote. Full Time.
+    ONSITE + REMOTE. VISA sponsorship.'
+  timestamp: 2018-02-01 21:18:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283525
+  text: Crowdstrike | Irvine, Sunnyvale, Seattle, DC, Minneapolis, London, Bucharest,
+    Remote | Fulltime | ONSITE or REMOTE
+  timestamp: 2018-02-01 17:08:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282913
+  text: META
+  timestamp: 2018-02-01 16:09:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286729
+  text: 'IDEO Palo Alto is in search of a Software Designer who will leverage an understanding
+    of software to design and deliver innovative solutions that address core user
+    needs. We count on Software Designers to inspire teams of the possibilities enabled
+    by software, computing, and programmatic thinking, providing unorthodox ways to
+    push design. They first-hand enact our mission of humanizing technology: starting
+    from first principles to ask the right questions, of people, technology, and systems.'
+  timestamp: 2018-02-01 22:52:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282826
+  text: BOOKING.COM - Amsterdam, The Netherlands | Shanghai, China | Tel Aviv, Israel
+    | ONSITE | VISA support and Relocation to Amsterdam
+  timestamp: 2018-02-01 16:01:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284867
+  text: Square, Inc. | Software Engineer | Atlanta | Onsite
+  timestamp: 2018-02-01 19:17:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284684
+  text: Beekeeper | Software Engineer (Interns + Graduates + Experienced) | Zurich,
+    Switzerland | ONSITE, Full Time
+  timestamp: 2018-02-01 19:03:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285438
+  text: Seed (YC W15) | Backend Engineers | Full Time | REMOTE (US Only)
+  timestamp: 2018-02-01 20:14:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284091
+  text: Northrop Grumman Corporation | Boulder, CO, San Diego, CA, Orlando, FL, +
+    multiple sites in each state| Full-time | ONSITE
+  timestamp: 2018-02-01 18:06:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16364103
+  text: Petal | Several positions | Onsite or remote | New York, NY | (very) Open
+    to discussion
+  timestamp: 2018-02-13 01:47:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284126
+  text: Nimble Labs | Senior Developer | Austin, TX OR REMOTE | USA only
+  timestamp: 2018-02-01 18:10:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286601
+  text: Hipcamp | Software Engineer | San Francisco |  | Full Time | Onsite
+  timestamp: 2018-02-01 22:34:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283125
+  text: StreetEasy | New York, NY | ONSITE | Full-time | Engineering | $100k+, equity
+  timestamp: 2018-02-01 16:29:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289328
+  text: Allianz | Data Science Platform Developer | Munich, Germany | Onsite 60k€
+    - 100k€
+  timestamp: 2018-02-02 09:01:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287202
+  text: |-
+    Uplift Financial |Quantitative Analyst| Cambridge, MA | Salary $65K-$85K, Onsite
+    Uplift Financial is an online marketplace aimed at efficiently connecting consumers to financial products that fit their needs. Uplift Financial is a profitable, venture-backed start-up operating within the online marketing accelerator, Cogo Labs (www.cogolabs.com). An opportunity for those who want to be at the intersection of marketing and finance and are interested in joining a new company on the ground floor. This is a chance to provide consumers with a new form of financial engagement. Join us!
+  timestamp: 2018-02-02 00:16:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16295177
+  text: Red Balloon Security | Multiple positions in cybersecurity | New York, NY
+    | Full time and Interns | Onsite | Visa welcome | redballoonsecurity.com
+  timestamp: 2018-02-02 23:49:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283980
+  text: FixtHub | Manhattan, NYC | Full Time, ONSITE
+  timestamp: 2018-02-01 17:55:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285246
+  text: Collective Health | Full Time | ONSITE | San Francisco, Chicago
+  timestamp: 2018-02-01 19:53:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283717
+  text: PSPDFKit | REMOTE | Full-time | JavaScript, Elixir
+  timestamp: 2018-02-01 17:26:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287630
+  text: Zumper & Padmapper | Multiple Engineering Positions | On-site | Full-time
+    | Visa | San Francisco (HQ) | 120 Employees total, 50 in HQ
+  timestamp: 2018-02-02 01:34:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284439
+  text: |-
+    StrideUp (strideup.co) | Ruby on Rails Developer (Full Stack Engineer) | London | ONSITE
+    StrideUp is a fast growing, venture capital backed fintech startup revolutionising home ownership. We believe people need affordable housing without having to overburden themselves with debt. Using technology and data we are building a new way to own your home and invest in residential property. We're an ambitious team committed to solving one of the most pressing financial problems facing people today.
+  timestamp: 2018-02-01 18:37:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286131
+  text: DockYard | Multiple Job Openings | Full-Time | Remote (United States)
+  timestamp: 2018-02-01 21:34:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283716
+  text: Born Again Media | Medellin, Colombia | REMOTE | Wordpress Developer | Full
+    Time | $14k - $18k
+  timestamp: 2018-02-01 17:26:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284426
+  text: Vipps AS | Backend Developer | Oslo, Norway | ONSITE
+  timestamp: 2018-02-01 18:36:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288621
+  text: Opendoor | Software engineers, data scientists | San Francisco, CA | ONSITE,
+    FULL-TIME
+  timestamp: 2018-02-02 05:25:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285621
+  text: "Root | Columbus, OH | Full-time | Onsite | $80k-$150k | \nRoot is an auto
+    insurance carrier, like GEICO and Progressive. We use data science to identify
+    and insure good drivers, reducing insurance premiums for good drivers significantly
+    as a result."
+  timestamp: 2018-02-01 20:37:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292016
+  text: Density |  | Syracuse, NY + San Francisco, CA | On-site or Remote | Full-time
+    | $100k-$150k + equity
+  timestamp: 2018-02-02 16:53:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283730
+  text: Contentful |  | Berlin, Germany | full time | (VISA)
+  timestamp: 2018-02-01 17:27:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287398
+  text: CoStar Group | Senior Software Developers, Technical Managers | Washington
+    DC | On-site - Full-time | $130k+ benefits
+  timestamp: 2018-02-02 00:49:13.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285678
+  text: Alpha | New York City/NYC SoHo | Senior Fullstack Engineer | ONSITE, FULL-TIME
+    | $110 - $140k
+  timestamp: 2018-02-01 20:43:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287568
+  text: Cogent Labs | Software Engineer, Research Engineer, Research Scientist, Product
+    Manager, Project Manager | Tokyo, Japan | ONSITE, FULLTIME, VISA
+  timestamp: 2018-02-02 01:19:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283647
+  text: New Vector (Matrix.org Riot.im) | London, UK & Rennes, Fr | ONSITE | Full-time
+    | Team of 13 growing rapidly
+  timestamp: 2018-02-01 17:18:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287861
+  text: Kite | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-02 02:16:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285031
+  text: Amplitude | San Francisco | Full-Time | On-Site
+  timestamp: 2018-02-01 19:30:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283366
+  text: Aha! () | Rails / Devops / Front End | REMOTE
+  timestamp: 2018-02-01 16:52:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283910
+  text: Trimble / SketchUp | Software Engineering | Boulder, CO | Full-Time | Python,
+    Ruby, Node.js, TypeScript, C++
+  timestamp: 2018-02-01 17:47:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16359241
+  text: Longshot Systems | Multiple Roles | Marylebone, London, UK | ONSITE | Full
+    time | £65k-£85k
+  timestamp: 2018-02-12 15:35:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284163
+  text: Recursion Pharmaceuticals | SLC, Utah | Onsite, full-time
+  timestamp: 2018-02-01 18:13:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16314072
+  text: Palo Alto Networks | Software & SQA Engineers | Santa Clara | Full-time ONSITE
+  timestamp: 2018-02-06 02:44:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284380
+  text: Spring | multiple positions | NYC | onsite | full-time
+  timestamp: 2018-02-01 18:31:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283898
+  text: Ecometrica | Dev Ops, QA Lead | Montréal, QC Canada | ONSITE | Full-time
+  timestamp: 2018-02-01 17:46:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16317735
+  text: Native Instruments GmbH | Senior Data Engineer, Technical Product Owner -
+    Data Infrastructure | Berlin, Germany | ONSITE | Full-time
+  timestamp: 2018-02-06 17:24:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283299
+  text: 'Swissquant.cc | Zurich, Switzerland | Java-Backend, Python-Backend | SALARY:
+    100k-150k CHF | ONSITE |EU-Passport holders or eligible to work in Switzerland'
+  timestamp: 2018-02-01 16:48:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16309950
+  text: Rails Machine | Site Reliability Engineer | Full-Time | Remote | Hiring Junior
+    to Senior Levels
+  timestamp: 2018-02-05 16:44:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282997
+  text: New York, New York | ONSITE | Full-time | Visa OK (TN, OPT, or H1B transfer)
+    | $105k+ and equity
+  timestamp: 2018-02-01 16:17:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285106
+  text: Carta (formerly eShares) | ONSITE | Full-time | NYC - New York, NY
+  timestamp: 2018-02-01 19:38:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16343595
+  text: "Legalstart | Full-stack Software Engineer | Paris, France | Full-time, Onsite,
+    Visa, \nPython/Django Rest Framework, React, PostgreSQL, RabbitMQ, Docker, AWS"
+  timestamp: 2018-02-09 20:32:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16340803
+  text: Nava | Infrastructure Engineers, Program Managers | Washington DC, San Francisco
+    SF, New York NYC | On-site - Full-time | $100k-$160k+ + equity + benefits
+  timestamp: 2018-02-09 15:24:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282983
+  text: |-
+    Tulip |  | Boston, MA | Full time | Onsite
+    Do you want to help build the factory of the future and realize the next industrial revolution?
+  timestamp: 2018-02-01 16:16:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16366753
+  text: Nested.com | Various roles | London | ONSITE | Full time| Right to work in
+    UK
+  timestamp: 2018-02-13 12:56:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284524
+  text: Nexedi | Lille/Munich/Paris/Tokyo | ONSITE | FULL TIME and 4-12 months INTERNS
+  timestamp: 2018-02-01 18:48:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283926
+  text: DuckDuckGo | Frontend Engineer | Paoli PA | REMOTE, VISA
+  timestamp: 2018-02-01 17:49:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16298039
+  text: ReifyHealth | Full-time Software Engineer | Boston | ONSITE, REMOTE (U.S.)
+    | $100-150K + equity
+  timestamp: 2018-02-03 15:49:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282823
+  text: GitLab | Engineering and Non-Engineering Roles | Remote Only | Full-time
+  timestamp: 2018-02-01 16:01:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285287
+  text: |-
+    [suggestion]Can we have guidelines on which keyword to use. I always have trouble searching for Go jobs.It would be better if it is submitted as Golang.
+    Similarly for node we have Node, NodeJS, node.js.
+  timestamp: 2018-02-01 19:57:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16345034
+  text: Sparta (Oracle) | FULL-TIME, ONSITE | Seattle, WA or SFBay or Boston
+  timestamp: 2018-02-10 00:30:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16299675
+  text: Tableau | Sr. Software Engineers and Software Engineers, Developer Platform
+    team | Seattle, WA and Palo Alto, CA (ONSITE)
+  timestamp: 2018-02-03 21:12:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16350528
+  text: Digital Assets Data | Senior/Mid Software Engineers | Denver, CO | ONSITE,
+    FULL-TIME
+  timestamp: 2018-02-11 00:54:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16340021
+  text: Skyscanner | full-time senior and lead hires | London, Barcelona, Edinburgh,
+    Glasgow, Budapest, Sofia, Shenzhen | ONSITE, VISA
+  timestamp: 2018-02-09 13:35:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16299035
+  text: Kadena | Software Engineer | REMOTE, ONSITE (Brooklyn, NY) | Full-Time $80k-$150k
+    + Coin and/or Equity
+  timestamp: 2018-02-03 19:17:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291086
+  text: MarketAccessTransformation |  | Cambridge, UK | REMOTE (Europe) | Full-time
+    | AngularJS/Javascript/AWS/Python/Django/PostgreSQL | Full Stack Developers |
+    £35-£50k
+  timestamp: 2018-02-02 15:11:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16312328
+  text: Coinbase and GDAX are hiring engineers to help us create an open financial
+    system for the world.
+  timestamp: 2018-02-05 21:24:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286950
+  text: Nextdoor () | San Francisco, CA | Full-time | Onsite
+  timestamp: 2018-02-01 23:30:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283936
+  text: Kleiner Perkins | Engineer in Residence | San Francisco, CA | Full-time
+  timestamp: 2018-02-01 17:50:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16344585
+  text: Care3 | Los Angeles | Senior Fullstack Engineer & Fullstack Engineer &  |
+    Full-time, Onsite | care3.co/careers.php
+  timestamp: 2018-02-09 23:00:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285538
+  text: Action Network | Full Stack Developer, Front-End Developer | San Francisco,
+    Madison, Boston | Full Time | Onsite
+  timestamp: 2018-02-01 20:26:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16338872
+  text: Etherparty | Vancouver, Canada | FULL-TIME / CONTRACT | ONSITE
+  timestamp: 2018-02-09 09:05:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285832
+  text: Gravity Brands | Data Engineer & Manual QA Tester | Los Angeles | Onsite,
+    Full-Time | www.gravitybrands.com
+  timestamp: 2018-02-01 21:00:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16316604
+  text: FullContact () | Denver | Full-Time | On-site
+  timestamp: 2018-02-06 15:03:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16342430
+  text: ForceBrands | Backend & Frontend Developers | New York, NY | FULL TIME | ONSITE
+  timestamp: 2018-02-09 18:07:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282942
+  text: Broad Institute of MIT and Harvard | Cambridge/Boston, MA | Frontend Software
+    Engineer | ONSITE, VISA
+  timestamp: 2018-02-01 16:11:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284518
+  text: Say Media | DevOps/Infrastructure | Portland, OR | ONSITE
+  timestamp: 2018-02-01 18:48:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284902
+  text: Ada Support | Front-End & Back-End Developers | Toronto, Ontario | Full-Time
+    On-Site
+  timestamp: 2018-02-01 19:20:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287294
+  text: Good Eggs | (Senior) Software Engineer | San Francisco, CA | Full-Time | Onsite
+  timestamp: 2018-02-02 00:30:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284361
+  text: "Wonder | Full-stack Software Engineer(s) | New York City (NYC) | ONSITE |
+    \nWonder is a new kind of knowledge service that makes your brain scalable. We
+    provide instant access to the intellect and fact-finding skills of a distributed
+    network of analysts around the world. We enable anyone - from individuals up to
+    Fortune 500s - to gain strategic knowledge when they need it most."
+  timestamp: 2018-02-01 18:29:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283748
+  text: SwiftDemand | Blockchain Developer | San Francisco, CA| | ONSITE
+  timestamp: 2018-02-01 17:30:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286849
+  text: AppNexus | Software Engineers (Real Time Platform) | New York, NY | Full Time
+  timestamp: 2018-02-01 23:11:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286940
+  text: VoiceOps | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 23:28:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286416
+  text: Las Cumbres Observatory | Software Engineer | Santa Barbara CA | ONSITE
+  timestamp: 2018-02-01 22:11:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284762
+  text: ZEISS | Frontend, Backend, Business Development | Munich, Germany | Full-Time
+    Onsite
+  timestamp: 2018-02-01 19:09:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283210
+  text: Lamia | Several positions | Helsinki, Finland | Full-Time | Onsite
+  timestamp: 2018-02-01 16:37:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283708
+  text: Eyenuk, Inc. | Software Engineers | Los Angeles, CA | ONSITE | VISA | Full-time
+  timestamp: 2018-02-01 17:25:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282912
+  text: Epiphany Healthcare | Durham, NC / RTP | ONSITE | Full-time | BackEnd Developer
+  timestamp: 2018-02-01 16:09:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285612
+  text: |-
+    Clover Health | San Francisco, CA or Jersey City, NJ | Software Engineers & Data Scientists | Full-Time ONSITE
+    Clover is reinventing health insurance by working to keep people healthier. We're looking for seasoned engineers and data scientists to help us solve the most complicated problem in the world: healthcare.
+  timestamp: 2018-02-01 20:35:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286516
+  text: Notion | Software Designer or Developer | SF |  | Full Time | Onsite
+  timestamp: 2018-02-01 22:25:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284023
+  text: AuditBoard | Los Angeles / Orange County | Onsite, Full-time | Salary & Equity
+  timestamp: 2018-02-01 17:59:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283035
+  text: untapt | New York, NY | Onsite | Full-time |  |$90k-$120k + equity | We're
+    using AI to help software engineers find new careers.
+  timestamp: 2018-02-01 16:21:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284001
+  text: Pirate Studios -  | Senior and mid-weight Developers | ONSITE & REMOTE | Bristol,
+    London, M4 Corridor, UK | Full-time
+  timestamp: 2018-02-01 17:57:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283449
+  text: 'Armour Comms | Developers / Operations | London, UK | Salary range: £40-60k
+    + options + bonus + biscuits | Onsite | Full-time'
+  timestamp: 2018-02-01 17:01:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286602
+  text: MeetMindful | Denver, CO | Software Engineer | Onsite
+  timestamp: 2018-02-01 22:34:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285999
+  text: Thesys Technologies | Software Engineering + SRE Positions | New York, NY
+    or Charleston, SC | Onsite
+  timestamp: 2018-02-01 21:17:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285260
+  text: Dev.xyz | Santa Monica, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 19:54:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284044
+  text: Metricstory | Senior Full-Stack Engineer / FE Engineer (React) | Seattle,
+    WA | ONSITE, Full-Time
+  timestamp: 2018-02-01 18:01:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283972
+  text: New York, NY | SevenFifty | Full-stack Developer (Rails) | Onsite
+  timestamp: 2018-02-01 17:54:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286726
+  text: Parknav | Chicago, IL, USA | REMOTE | Android and iOS Developers
+  timestamp: 2018-02-01 22:52:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284031
+  text: Sysco LABS | Austin, TX | Onsite | Fulltime | Director of Architecture, Senior
+    Software Engineer, Training and Implementation Manager | Competitive Compensation
+  timestamp: 2018-02-01 18:00:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283735
+  text: Gravitational (YS S15) | Systems Engineer | Toronto | ONSITE
+  timestamp: 2018-02-01 17:28:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285779
+  text: Mixmax | Full-Stack Engineer or Summer/Fall Interns | On-site San Francisco
+    (relocation provided), remote an option w/ experience
+  timestamp: 2018-02-01 20:52:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288923
+  text: 'Doist | Front-end Developer | CSS, HTML | World | Full-time | Remote:'
+  timestamp: 2018-02-02 07:00:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285429
+  text: RaiseMe | Full Stack Engineer | San Francisco, CA | ONSITE, Full-time
+  timestamp: 2018-02-01 20:13:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285967
+  text: Signifyd | Software Engineering Manager, Back End Engineer, Front End Engineer,
+    Machine Learning Engineer, Data Scientist, Product Manager | San Jose
+  timestamp: 2018-02-01 21:14:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284379
+  text: Apple | JavaScript Developers | Toronto, Vancouver, Bay Area | Full Time
+  timestamp: 2018-02-01 18:31:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16333210
+  text: MyBuilder | PHP Developer | London, England | £50k - £75k
+  timestamp: 2018-02-08 16:19:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288389
+  text: Stealth Startup | Fullstack Ruby on Rails Developer | REMOTE, US only | $100K-$125K
+  timestamp: 2018-02-02 04:22:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283544
+  text: |-
+    Life insurance is a $130B market where 98% of policies are sold through financial advisors and life insurance agents. Ladder is building a new type of insurance company that is all digital from the ground up and sells directly to consumers.
+    We are a growing team of innovators going after this huge market by putting the user at the center of product design. We are creating a company built on technology, design, and data science so users can get the coverage they want and need.
+  timestamp: 2018-02-01 17:10:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288018
+  text: Full Time - SF
+  timestamp: 2018-02-02 02:51:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285532
+  text: Betterment | Software Engineer (Fullstack, Backend, Mobile, SRE) | NYC | Onsite
+    | Fulltime
+  timestamp: 2018-02-01 20:26:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283863
+  text: Smartcar API | Frontend Engineering, Backend Engineering, Business Operations,
+    Business Development, Operations Manager, Recruiter | Mountain View, CA | ONSITE
+  timestamp: 2018-02-01 17:43:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285759
+  text: PrompterAI | Helsinki, Finland (Onsite) | Backend engineer, Product designer
+  timestamp: 2018-02-01 20:51:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283483
+  text: The Infatuation | Platform Engineer - Go | NYC, NY | Onsite, Full Time or
+    Contract
+  timestamp: 2018-02-01 17:05:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16339506
+  text: Horizon State | Melbourne AU, Wellington NZ | Full time/Contract | Onsite
+    & Remote.
+  timestamp: 2018-02-09 11:51:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286768
+  text: Eden | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 22:59:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16333283
+  text: MyBuilder | Site Reliability Engineer | London, England | Competitive
+  timestamp: 2018-02-08 16:26:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285682
+  text: Ruckit | Backend, Frontend, Design, Project management | Austin TX | ONSITE
+  timestamp: 2018-02-01 20:44:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290726
+  text: Lokad | C# Software Engineer | ONSITE | Paris, France | 45k€ - 60k€
+  timestamp: 2018-02-02 14:33:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289612
+  text: PILLAR PROJECT | SENIOR BACK-END NODE.JS DEVELOPER | CTO | £60K – £100K |
+    LONDON (ONSITE) | CHENNAI (ONSITE)
+  timestamp: 2018-02-02 10:30:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284337
+  text: Monetate | DevOps Engineer | Remote (US and Canada) | Full time
+  timestamp: 2018-02-01 18:27:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16325118
+  text: BRAINSCALE | Cloud Application Developer | FULL-TIME | BANGALORE, IN | www.brainscale.com
+  timestamp: 2018-02-07 15:40:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284632
+  text: Animalz | Content Marketing | Remote or NYC | Full-Time
+  timestamp: 2018-02-01 18:58:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284838
+  text: Abilitie | Senior (Frontend) Software Engineer | Austin, TX | Full-Time
+  timestamp: 2018-02-01 19:14:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285187
+  text: ParachuteHome | Venice, Los Angeles - ONSITE | Full Stack Engineer
+  timestamp: 2018-02-01 19:47:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16300079
+  text: Buzz | Lead Node.JS Engineer | Onsite and REMOTE, INTERNS | Full-time | Mountain
+    View, CA
+  timestamp: 2018-02-03 22:34:13.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286101
+  text: |-
+    Daily Harvest |  contact me at savraj@ [our domain] and mention HN in the subject line!
+    Based in Princeton and NYC, we are a rapidly growing startup sending out thousands of products to happy customers each week. Everyone around you -- especially the non-techies in your life -- will at least try, if not consistently enjoy the frozen superfood eats that your work at Daily Harvest will deliver!
+  timestamp: 2018-02-01 21:31:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284957
+  text: "Managed by Q | Engineering Managers, Software Engineers | NYC | ONSITE \nManaged
+    by Q is on a mission to make the world work better. The tools we’re building enable
+    office teams to seamlessly run their workspaces while also empowering service
+    providers and small businesses to flourish."
+  timestamp: 2018-02-01 19:25:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16325039
+  text: Komoot | Backend Engineer | Full-Time | REMOTE
+  timestamp: 2018-02-07 15:31:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285040
+  text: Imgur | San Francisco | Full Time | Data Analyst, Android Engineer | ONSITE/REMOTE
+  timestamp: 2018-02-01 19:31:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283314
+  text: drchrono | Software Engineer | Sunnyvale, CA; Hunt Valley, Maryland | REMOTE,
+    VISA,
+  timestamp: 2018-02-01 16:49:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16333525
+  text: Wealthfront | Redwood City, CA | Engineers | Onsite | Visa
+  timestamp: 2018-02-08 16:55:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16343517
+  text: Octopart | New York City | Multiple Positions | Full Time | Onsite
+  timestamp: 2018-02-09 20:20:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287100
+  text: WeddingWire Inc. | Software Engineering | Washington, DC | ONSITE or Remote
+    | Full-time
+  timestamp: 2018-02-01 23:57:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16337891
+  text: DriveTime | Lead Software Engineer | ONSITE | Tempe, Arizona
+  timestamp: 2018-02-09 04:29:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286447
+  text: Pray.com | Los Angeles, CA | ONSITE, FULL-TIME
+  timestamp: 2018-02-01 22:17:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286267
+  text: Attune Insurance | Full Stack Engineer, Tech Lead, Data Science, Product Manager
+    | NYC | Full-time
+  timestamp: 2018-02-01 21:52:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283871
+  text: GRAIL | Software Engineer, Data Scientist, Bioinformatics | Menlo Park, CA
+    | Onsite
+  timestamp: 2018-02-01 17:44:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284621
+  text: |-
+    HomeAway | Development Tools Engineer | Austin, TX | Full-time | Onsite
+    Have you ever had the opportunity to impact the lives of millions of people in a meaningful way and help them enjoy time away with their friends and families building memories?
+  timestamp: 2018-02-01 18:57:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16323177
+  text: Tenzir | C++ Software Engineer | ONSITE | FULL-TIME | Hamburg, Germany
+  timestamp: 2018-02-07 09:09:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294727
+  text: Omni Labs, Inc. | San Francisco | ONSITE Full-Time | $70-$100k
+  timestamp: 2018-02-02 22:29:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289154
+  text: Stylight | Full Stack Developers | Munich, Germany | Onsite | Relocation +
+    Visa Assistance
+  timestamp: 2018-02-02 08:06:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289321
+  text: "Countly Analytics | Worldwide | Full Stack Nodejs developer | Remote (GMT
+    to GMT+6) | \nWe are a 20-person (and growing) mobile and web analytics platform.
+    Most of the things we do are open source (check )."
+  timestamp: 2018-02-02 08:59:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285498
+  text: "UnifyID | San Francisco, CA | Full-time | Onsite | Competitive | \nUnifyID
+    is building a revolutionary identity platform based on implicit authentication.
+    Our solution allows people to identify themselves in a unique way that is extremely
+    difficult to forge or crack. Best of all, we are doing it in a way that respects
+    user privacy."
+  timestamp: 2018-02-01 20:21:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16330980
+  text: |-
+    Reflektive | Multiple software engineer positions | Bangalore/Bengaluru, India | Full-Time |
+    About us
+  timestamp: 2018-02-08 08:47:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289767
+  text: mbr targeting / Ströer Digital Group | Software Engineer (Java) | Berlin,
+    Germany | Full-time, ONSITE | 50-70k€
+  timestamp: 2018-02-02 11:24:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16322109
+  text: Intuitive Surgical | Embedded Software Engineer | Sunnyvale, CA | ONSITE
+  timestamp: 2018-02-07 03:45:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285033
+  text: GigNow | Frontend Software Engineer + Data Analyst | Palo Alto | Onsite |
+    Full-time + Contract
+  timestamp: 2018-02-01 19:30:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16328685
+  text: ActionIQ | Software Engineers | NYC | www.actioniq.com | Onsite
+  timestamp: 2018-02-07 22:48:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283474
+  text: ''
+  timestamp: 2018-02-01 17:03:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285009
+  text: Stryd, Boulder, CO, Techstars Boulder 2015 | Android Developer
+  timestamp: 2018-02-01 19:29:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282899
+  text: 'Tapad | Full-Time, Onsite: NYC or Oslo | $100K - $160K/YR + Bonus'
+  timestamp: 2018-02-01 16:08:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285592
+  text: HHMI Janelia | Software Engineer (computer vision) | Ashburn, Virginia | Fulltime
+    | Onsite
+  timestamp: 2018-02-01 20:32:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292301
+  text: |-
+    beam technologies |www.beam-mw.com| tel aviv, israel / REMOTE OK | Full-time | $100-150k + tokens | Team of 4 engineers in the tel aviv rust or c++ developer Our mission is to create mimblewimble blockchain real by developing a wallet and other infrastructure improvements. What to expect:
+    youll work to improve the grin code and develop new components to it  , the blockchain is written on rust , but a good c++ dev that can learn fast would be good enough .
+  timestamp: 2018-02-02 17:28:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284274
+  text: ChatShipper | Senior Frontend Developer (React) | Amsterdam, Netherlands |
+    REMOTE okay,
+  timestamp: 2018-02-01 18:22:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285512
+  text: Lyft | San Francisco, Seattle, NYC | ONSITE, FULL-TIME
+  timestamp: 2018-02-01 20:22:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288119
+  text: Clinc | Software Engineers | Ann Arbor & SF | Onsite, Full-time & Internships
+  timestamp: 2018-02-02 03:16:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293686
+  text: Flowminder Foundation | Product Manager | Onsite, Southampton UK | £50-60K
+  timestamp: 2018-02-02 19:53:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16306217
+  text: 'Shearwater (Techstars ''15) | Software Engineer, Senior Software Engineer
+    | Boston | ONSITE | Full-time | $70k - $180k | Contact: eli@shearwaterintl.com'
+  timestamp: 2018-02-05 02:28:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16315099
+  text: Stealth startup | Ruby (RoR), iOS (mostly swift), Android, junior design,
+    or PM | Silicon Valley + remote (we're flexible) | Full-time only | Competitive
+    salaries depending on role, experience, and location (ranging $50k - $160k)
+  timestamp: 2018-02-06 08:42:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285270
+  text: ViaHero | Senior Full Stack Engineer | New York | Onsite | Full-time
+  timestamp: 2018-02-01 19:55:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287783
+  text: United Income | FinTech Startup | Full Stack Engineer - Javascript background
+    | Onsite in Washington, DC | Full Time
+  timestamp: 2018-02-02 02:02:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16316857
+  text: Synlio () | Scottsdale, AZ | FULL-TIME | ONSITE
+  timestamp: 2018-02-06 15:32:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16317541
+  text: GiveCampus (YC S15) | Full-Stack and Front-End Engineers | DC, SF | ONSITE,
+    FULL-TIME
+  timestamp: 2018-02-06 17:00:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16320941
+  text: SigOpt | San Francisco, CA.
+  timestamp: 2018-02-06 23:25:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16309544
+  text: Flatiron | New York, NY | Full-Time, Onsite
+  timestamp: 2018-02-05 15:56:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16329547
+  text: Zillow | Seattle, WA | ONSITE | Full-time | Engineering
+  timestamp: 2018-02-08 01:49:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283686
+  text: Potato are hiring front end web (often using AngularJS) & Python (mainly Django)
+    developers plus UX designers, project managers and a finance manager ONSITE across
+    our offices. VISA potentially available for working in the USA for British passport
+    holders. Freelance & fulltime available.
+  timestamp: 2018-02-01 17:23:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16315577
+  text: Digital Detox | Mid to Senior JavaScript developers | London, UK | 35k–60k
+    + Benefits
+  timestamp: 2018-02-06 11:28:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283296
+  text: Onai | | Silicon Valley | FULL TIME, CONTRACTORS, GRADUATE INTERNS, POSTDOCTORAL
+    FELLOWS, ONSITE, VISA
+  timestamp: 2018-02-01 16:48:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16328315
+  text: SecurityCompass/ Senior /Principal Consultants Appsec/ Toronto, ON/ Onsite
+    or USA
+  timestamp: 2018-02-07 21:46:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285092
+  text: Invoiced | Backend and Frontend Software Engineers | Austin, TX | Remote ok
+    | Full-time
+  timestamp: 2018-02-01 19:36:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16321639
+  text: Wiredcraft | Front-end, Backend, Mobile, DevOps | Shanghai, Shenzhen & Berlin
+    | FT ONSITE & REMOTE, INTERNS
+  timestamp: 2018-02-07 01:42:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291712
+  text: Smartly.io | Helsinki, Finland
+  timestamp: 2018-02-02 16:19:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286661
+  text: Indeed | Java and Ruby Developers | Remote US & Canada
+  timestamp: 2018-02-01 22:43:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283311
+  text: MobilizeAmerica | Full-stack engineers | NYC | Full-Time | Onsite preferred,
+    but remote possible
+  timestamp: 2018-02-01 16:49:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283706
+  text: Channable -  | Utrecht, The Netherlands | ONSITE
+  timestamp: 2018-02-01 17:25:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289650
+  text: OnCare | React Native Engineer | Kensington, London, UK (ONSITE) | Full time
+    | 40-70k & stock options
+  timestamp: 2018-02-02 10:41:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286493
+  text: Comma.ai | San Francisco | Software Engineer | FULL-TIME | ONSITE
+  timestamp: 2018-02-01 22:22:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16331237
+  text: Sentiance | Interpreting human behavior from smartphone-generated sensor data
+    with AI | Antwerp, Belgium, Europe | ONSITE | VISA sponsorship OK | Full-time
+    | Junior - Medior - Senior Mobile SDK Engineers (iOS and/or Android)
+  timestamp: 2018-02-08 10:07:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283240
+  text: HERE | Several positions | Berlin, Germany | Full-Time | Onsite
+  timestamp: 2018-02-01 16:40:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289200
+  text: Shift is a start-up that provides a SaaS solution to insurers to automate
+    fraud detection. We've raised $28 million series B and already have more than
+    45 clients and offices in Paris, Singapore, Tokyo and New York.
+  timestamp: 2018-02-02 08:18:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284384
+  text: |-
+    Comma.ai | San Francisco | Software Engineer | FULL-TIME | ONSITE
+    We ship open source self driving car software. Here's the plan:
+  timestamp: 2018-02-01 18:31:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284559
+  text: Threat X | Boulder, Colorado | Full Time | ONSITE
+  timestamp: 2018-02-01 18:51:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16310969
+  text: Aaptiv | Team Lead - Search and Recommendations | New York, NY | ONSITE
+  timestamp: 2018-02-05 18:50:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16313480
+  text: Cisco Meraki | Software Engineers & Managers | San Francisco | Full-Time ONSITE
+  timestamp: 2018-02-06 00:18:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285657
+  text: PatientPop | Santa Monica, CA | Onsite & Remote | Senior & Lead Software Engineers
+  timestamp: 2018-02-01 20:41:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285225
+  text: Spectrm () | Fullstack Developer | Berlin | ONSITE | VISA
+  timestamp: 2018-02-01 19:51:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284601
+  text: Twilio | Software Engineering | San Francisco, CA | Onsite or Remote | Full
+    Time
+  timestamp: 2018-02-01 18:55:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16320945
+  text: SigOpt | San Francisco, CA.
+  timestamp: 2018-02-06 23:26:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16328679
+  text: Promenet, Inc | NYC Onsite work | $50-60k (Junior Engineer)
+  timestamp: 2018-02-07 22:47:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284941
+  text: Oncora Medical | Frontend Engineer | Philadelphia | Full-time, ONSITE or remote
+  timestamp: 2018-02-01 19:23:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284674
+  text: Smarkets | Full Time | ONSITE (London, UK; now also Downtown LA, California)
+  timestamp: 2018-02-01 19:02:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283628
+  text: C# Software Engineer | ONSITE | St Neots, Cambridgeshire, UK | £30k - £50k
+    | jobs.picotech.com
+  timestamp: 2018-02-01 17:16:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285742
+  text: Waldo Photos | Front-End Engineer | Austin, TX | ONSITE | REMOTE | Full-time
+    | $70k - $80k plus equity
+  timestamp: 2018-02-01 20:49:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285477
+  text: Rapid Tender | Junior Frontend Developer | London, UK | Full-time, ONSITE,
+    www.countfire.com (www.rapidtender.com)
+  timestamp: 2018-02-01 20:19:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283577
+  text: VISMA e-conomic | Platform, Full Stack Engineer, Machine Learning, etc | Copenhagen,
+    Denmark | ONSITE | VISA
+  timestamp: 2018-02-01 17:12:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16324099
+  text: DADI | Full stack engineer | FULL-TIME | REMOTE FIRST
+  timestamp: 2018-02-07 13:05:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16337396
+  text: Dgraph Labs (dgraph.io) | Developer Advocate / Senior backend Engineers |
+    San Francisco, CA | ONSITE, VISA, Full-time, USD 120-180K + equity
+  timestamp: 2018-02-09 02:16:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16323178
+  text: Nexiona | Frontend and backend developers | Barcelona (Spain) | REMOTE (only
+    Europe)
+  timestamp: 2018-02-07 09:09:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16325068
+  text: Komoot | Mobile Developer iOS/Android Wearables | Full-Time | REMOTE
+  timestamp: 2018-02-07 15:35:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283919
+  text: Mimo | iOS/Android/Web/Backend Developer | Vienna, Austria | ONSITE
+  timestamp: 2018-02-01 17:48:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283181
+  text: Triggr Health | Full Stack and Data Engineers | Chicago, IL | ONSITE | Full-time
+  timestamp: 2018-02-01 16:34:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284292
+  text: KEA | Bay Area | NLP, Telephony, Signal Processing | Full-time & interns,
+    remote + onsite (preferred) | Python / Haskell | 4+ years of experience
+  timestamp: 2018-02-01 18:23:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285513
+  text: Native Instruments | Hollywood, CA | Full-time | Onsite
+  timestamp: 2018-02-01 20:23:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289191
+  text: Front (YC S14) | Software Engineers | San Francisco, Paris | ONSITE | FULL-TIME
+    | VISA
+  timestamp: 2018-02-02 08:16:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16339743
+  text: Komoot | Backend Engineer (Algorithms, Rankings and Recommendations)| Full-Time
+    | REMOTE
+  timestamp: 2018-02-09 12:42:13.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284690
+  text: NepFin | Software Engineer | San Francisco, CA
+  timestamp: 2018-02-01 19:03:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288451
+  text: Dallas, TX | Backend Dev, Frontend Dev, Full Stack | Full-time | Onsite
+  timestamp: 2018-02-02 04:36:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284462
+  text: Quorum | Software Developer | Washington, DC | Onsite| Fulltime
+  timestamp: 2018-02-01 18:41:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283606
+  text: Kensho Technologies | Data Scientists/Engineers across the stack | Full-time/Onsite
+    | (Cambridge/Boston)/NYC/DC
+  timestamp: 2018-02-01 17:14:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287284
+  text: TransferWise () | Senior Java Developer/Full Stack Engineer | London, United
+    Kingdom | Tallinn, Estonia (Visa Sponsorship Available) | ONSITE | Full-time
+  timestamp: 2018-02-02 00:29:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289431
+  text: MiNODES () | Berlin, Germany (ONSITE) | full-time | Visa | Data Scientists
+    & Software Engineers
+  timestamp: 2018-02-02 09:33:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288028
+  text: PMG Advertising Agency | Data Engineer, Web Developer | Full Time & Intern
+    | ONSITE | Fort Worth or Austin TX | www.pmg.com
+  timestamp: 2018-02-02 02:56:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284222
+  text: Peachjar | Multiple Positions | San Diego, CA | ONSITE | FULL-TIME | $100k
+    - $150k
+  timestamp: 2018-02-01 18:17:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16317605
+  text: Vemba () | Toronto | Full-time | On-site
+  timestamp: 2018-02-06 17:07:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286848
+  text: WP Engine | Multiple Positions | Austin, TX and Limerick, Ireland | ONSITE
+    | Full-time
+  timestamp: 2018-02-01 23:11:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16340774
+  text: ROLI | London | Engineering | ONSITE
+  timestamp: 2018-02-09 15:20:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16334619
+  text: Liferay Software Engineer | Saga Healthcare IT | Location - Remote
+  timestamp: 2018-02-08 19:04:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16333309
+  text: MyBuilder | ReactJS Developer | London, England | Competitive
+  timestamp: 2018-02-08 16:28:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286032
+  text: Deloitte Products | Software Engineers, Tech Leads, DevOps, QA, Design Lead
+    | London, UK | ONSITE PERMANENT
+  timestamp: 2018-02-01 21:21:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285639
+  text: Rockset | Senior Infastructure Engineer, Lead Frontend Engineer, Software
+    Engineer | San Mateo, CA | Onsite | Full time
+  timestamp: 2018-02-01 20:39:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308918
+  text: Stevens Capital Management LP| Developers| Radnor, PA, USA| On-site| Full-time.
+  timestamp: 2018-02-05 14:30:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283604
+  text: Sense | Multiple Positions | Cambridge, MA | Onsite, Full-time
+  timestamp: 2018-02-01 17:14:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16307240
+  text: 'Sennheiser Streaming Technologies GmbH | Hamburg, Germany | ONSITE | Full-time
+    | Several Roles: Business Development Manager, QA Engineer, DevOps Engineer, Software
+    Engineer "Cloud Development", Software Engineer "Full Stack Development"'
+  timestamp: 2018-02-05 07:40:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287079
+  text: Varo Money () | San Francisco, CA & Salt Lake City, UT | Full-time | Onsite
+  timestamp: 2018-02-01 23:53:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294610
+  text: Give Lively | New York, NY (NYC) | Full Stack Engineer & Engineering Manager
+    | ONSITE Full-Time | $90-$135k + Excellent Benefits
+  timestamp: 2018-02-02 22:12:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16314926
+  text: Squad | Engineering Lead | Onsite | Delhi NCR, India | INR 24 - 30 LPA + ESOPs
+    upto 20 Lacs
+  timestamp: 2018-02-06 07:38:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286353
+  text: Carbon Five | New York, San Francisco, Santa Monica, Chattanooga | Full-Time,
+    Onsite (at ours, not client offices) |  | 80-160k
+  timestamp: 2018-02-01 22:03:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308792
+  text: Thread | London, UK | Onsite
+  timestamp: 2018-02-05 14:10:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308777
+  text: EDITED | Engineering Positions | London, UK | Onsite | Full-Time
+  timestamp: 2018-02-05 14:08:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16339504
+  text: Unruly | Aldgate East, London| FULL-TIME | ONSITE
+  timestamp: 2018-02-09 11:50:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285565
+  text: Sourceress | Senior Python Engineer Lead | San Francisco | Full-time | Onsite
+  timestamp: 2018-02-01 20:29:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285647
+  text: Kogan.com | Full Stack Developers, Front End Engineers, Back End Engineers
+    | Full Time | Melbourne, Australia | ONSITE
+  timestamp: 2018-02-01 20:40:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308381
+  text: "Devhouse Spindle | Software Developer | Onsite| Groningen, \nThe Netherlands"
+  timestamp: 2018-02-05 12:34:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16325972
+  text: Xactly | SRE, DevOps Engineer, Principal UI Engineer | Full-time | Onsite
+    in Denver, CO & San Jose, CA
+  timestamp: 2018-02-07 17:06:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288845
+  text: Network Next | Network Programmer | Santa Monica, CA | ONSITE, FULL-TIME
+  timestamp: 2018-02-02 06:37:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283771
+  text: Overleaf (www.overleaf.com) | REMOTE | (1) Developer for 'Server Pro', (2)
+    Growth Hacker
+  timestamp: 2018-02-01 17:32:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289233
+  text: ReSnap.com -  | Node.js Developer | Nijmegen, the Netherlands | ONSITE
+  timestamp: 2018-02-02 08:27:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16298619
+  text: Liv.ai | Software Engineer, Machine Learning Engineer | Bangalore, India |
+    Full-time
+  timestamp: 2018-02-03 17:57:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16300476
+  text: Kipsu | Senior Software Engineer | Minneapolis, MN | Onsite | Full-Time
+  timestamp: 2018-02-04 00:15:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285795
+  text: 'Saildrone is a Series A, venture-funded startup based in Alameda, and we
+    design and manufacture autonomous wind and solar powered vehicles. We have revenue,
+    and we are backed by Social Capital, The Capricorn Investment Group, Lux Capital
+    and The Schmidt Family Foundation. This is an excellent opportunity to join a
+    small team and make a difference. To see a current list of opening, please click
+    here:'
+  timestamp: 2018-02-01 20:55:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16330060
+  text: CoderPact (  ) | Remote | Contract / Commision
+  timestamp: 2018-02-08 03:56:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294858
+  text: Facebook | Solutions Engineer | Menlo Park, NYC, Seattle, Austin, London,
+    Dublin, Seoul, Hong Kong | Onsite
+  timestamp: 2018-02-02 22:47:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292711
+  text: Elucd (YC S17) | www.elucd.com | Data Scientist | New York, NY | Full-time,
+    ONSITE
+  timestamp: 2018-02-02 18:13:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289838
+  text: Nubank | Software Engineer | Sao Paulo - Brasil, Berlin | ONSITE,
+  timestamp: 2018-02-02 11:43:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287638
+  text: Explorer.ai | Software Engineer | San Francisco, CA | Full-time | Onsite
+  timestamp: 2018-02-02 01:34:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283781
+  text: |-
+    Qardio | SAN FRANCISCO, LONDON, AMSTERDAM | Onsite | Full-time | www.getqardio.com
+    Join the Qardio team and help us give the world easier, smarter, better hearth health. We have an integrated hardware/app/cloud/services platform for health care monitoring, with a focus on cardiology.
+  timestamp: 2018-02-01 17:32:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289383
+  text: Monaize | Paris, France | Nodejs Backend Developper | REMOTE - ONSITE
+  timestamp: 2018-02-02 09:17:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16309974
+  text: Sandbox Banking (YC W17) | Software Engineer | Boston, MA | Full-Time | Onsite
+  timestamp: 2018-02-05 16:47:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290799
+  text: re:infer | NLP for Enterprise Intelligence | London, UK | ONSITE | Full-time
+    | Engineering | £40-£60k
+  timestamp: 2018-02-02 14:45:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287888
+  text: Nimbl3 www.nimbl3.com - ONSITE - Fulltime - Sponsor visa - Bangkok, Thailand
+  timestamp: 2018-02-02 02:21:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16310660
+  text: MAARK | Senior Fullstack Engineer | Cambridge, MA | Contractor/Freelance |
+    Onsite or Remote
+  timestamp: 2018-02-05 18:11:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16305651
+  text: Alto | San Francisco, CA | Perm, Onsite, Full-Time
+  timestamp: 2018-02-04 23:58:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286651
+  text: Codurance | Software Craftspeople and Apprentices | London and Barcelona |
+    Onsite
+  timestamp: 2018-02-01 22:42:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292013
+  text: Social Nature | Vancouver, BC | FT On-site
+  timestamp: 2018-02-02 16:53:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287505
+  text: |-
+    Mesosphere, Inc. is hiring a variety of software engineers to help build the Datacenter Operating System, based upon Apache Mesos. If you're looking to work on distributed systems, large clusters at scale, containers & microservices, and big data frameworks, we'd love to hear from you. Languages we use include Scala, Java, Erlang, Go, C++, Python, & Javascript.
+    We start the process with an intro call, then a coding challenge + review call, followed by a full day of onsite interviews.
+  timestamp: 2018-02-02 01:06:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16300220
+  text: Fame | Full-Stack Lead Software Engineer | San Francisco, CA  | Onsite | Full-time
+    | $100K+ and equity with full benefits
+  timestamp: 2018-02-03 23:07:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283386
+  text: |-
+    AdStage is a cross-channel advertising management platform helping in-house
+    marketers and digital agencies easily report, automate, and optimize paid search
+    and social campaigns under one roof. We are looking for someone to join our
+    report product team. Report is a WYSIWYG tool for marketers to build dashboards
+    and present their performance internally and to their clients.
+  timestamp: 2018-02-01 16:54:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286874
+  text: Piestar | Senior Software Engineer (PHP) | Full-time | Manhattan, KS | ONSITE
+  timestamp: 2018-02-01 23:16:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285579
+  text: "Take a stab at our little challenge and ensure your CV gets reviewed by our
+    team: curl \nCurbside is enabling a new way to shop, built for the era of instant
+    mobile commerce. The Curbside app makes it easy to find, buy and pickup products
+    at nearby stores. Curbside searches realtime local inventory across retailers
+    and uses location-based technologies to alert stores when a customer is arriving
+    for a pickup. Curbside helps consumers quickly get what they need and helps retailers
+    better serve their increasingly mobile centric customers. The Curbside Merchant
+    Console enables alerts to staff as customers arrive to pick up orders and also
+    manages online order workflow."
+  timestamp: 2018-02-01 20:31:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283501
+  text: WireWheel | Full Stack Developers | Washington, DC; Arlington, VA | Full-time
+    | ONSITE
+  timestamp: 2018-02-01 17:06:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284672
+  text: Affordify Solutions| Front-End Developers, Back-end Developers | Remote, US
+    | Full-time or part-time, equity | No sponsorship
+  timestamp: 2018-02-01 19:01:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292148
+  text: Plethora | Full Stack, Computational Geometry, QA Automation | San Francisco,
+    CA
+  timestamp: 2018-02-02 17:08:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289686
+  text: Snowplow Analytics | London (ONSITE)/REMOTE | Full-time
+  timestamp: 2018-02-02 10:56:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289752
+  text: Mixlr | London | London Fields (ONSITE) | Full-time
+  timestamp: 2018-02-02 11:21:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282915
+  text: |-
+    Amazon AWS Lambda | Seatle | Full-time | ONSITE | Relocation
+    AWS Lambda offers customers the ability to run their code at scale without provisioning or managing servers. Customers upload code written in a variety of different languages and runtimes and Lambda manages scaling, security, and fault-tolerance. Behind the scenes, we build and operate the distributed, high-availability, high-throughput systems that bring Serverless to life. We invent novel solutions to hard problems, and collaborate closely with other AWS service teams bring bring new capabilities and ever-increasing scale to our customers.
+  timestamp: 2018-02-01 16:09:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293905
+  text: Trill A.I. | Machine Learning Engineer and Full-Stack Engineer | Cary/Raleigh/Durham,
+    NC | Onsite | Full-Time | Competitive salary + equity + benefits
+  timestamp: 2018-02-02 20:23:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285377
+  text: "Truebill (YC W16) | Javascript Engineer/Architect | San Francisco/SF | ONSITE
+    | \nTruebill is autopilot for personal finance, allowing users to connect their
+    financial accounts and receive insights and services to help them save money.
+    \ This includes things like tracking their subscriptions and recurring payments,
+    managing and lowering bills, analyzing financial health, and more.  We have a
+    seasoned founding team (our last startup sold for over $100m) and are growing
+    quickly."
+  timestamp: 2018-02-01 20:06:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286699
+  text: "Opencare.com | Toronto, ON, Canada | Onsite | Front/Back-End Javascript Engineers
+    | \nOpencare is on a mission to untangle healthcare - making the patient experience
+    both transparent and convenient. Funded by top-tier US venture firms and angels
+    (Formation 8, ff VC, Real Ventures, Collaborative Fund, and more). We are a team
+    of entrepreneurs, hackers and healthcare enthusiasts that put culture first."
+  timestamp: 2018-02-01 22:47:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289517
+  text: Catawiki | Engineers | Amsterdam, Assen | Full Time | ONSITE | VISA | www.catawiki.com
+  timestamp: 2018-02-02 09:55:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16328098
+  text: Closing Folders | Senior Customer Success Manager / Account Manager | Toronto,
+    Canada | CAD 70-100k
+  timestamp: 2018-02-07 21:19:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283479
+  text: Tia | San Francisco, CA | Onsite |  | Fullstack Software Engineer
+  timestamp: 2018-02-01 17:04:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288958
+  text: S&P Global | Full-Time Onsite | US - New York, Boston, Denver. India - Gurgaon
+  timestamp: 2018-02-02 07:12:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286420
+  text: CircleUp | San Francisco | Data Engineer, Machine Learning Engineer
+  timestamp: 2018-02-01 22:12:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284270
+  text: BuildZoom | San Francisco, CA | Full-Time, Onsite Only
+  timestamp: 2018-02-01 18:21:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286075
+  text: First - predictive analytics for real estate | Product Engineer | Durham,
+    NC or Remote | Full-time
+  timestamp: 2018-02-01 21:28:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16295913
+  text: Propel(x) |  | San Francisco | Full Time | ONSITE
+  timestamp: 2018-02-03 03:08:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285034
+  text: ZipRecruiter -  - Santa Monica (LA area) - REMOTE in U.S. OK for some positions
+  timestamp: 2018-02-01 19:30:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16306711
+  text: Asimily | Sunnyvale, CA | Software Generalist | ONSITE | Full-Time  | $120K
+    – $150K (0.5% – 2.5%)
+  timestamp: 2018-02-05 05:02:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285667
+  text: Relay Network | Radnor, PA | Onsite
+  timestamp: 2018-02-01 20:42:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16307741
+  text: Wirewax | Front and back end developers, Dev ops, Data engineers | Onsite
+    | London & New York
+  timestamp: 2018-02-05 09:47:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286715
+  text: RSR Group, Inc | Full Stack Web Developer | Winter Park, FL | ONSITE, FULLTIME
+  timestamp: 2018-02-01 22:51:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283580
+  text: Thinkful Mentor (Data Science or Javascript Web Development) | Remote, Contract/Hourly
+  timestamp: 2018-02-01 17:12:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291429
+  text: SpotHero | Chicago, IL
+  timestamp: 2018-02-02 15:50:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282825
+  text: Asimov | Software Engineer, Machine Learning Engineer | Boston, MA | Full-time
+  timestamp: 2018-02-01 16:01:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287104
+  text: Snapsheet (Car Insurance) | Full-time | ONSITE | Chicago, IL
+  timestamp: 2018-02-01 23:58:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288157
+  text: Academia.edu | Full Stack Engineer | San Francisco, CA | Onsite
+  timestamp: 2018-02-02 03:27:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294477
+  text: 'Nulogy | Toronto, Canada | Full-Time| Full Stack Web Developer |  | Rails
+    SaaS for Supply Chain | Our motto is: “It’s Not Just Business, It’s Personal.”'
+  timestamp: 2018-02-02 21:49:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283312
+  text: Pilotlight | Moorestown, NJ (Philadelphia Area) | Full Time | ONSITE
+  timestamp: 2018-02-01 16:49:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16326809
+  text: Forge.AI | Senior Quality Assurance (QA) Engineer | Full-time | Onsite | Boston/Cambridge,
+    MA
+  timestamp: 2018-02-07 18:33:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16307267
+  text: Quizizz | React developer | ONSITE, Full-Time | Bangalore
+  timestamp: 2018-02-05 07:45:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288940
+  text: 'Gamer Network | Games Media | Brighton, UK | FULL-TIME ONSITE | Backend Web
+    Developer (Python) Posting:'
+  timestamp: 2018-02-02 07:06:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289530
+  text: Memrise | Full-Stack (Python) & Mobile Engineers | London (relocation available)
+  timestamp: 2018-02-02 09:58:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288377
+  text: Marketing Attribution | Senior Frontend Engineer | Evanston, IL (with remote
+    days) | Full Time | On Site
+  timestamp: 2018-02-02 04:20:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284993
+  text: DataFox | San Francisco, CA | Onsite, Full-Time
+  timestamp: 2018-02-01 19:28:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286094
+  text: CellTool | Software Engineer | Munich, Germany | Full-time | Onsite
+  timestamp: 2018-02-01 21:30:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283310
+  text: US-ASEAN Business Council | Manager, Information Services and Website | Washington,
+    D.C. | ONSITE | Full-time
+  timestamp: 2018-02-01 16:49:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284859
+  text: |-
+    Domino Data Lab | Senior Software Engineer | San Francisco, CA | Full-Time | www.dominodatalab.com
+    Domino has an ambitious vision for data science. Our platform helps data science teams accelerate research, increase collaboration, and rapidly deploy predictive models. Our customers are the most sophisticated analytical organizations in the world, including Monsanto, Allstate, and Instacart. Backed by Sequoia Capital, Zetta Venture Partners, Bloomberg Beta, and In-Q-Tel, we are at the epicenter of the data science revolution, helping companies build better cars, develop more effective medicine, or simply recommend the best song to play next.
+  timestamp: 2018-02-01 19:16:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283584
+  text: Chimp Technology (Chimp.net) | Vancouver, Canada | Full-Time | Onsite with
+    remote days, Full Remote considered for engineering candidates
+  timestamp: 2018-02-01 17:12:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286347
+  text: Infinite Food | Mechanical Design Engineers / Mechanical Engineers | Shenzhen,
+    China | $neg + equity available | Full-time or REMOTE
+  timestamp: 2018-02-01 22:02:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283960
+  text: Eden Health | New York, NY | Onsite | Full time | Frontend Engineer
+  timestamp: 2018-02-01 17:53:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284679
+  text: Faithlife | Senior Full Stack Software Developer-Social Network | Bellingham,
+    WA or Chandler, AZ | Full-time | Onsite
+  timestamp: 2018-02-01 19:02:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289222
+  text: Learning Equality | Python & Full-Stack | San Diego | ONSITE (preferred) or
+    REMOTE | Full-time
+  timestamp: 2018-02-02 08:23:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284877
+  text: Dragon Army | Full Time | ONSITE (Atlanta, GA - USA)
+  timestamp: 2018-02-01 19:18:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285950
+  text: Branch | Palo Alto, CA | Full-Time, Onsite |  | $100k-$150k + equity
+  timestamp: 2018-02-01 21:13:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294657
+  text: Bakpax | REMOTE | Senior Software Engineer | Help overworked teachers!
+  timestamp: 2018-02-02 22:18:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286013
+  text: Kentik | Software Engineer | San Francisco | Onsite/Remote, Full-Time | kentik.com
+  timestamp: 2018-02-01 21:19:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286166
+  text: National Journal (A property of Atlantic Media) | Senior Web Developer | Washington
+    DC | Full-time ONSITE
+  timestamp: 2018-02-01 21:37:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283893
+  text: Pathgather |  - ONSITE - New York, NY (NYC)
+  timestamp: 2018-02-01 17:46:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283750
+  text: BBOXX |  Python Developer, Lead Python Developer, Frontend Angular Developer,
+    Mechanical Design Engineers | London | ONSITE,
+  timestamp: 2018-02-01 17:30:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16296197
+  text: Microsoft (Chakra JavaScript Runtime team) | Seattle (Redmond) | Software
+    Engineer | Full-time | Onsite
+  timestamp: 2018-02-03 04:34:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284726
+  text: Textio | Seattle, WA USA | Full-Time | On-Site
+  timestamp: 2018-02-01 19:06:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284990
+  text: Handy | Software Engineers | NYC | ONSITE
+  timestamp: 2018-02-01 19:27:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289109
+  text: Roku | Onsite | Los Gatos, CA (<i>Los Angeles is option) | Full-time | Priority
+    SWE Positions
+  timestamp: 2018-02-02 07:51:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287010
+  text: Brain Health Registry | Full Stack - Technical Lead | San Francisco | ONSITE
+  timestamp: 2018-02-01 23:41:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286070
+  text: Cubic Transportation Systems | Multiple Job Openings | Full-Time | Onsite
+    | San Diego, CA, USA
+  timestamp: 2018-02-01 21:28:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283914
+  text: ChemoWave | El Segundo, CA | ONSITE
+  timestamp: 2018-02-01 17:48:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284702
+  text: HealthPrize | Software Dev | NYC / Norwalk, CT | REMOTE Full-time
+  timestamp: 2018-02-01 19:04:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290866
+  text: Zemanta (an Outbrain company) | Multiple positions | Ljubljana, Slovenia |
+    Full Time - Onsite
+  timestamp: 2018-02-02 14:51:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286313
+  text: Industry Dive |  | Washington, DC | ONSITE F/T
+  timestamp: 2018-02-01 21:58:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284627
+  text: Tesorio (YC S'15) | Lead Data Scientist, Senior Full-Stack Engineers, Senior
+    Backend Engineers | Burlingame, CA | ONSITE
+  timestamp: 2018-02-01 18:57:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285142
+  text: Luster | Brooklyn, New York, NYC - ONSITE | Full Stack Engineer
+  timestamp: 2018-02-01 19:42:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286259
+  text: Discuss.io | Seattle, Washington | Senior Software Engineer - Backend | Full-time
+  timestamp: 2018-02-01 21:52:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284997
+  text: Merantix | {Machine Intelligence, Data, Frontend, Backend} Engineer | Berlin
+    | Full-Time, Internship, Onsite, Visa assistance
+  timestamp: 2018-02-01 19:28:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285101
+  text: Math and Pencil | Software Engineer | Anywhere/NYC | Full-time
+  timestamp: 2018-02-01 19:37:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285750
+  text: Ethos () | Senior Engineers | REMOTE | Full-Time
+  timestamp: 2018-02-01 20:51:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293673
+  text: Instructure | Senior Software Engineer | Salt Lake City, Seattle, Chicago
+    | VISA
+  timestamp: 2018-02-02 19:51:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293002
+  text: Atrium LTS | Mid/Sr. Machine Learning or NLP Engineer | San Francisco, CA
+    | Onsite | Full-Time
+  timestamp: 2018-02-02 18:40:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288019
+  text: Urban Ladder | E Commerce | Multiple Engineering Positions | Onsite in Bangalore,
+    India | Full Time
+  timestamp: 2018-02-02 02:52:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283913
+  text: Jellyfish | Software Engineers (ML experience a plus) | Boston, MA | Full-Time
+    | ONSITE
+  timestamp: 2018-02-01 17:48:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285041
+  text: Center for Clinical Data Science | ETL Data Engineer |Boston, Ma. |ONSITE
+    | Full-Time
+  timestamp: 2018-02-01 19:31:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288833
+  text: |-
+    AutoGravity | Automative FinTech | Irvine, CA | FULL-TIME ONSITE | Senior Web Developer (React)
+    Posting:
+  timestamp: 2018-02-02 06:35:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285126
+  text: Varnish Software | Software Engineer | London, UK
+  timestamp: 2018-02-01 19:41:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283793
+  text: Yieldify | Software Engineer (UI, Backend, Tag, Data Infrastructure), SDET
+    | London | Onsite | Full-time
+  timestamp: 2018-02-01 17:34:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286448
+  text: FortressIQ | San Francisco, CA | Onsite | Front/Back-End & Windows Developers,
+    Data Scientists
+  timestamp: 2018-02-01 22:17:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293587
+  text: Able | Product Engineer | Onsite in NY or SF
+  timestamp: 2018-02-02 19:42:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16315380
+  text: Fastned | Java, Go, and/or Front-End | ON-SITE | Amsterdam | VISA
+  timestamp: 2018-02-06 10:19:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286883
+  text: Dotdash | New York, NY | Senior/Lead Software Engineer, Growth | Full Time
+    Onsite
+  timestamp: 2018-02-01 23:18:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16296914
+  text: Humai | DEVOPS ENGINEER, BACK-END DEVELOPER | Vienna | Full-time ONSITE
+  timestamp: 2018-02-03 09:31:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283552
+  text: Starsky Robotics (YC S16) | Devops, Electrical Engineer, Perception, Gen.
+    Software Engineer, Data engineer, ML Engineer, Test Engineer, Hardware Test Engineer,
+    EE | San Francisco, CA | Onsite | Full-time
+  timestamp: 2018-02-01 17:10:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284427
+  text: Oracle Cloud - Infrastructure Platform Services | Seattle, WA | Full-Time,
+    Onsite
+  timestamp: 2018-02-01 18:36:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285158
+  text: Luster | Brooklyn, New York - ONSITE | CTO
+  timestamp: 2018-02-01 19:43:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289827
+  text: SpeedLedger | Gothenburg | ONSITE | Full-time.
+  timestamp: 2018-02-02 11:41:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16303285
+  text: Toronto, Ontario, Canada | Achievers  | ONSITE | Developers
+  timestamp: 2018-02-04 16:11:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283226
+  text: Karat is re-engineering the technical interview. We augment engineering organizations
+    by conducting the first-rounds of technical interviews on their behalf.  Our service
+    saves material engineering time and drives a highly responsive and consistent
+    experience for candidates. Karat continuously invests in cutting-edge interview
+    methodologies with an aim of reducing bias and letting candidates demonstrate
+    their true ability.
+  timestamp: 2018-02-01 16:39:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284529
+  text: Twine | San Francisco, CA | FULL TIME | ON-SITE
+  timestamp: 2018-02-01 18:49:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283524
+  text: Sumo Logic | Backend Engineer | Warsaw, Poland | Onsite, Visa
+  timestamp: 2018-02-01 17:08:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283608
+  text: Tropare|Laguna Beach, CA, US|ONSITE|Full-time|Sysadmin
+  timestamp: 2018-02-01 17:14:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283406
+  text: Elevate Security | Senior Full Stack Engineer | Oakland, CA | ONSITE, www.elevatesecurity.com
+  timestamp: 2018-02-01 16:56:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285129
+  text: Blispay | Software Engineer | Baltimore, MD | ONSITE | blispay.com
+  timestamp: 2018-02-01 19:41:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284316
+  text: Frameshift Genomics | Full Stack Web Developers | Boston, MA
+  timestamp: 2018-02-01 18:25:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283178
+  text: ThoughtWorks Technologies | Pune, India
+  timestamp: 2018-02-01 16:34:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283679
+  text: ExecVision | Sr Software Engineer | Arlington, VA | Full-Time | On-Site or
+    Remote
+  timestamp: 2018-02-01 17:22:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284970
+  text: Farallon Capital Management, L.L.C. | San Francisco CA | ONSITE | Full-time
+    | Senior Software Engineer - Full Stack
+  timestamp: 2018-02-01 19:26:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285139
+  text: Scoop | San Francisco, California | Full-time, Onsite |  | jobs@takescoop.com
+  timestamp: 2018-02-01 19:42:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282824
+  text: Blue Vision Labs | London, United Kingdom | Onsite, Visa,
+  timestamp: 2018-02-01 16:01:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16314151
+  text: "StellaService | NYC Downtown | Full-time Full Stack Engineer | Competitive
+    Salary | ONSITE | \nAt StellaService, we help companies grow through better service.
+    Our suite of software and data solutions include employee engagement tools, real-time
+    customer feedback surveys, and objective performance measurement across online
+    and in-store channels.\nWe are looking for a full-stack engineer with experience
+    in Ruby on Rails, SQL (Postgres), and JavaScript (Ember and React).\nApply at"
+  timestamp: 2018-02-06 03:08:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284988
+  text: Ebates | San Mateo, CA | San Diego, CA | Onsite | www.ebates.com | VISA (TN)
+  timestamp: 2018-02-01 19:27:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286565
+  text: |-
+    AYLIEN | Data and Search Engineer | Full Time | Onsite | Dublin, Ireland
+    At AYLIEN we routinely aggregate, analyze and index large volumes of textual content from various channels such as RSS feeds, social media and databases. We are looking for an experienced data and search engineer to help us evolve and bring our aggregation and search capabilities to the next level, in terms of scale, functionality and speed.
+  timestamp: 2018-02-01 22:30:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289749
+  text: Busuu | London (ONSITE) | Full-time
+  timestamp: 2018-02-02 11:20:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16295369
+  text: YourMechanic| Mountain View, CA| Fullstack Engineer| Onsite| Multiple Positions
+    Available!
+  timestamp: 2018-02-03 00:28:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282908
+  text: Shipamax|London|On-site|engineers
+  timestamp: 2018-02-01 16:09:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284306
+  text: System1 | Los Angeles, CA | ONSITE
+  timestamp: 2018-02-01 18:25:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283136
+  text: Entelo | San Francisco, CA | Full-time | Onsite
+  timestamp: 2018-02-01 16:30:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285170
+  text: RedLock | LEAD DEVOPS ENGINEER | Menlo Park, CA | ONSITE | redlock.io
+  timestamp: 2018-02-01 19:45:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285097
+  text: ExoAnalytic Solutions | Director of IT | Los Angeles, CA or Orange County,
+    CA | ONSITE, Full-Time | US Citizenship Required
+  timestamp: 2018-02-01 19:37:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16303621
+  text: Checker | San Francisco, CA | Full-time | Onsite
+  timestamp: 2018-02-04 17:18:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287679
+  text: Circonus | Multiple Positions | Remote, Full-time
+  timestamp: 2018-02-02 01:40:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284754
+  text: "Peterson Center on Healthcare | Tech Lead / Manager | Full Time | ONSITE
+    | New York, NY \nOur tech stack: Ruby on Rails, PostgreSQL, JavaScript (React),
+    AWS EC2/S3, Travis CI"
+  timestamp: 2018-02-01 19:08:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283337
+  text: Scribd | Senior Recommendations/Search Engineer | San Francisco | VISA | ONSITE
+  timestamp: 2018-02-01 16:50:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283315
+  text: Conduit | Software engineer (JS or Python) | Cambridge, MA / Boston, MA |
+    Full time, ONSITE
+  timestamp: 2018-02-01 16:49:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288684
+  text: Educative | Techstars Seattle ‘18 | Seattle, WA | Part-Time | Contract | Computer
+    Science Instructor, Machine Learning Instructor, Data Science Instructor, Web
+    Development Instructor | REMOTE
+  timestamp: 2018-02-02 05:47:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290385
+  text: Citrusbyte | Remote | Experienced Software Engineer | citrusbyte.com
+  timestamp: 2018-02-02 13:37:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283004
+  text: Haplo | Developer | London, UK | Full time, ONSITE
+  timestamp: 2018-02-01 16:17:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283785
+  text: GalaxE.Solutions | Detroit, MI | Full-time On-site
+  timestamp: 2018-02-01 17:33:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285343
+  text: |-
+    Factual | Engineers and data lovers | Los Angeles | www.factual.com/jobs#openings
+    Factual is currently hiring engineers and data lovers of all levels in Los Angeles.
+  timestamp: 2018-02-01 20:03:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284461
+  text: Life360 | Software Engineers, Product Managers | San Francisco, San Diego
+    | Onsite | Full-time
+  timestamp: 2018-02-01 18:41:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283751
+  text: Ultimate Software | Ft. Lauderdale, Atlanta, San Francisco, Toronto | Onsite/Remote
+    | USA/Canada only
+  timestamp: 2018-02-01 17:30:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283757
+  text: Warby Parker | New York, NY | Full-time | Onsite
+  timestamp: 2018-02-01 17:30:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285613
+  text: Ordoro | Software Engineer | Austin, TX | Onsite | Full-Time
+  timestamp: 2018-02-01 20:35:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283485
+  text: 'Capsule8 | Front-end Developer | Javascript, CSS | ONSITE: Brooklyn, NY |
+    Full Time'
+  timestamp: 2018-02-01 17:05:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286758
+  text: Sigfig | Software Engineers | San Francisco, Calgary | ONSITE | Fulltime
+  timestamp: 2018-02-01 22:57:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285893
+  text: Konfio |  | Security / Data / Backend / DevOps / Full Stack / Engineers |
+    Mexico City ONSITE | Full time
+  timestamp: 2018-02-01 21:06:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282926
+  text: PlanGrid (YCW12) | San Francisco | Full-time, On-Site | Visa
+  timestamp: 2018-02-01 16:10:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289945
+  text: OpenSignal |  | Angel, London | ONSITE
+  timestamp: 2018-02-02 12:13:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289052
+  text: |-
+    GoodNotes [] | Lead backend engineer, iOS developers | Full time | Hong Kong ONSITE, VISA
+    GoodNotes was created from our founder's frustration of taking readable and reusable notes on his first iPad. We have since grown to millions of happy users and have been featured on Apple's marketing materials.
+  timestamp: 2018-02-02 07:36:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283636
+  text: "Tundra.com | Senior Backend Engineer | Zurich, Switzerland | Full-time, Onsite
+    | \nAt Tundra, we’re passionate about enabling businesses around the world to
+    buy and sell amazing products instantly and online with freight included, simple
+    checkout and easy delivery. Tundra is a direct marketplace where there are never
+    any fees or costs to use it. We believe buying products for a business should
+    be as easy as it is for consumers whether you’re buying from Berlin, Brooklyn
+    or Bangkok. We’re a venture backed startup with offices in Zurich and San Francisco."
+  timestamp: 2018-02-01 17:18:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283701
+  text: Stash Invest | Software Engineers (Backend, Data, iOS), Director of Information
+    Security, Engineering Manager, Data Science | New York, NY | Full-time | Onsite
+  timestamp: 2018-02-01 17:25:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282923
+  text: Braintree | Senior DevOps Security Engineer | Chicago, San Francisco | ONSITE
+    VISA
+  timestamp: 2018-02-01 16:10:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285872
+  text: ChatLingual | Full-Stack Developer (Node.js) | Denver, Colorado | Full-Time
+    | ONSITE
+  timestamp: 2018-02-01 21:03:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289914
+  text: Yoyo Wallet | London ONSITE | Full-time
+  timestamp: 2018-02-02 12:05:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285223
+  text: |-
+    CADRE | New York, NY | Onsite | Experienced Engineers |
+    Cadre is a well-funded startup (Series C | Total Funding $135M) at the intersection of technology and investing. Our mission is to provide direct access to world’s best investments. We are starting with high-end commercial real estate and are changing how investors find and invest in opportunities in this massive industry. Open Positions:
+  timestamp: 2018-02-01 19:51:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289456
+  text: Octopus Energy | Software Engineer | Soho, London, UK | ONSITE, FULL TIME
+  timestamp: 2018-02-02 09:40:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287907
+  text: Picnic | Front-End, Full-Stack, ML Engineering | SF | Full Time, Onsite
+  timestamp: 2018-02-02 02:27:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284929
+  text: SMX | C++ Developer | Auckland | ONSITE | Full-time
+  timestamp: 2018-02-01 19:22:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283887
+  text: Jaunt |  |  San Mateo, CA, ONSITE | Full time | visa transfers/OPT OK
+  timestamp: 2018-02-01 17:45:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287706
+  text: I'm hiring for a Sys Admin in Burbank, CA. We're an art, science and engineering
+    think tank founded by Bran Ferren & Danny Hillis.
+  timestamp: 2018-02-02 01:45:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286240
+  text: Nanome Inc | San Diego, California | Full stack web developers + Blockchain
+    Engineers| Full-time | REMOTE OR ONSITE
+  timestamp: 2018-02-01 21:48:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285204
+  text: Alcatraz AI | ML, Firmware and Full-stack Engineers | ONSITE | Full-time |
+    Palo Alto, CA
+  timestamp: 2018-02-01 19:49:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284282
+  text: |-
+    Aurora Solar |  | Palo Alto, CA | Onsite | Full Time | Frontend, Backend, Fullstack Engineer
+    We are building the software platform that powers the solar industry. Aurora is a cloud-based SaaS solution that allows solar installers to build 3D models of buildings and trees, simulate the impact of shading on a homeowner's roof, design advanced solar systems, calculate the financial return of a solar system and generate beautiful sales proposals. By enabling solar installers to do all of this with just a few clicks, Aurora helps to reduce the cost of solar installations and make solar energy more widely available.
+  timestamp: 2018-02-01 18:22:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282893
+  text: Viasat | Seattle, WA, USA | Full Time
+  timestamp: 2018-02-01 16:07:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288673
+  text: "Quiq | Site Reliability Engineer (SRE) Devops / Infrastructure | Bozeman,
+    MT | \nWe are a startup focusing on Enterprise clients customer support messaging
+    (SMS, Facebook, Kik and others) looking for a senior SRE, devops, infrastructure
+    engineer to work on our fast growing multi-tenant product."
+  timestamp: 2018-02-02 05:43:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286193
+  text: Arundo | Multiple roles | Houston, TX, Oslo, Norway | Full-Time | ONSITE
+  timestamp: 2018-02-01 21:41:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284341
+  text: Bread | Infrastructure (Kubernetes), Backend (Go), Frontend (Vue) | San Francisco,
+    Ca | Remote (USA/Canada/Mexico)
+  timestamp: 2018-02-01 18:27:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283908
+  text: Decidata.tv | Frontend, Backend, Devop | Mexico City (Condesa) | ONSITE |
+    VISA SPONSORSHIP (Spanish not required)
+  timestamp: 2018-02-01 17:47:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286431
+  text: Cognii | Boston, MA or remote
+  timestamp: 2018-02-01 22:14:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290831
+  text: Connected Lab | Toronto, Canada | Full-Time, Onsite
+  timestamp: 2018-02-02 14:48:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16314310
+  text: Mentorloop | Full Stack JS Dev | Melbourne, Australia | Full-Time ONSITE |
+    AUD 70-90k
+  timestamp: 2018-02-06 03:48:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285244
+  text: Bill Karma | iOS Software Engineer | Full-time + On-site in NYC
+  timestamp: 2018-02-01 19:53:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288822
+  text: |-
+    Jio Money. Bangalore, India. Many Positions. Full time.
+    The problem scope is large, complex and fascinating problem to crack.
+  timestamp: 2018-02-02 06:31:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16310077
+  text: Reddit | Senior Android Developer | San Francisco, CA | ONSITE | FULLTIME
+  timestamp: 2018-02-05 16:57:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284014
+  text: Dave.com | Senior Full Stack Engineer | Los Angeles, CA | ONSITE | Full Time
+  timestamp: 2018-02-01 17:58:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291148
+  text: Full-Stack/Front End Software Engineers | Syntasa | ONSITE | Fulltime | Washington
+    DC Metro Area (Herndon, VA) | www.syntasa.com
+  timestamp: 2018-02-02 15:19:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285012
+  text: Flickr iOS Mobile Engineer - San Francisco | Fulltime | ONSITE
+  timestamp: 2018-02-01 19:29:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293296
+  text: Our Innovation Lab is looking for a Dev Team Manager in Minneapolis!
+  timestamp: 2018-02-02 19:08:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285418
+  text: Le Tote | Software Engineer | San Francisco, CA | ONSITE | Full-time
+  timestamp: 2018-02-01 20:11:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284144
+  text: "Loylap | Dublin, Ireland | Full-Time, Onsite | \nLoyLap bridges the gap between
+    bricks and mortar retail businesses and their customers. We work closely with
+    businesses to establish loyalty, gift, rewards and alternative payment systems
+    that digitally connect merchants to their customers and facilitates transaction
+    management."
+  timestamp: 2018-02-01 18:11:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291244
+  text: Signal | Full-Time | SF or REMOTE in US
+  timestamp: 2018-02-02 15:29:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283171
+  text: Nexar |  | Tel Aviv | REMOTE
+  timestamp: 2018-02-01 16:33:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286209
+  text: Coredna | Melbourne (AUS) & Boston (USA) | Full-Stack Developers | Full-time
+  timestamp: 2018-02-01 21:43:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288954
+  text: 'Ometria.com | London UK | FULL-TIME ONSITE | Several roles: Backend Python,
+    Frontend Javascript, QA, Machine learning'
+  timestamp: 2018-02-02 07:11:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16300390
+  text: Phone2Action | Frontend Engineer, Full Stack Engineer, Non-Engineering Roles
+    (for example, Sales!), Summer INTERNS | Washington, DC | Full-Time | Onsite or
+    US Remote |  | Agile | VISA Sponsorship Available for exceptional candidates who
+    already in the US
+  timestamp: 2018-02-03 23:52:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290592
+  text: Recombix | SENIOR JAVASCRIPT DEVELOPER | Moorgate, London, UK | ONSITE | www.recombix.com
+  timestamp: 2018-02-02 14:12:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282975
+  text: Vitally () | Growth-focused generalist | New York, NY | ONSITE | Full-time
+  timestamp: 2018-02-01 16:15:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289177
+  text: |-
+    Software Engineer | Zenysis (YC W16) | SF | Onsite, Fulltime
+    We build software for governments and international organizations to fight epidemics, combat food shortage, and allocate hundreds of millions of dollars in healthcare spending. We're working on early warning systems for disease outbreaks, automatically detecting low-quality data, and running models to recommend the most effective health interventions across entire countries.
+  timestamp: 2018-02-02 08:12:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283772
+  text: '8 points by martinshen 30 days ago | parent [-] | on: Ask HN: Who is hiring?
+    (January 2018)'
+  timestamp: 2018-02-01 17:32:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16323980
+  text: LaundryRepublic | Full-stack developer (PHP / MySQL) | ONSITE | FULL-TIME
+    | London, UK | £50k-£60k pa
+  timestamp: 2018-02-07 12:31:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284070
+  text: Minimax Labs Ltd. | Software Engineers, Research Engineers, Interns | London,
+    UK | ONSITE
+  timestamp: 2018-02-01 18:04:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283746
+  text: |-
+    Built For Me Inc. | Seattle, New York, San Francisco, Remote (US-only) | Senior Software Engineer | Full Time | $150k-$225k
+    Who we are: We are a small company loathe to use the word “startup”. The phrase that most aptly describes us is “boutique consulting firm” as we are currently working on select software consulting projects and have a long term vision to build a stand-alone product in about a year. The future product will focus on enabling business workflows and growing workplace productivity. We are being smart in our approach balancing software consulting with our own product. We balance both to pay ourselves well and support our vision for the future.
+  timestamp: 2018-02-01 17:30:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289277
+  text: Nest Seekers | Engineering & Design Roles | Berlin, Germany | Freelance ->
+    Full-Time | Onsite | www.nestseekers.com
+  timestamp: 2018-02-02 08:44:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286390
+  text: FreeAgent, Edinburgh and REMOTE (UK-only)
+  timestamp: 2018-02-01 22:08:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286869
+  text: Tatari | Engineers | San Francisco | ONSITE | Fulltime
+  timestamp: 2018-02-01 23:15:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283607
+  text: Tigerspike | Senior Software Engineer | New York, NY | ONSITE
+  timestamp: 2018-02-01 17:14:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283329
+  text: Drivy | Multiple jobs (Backend, Full-Stack, iOS) | Paris, France | ONSITE,
+    REMOTE, Full-time
+  timestamp: 2018-02-01 16:50:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290296
+  text: Chordify | Front-end Dev | Onsite | Utrecht, Netherlands
+  timestamp: 2018-02-02 13:20:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289063
+  text: Musicoin | Backend Engineers | REMOTE FULLTIME | 100000 $MUSIC
+  timestamp: 2018-02-02 07:40:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283838
+  text: EDEKA Bringmeister | Software Engineer - Backend, Infrastructure Engineer
+    | Berlin | FULL-TIME INTERNS ONSITE
+  timestamp: 2018-02-01 17:40:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287389
+  text: Jackbox Games | Chicago, IL | Onsite | Full-time
+  timestamp: 2018-02-02 00:48:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283268
+  text: |-
+    RentPath | Software Engineer + Sr. SW Engineers | Atlanta, GA | Full Time REMOTE RentPath is a leading digital media company. Empowering millions to find apartments and houses for rent.
+    If you're looking for an opportunity to learn, teach, grow, and be a part of a dedicated team of engineers working with some interesting technologies, please apply.
+  timestamp: 2018-02-01 16:43:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283676
+  text: vVents | Backend, FullStack, Frontend developers, Interns (paid) | India |
+    Full Time | REMOTE
+  timestamp: 2018-02-01 17:22:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284317
+  text: Beauhurst | Full Stack Developer, Senior Full Stack Developer | London, UK
+    | Onsite, Full-time
+  timestamp: 2018-02-01 18:25:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285774
+  text: Creighton University | HortonWorks Engineer/Admin and Senior Full Stack JS
+    Engineers | Omaha, NE | Onsite or Remote (US-only), Contract Creighton University
+    is a Jesuit, Catholic university bridging health, law, business and the arts and
+    sciences for a more just world. Join us in building a new higher education digital
+    experience.
+  timestamp: 2018-02-01 20:52:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282840
+  text: Advanced Simulation Technology, inc. (ASTi) | Herndon/Reston, VA | Multiple
+    Positions | ONSITE
+  timestamp: 2018-02-01 16:02:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283574
+  text: 'Koru Kids | London | Full-time Onsite | Full Stack Ruby Engineer #2'
+  timestamp: 2018-02-01 17:12:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284053
+  text: Current Tech | FULL-TIME ONSITE | .NET | Denver Lakewood CO Colorado
+  timestamp: 2018-02-01 18:02:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284305
+  text: Highrise, Inc. | Android Engineer | Durham, NC | Full-Time, Onsite
+  timestamp: 2018-02-01 18:25:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288141
+  text: Sensara | Bangalore, India | ONSITE | Full Time
+  timestamp: 2018-02-02 03:20:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286810
+  text: TD Bank Group | Toronto, ON, Canada | DevOps Engineer, Full Stack Engineer
+    | Full Time | ONSITE
+  timestamp: 2018-02-01 23:05:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285086
+  text: Open Listings | Los Angeles, California | Full-time, Onsite
+  timestamp: 2018-02-01 19:36:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291549
+  text: CareMessage (YC W14) | Remote
+  timestamp: 2018-02-02 16:01:18.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288831
+  text: |-
+    Integration Platform Developer
+    Location: Bangalore
+  timestamp: 2018-02-02 06:34:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282842
+  text: Wag Labs, Inc. |  | Los Angeles (West Hollywood) | Full Time | ONSITE
+  timestamp: 2018-02-01 16:03:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283338
+  text: Cruise Automation | SRE, Data Engineers, Data Scientists, C++ | San Francisco
+    | ONSITE
+  timestamp: 2018-02-01 16:50:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16312561
+  text: LedgerX - All ONSITE in Manhattan, New York City. We are the first US-based
+    CFTC-approved physically-settled bitcoin derivatives exchange and clearinghouse.
+    We have been operating since October 2017 and allow eligible contract participants
+    (institutional investors and/or high net worth individuals) only.
+  timestamp: 2018-02-05 21:50:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284013
+  text: Ciena | IT Cloud Architect | ONSITE (Baltimore, MD) or REMOTE, USA | Full-Time
+  timestamp: 2018-02-01 17:58:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283541
+  text: Lawn Love (YC S14, ) | Senior Software Engineer | San Diego, CA | FULL-TIME
+    ONSITE
+  timestamp: 2018-02-01 17:09:54.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283848
+  text: Saleskick| ruby and js devs | Warsaw, Poland | Full-time
+  timestamp: 2018-02-01 17:41:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285210
+  text: Knotch | Senior Backend Engineers, Data Scientist | NYC | On-site
+  timestamp: 2018-02-01 19:50:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285375
+  text: Fujitsu TDS GmbH | Germany | Berlin, Munich, Neckarsulm + Remote and many
+    other
+  timestamp: 2018-02-01 20:06:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287623
+  text: Seedlink Technology | Shanghai | Full Time | Onsite
+  timestamp: 2018-02-02 01:32:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284180
+  text: Zensurance | Full-stack Web Developer | Toronto, ON | ONSITE
+  timestamp: 2018-02-01 18:14:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291100
+  text: Phantom | Python Developer, Data Analyst, QA | London, UK | ONSITE, Full-Time
+  timestamp: 2018-02-02 15:13:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286525
+  text: Motley | Multiple developers (JavaScript) | Helsinki, Finland |  | ONSITE
+  timestamp: 2018-02-01 22:26:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283190
+  text: Center for Clinical Data Science | Software Engineering Leader/CTO |Boston,
+    Ma. |ONSITE | Full-Time
+  timestamp: 2018-02-01 16:35:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287058
+  text: Atlas | London, UK and Essex, UK | Full-Time, Onsite
+  timestamp: 2018-02-01 23:48:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286943
+  text: Astro HQ | Firmware Engineer | Minneapolis, MN | ONSITE | Full-time
+  timestamp: 2018-02-01 23:29:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284978
+  text: BackOffice Associates | Infrastructure Engineer | Seattle, Austin, or anywhere
+    mostly in the US (Remote) | Full-time, Remote (US)
+  timestamp: 2018-02-01 19:27:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285850
+  text: MongoDB | Consulting Engineer | San Francisco Bay Area / Remote West Coast
+    w/ travel | mongodb.com
+  timestamp: 2018-02-01 21:01:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286920
+  text: SevenRooms | Fullstack, Python Backend, React/Redux Frontend, iOS | NYC |
+    Full-time | Onsite
+  timestamp: 2018-02-01 23:25:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284228
+  text: Sensor Tower | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 18:17:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289768
+  text: Featurespace | Cambridge, United Kingdom | Full Time | Implementation Engineers
+  timestamp: 2018-02-02 11:25:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283581
+  text: Spydermix |  | Engineer | Full-Time | Remote
+  timestamp: 2018-02-01 17:12:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289545
+  text: Cloud Academy | Software Engineers (FE, BE, FS) and Cloud/DevOps SME's | San
+    Francisco, CA / Mendrisio, Switzerland | Full Time | On-Site/Remote
+  timestamp: 2018-02-02 10:01:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283409
+  text: Jet.com | Senior Android Developer | Hoboken, NJ | FULL-TIME ONSITE VISA
+  timestamp: 2018-02-01 16:56:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284735
+  text: Woopra | Backend Engineer, Frontend Engineer, Lead Support Engineer | San
+    Francisco, CA | Full-time, ONSITE
+  timestamp: 2018-02-01 19:06:49.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282866
+  text: Uken Games | Developers | Toronto | Full-time | On-site
+  timestamp: 2018-02-01 16:05:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287161
+  text: TEMPO AUTOMATION/SAN FRANCISCO/FULL STACK/ONSITE/FULL TIME
+  timestamp: 2018-02-02 00:10:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283327
+  text: Intercom | Product Engineers & Engineering Managers | San Francisco | Full
+    time
+  timestamp: 2018-02-01 16:50:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286702
+  text: |-
+    Insider Inc | Senior DevOps Engineer| New York, NY | Onsite | Fulltime
+    Senior Devops Engineer:
+  timestamp: 2018-02-01 22:48:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282900
+  text: CALA | New York, NY or San Francisco, CA | ONSITE
+  timestamp: 2018-02-01 16:08:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284015
+  text: Amazon Web Services - Lambda | Software Engineer | Seattle, WA | ONSITE
+  timestamp: 2018-02-01 17:58:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284486
+  text: Nexient.com | Ann Arbor, Michigan | FULL-TIME | ONSITE
+  timestamp: 2018-02-01 18:44:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285585
+  text: Coalition | Back-End Engineer, Full-Stack Engineer, Product Designer | San
+    Francisco, CA | Onsite, Full-Time
+  timestamp: 2018-02-01 20:32:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283369
+  text: Greatist | Full-Stack Engineer | New York, NY | ONSITE, Full-Time
+  timestamp: 2018-02-01 16:53:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285274
+  text: Zeus | Full-stack or Frontend Engineer | San Francisco, CA | On-site | Fulltime
+    | zeusliving.com
+  timestamp: 2018-02-01 19:56:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285604
+  text: The Grommet | Full Stack Engineer | Boston, MA | Full-Time, Onsite
+  timestamp: 2018-02-01 20:34:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282882
+  text: StarLeaf | Software Engineer | Cambridge & London, UK | ONSITE | Full-time
+  timestamp: 2018-02-01 16:06:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285393
+  text: Speakable | Software Engineer (and more) | NYC - New York, NY | Full-time
+    & ONSITE
+  timestamp: 2018-02-01 20:08:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284641
+  text: ARTA | Senior Software Engineer | New York, New York | ONSITE | Full-time
+  timestamp: 2018-02-01 18:58:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285848
+  text: what3words | London, UK | Full-time, onsite | Front End Developer (React)
+    - contract and permanent
+  timestamp: 2018-02-01 21:01:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283639
+  text: Synopsys | Senior R&D Engineer | Marlboro, MA | ONSITE, www.synopsys.com
+  timestamp: 2018-02-01 17:18:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289868
+  text: Contorion | Data Scientist | Onsite | Berlin, Germany
+  timestamp: 2018-02-02 11:51:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285707
+  text: Dor Technologies | Full Stack Software Engineer | On-Site, Full-Time | San
+    Francisco (SOMA)
+  timestamp: 2018-02-01 20:46:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16318197
+  text: Lightstep Inc| Product Design, Engineering Manager, Sales Engineers | San
+    Francisco, CA | ONSITE | Full-time
+  timestamp: 2018-02-06 18:23:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285241
+  text: Lyte |  | San Francisco, CA | Full-time, onsite | Frontend (React.js) | Backend
+    (Django, Postgres)
+  timestamp: 2018-02-01 19:52:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283610
+  text: Weaveworks | Backend Developer | Berlin, London, San Francisco | ONSITE, Full-time
+  timestamp: 2018-02-01 17:15:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285476
+  text: FINBOURNE Technology | Software Engineers | London | Full Time | Onsite
+  timestamp: 2018-02-01 20:19:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287238
+  text: AT&T | Palo Alto, CA | Onsite | Full-time
+  timestamp: 2018-02-02 00:22:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283242
+  text: ONSITE - San Francisco
+  timestamp: 2018-02-01 16:40:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285607
+  text: SEC | Application Developer | ONSITE
+  timestamp: 2018-02-01 20:35:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16312511
+  text: |-
+    Company42 | Data Scientist Student/Intern | Copenhagen, Denmark | ONSITE
+    Get the full-blown startup experience as a Data Scientist student at Company42.
+    We’re are on a mission to accelerate the amount of innovation in the world by breaking down entry barriers and reducing costs for inventors.
+  timestamp: 2018-02-05 21:45:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287455
+  text: ScopeAI (YC  W17)| www.getscopeai.com | SF | NLP and Backend engineer| Full-time,
+    Onsite
+  timestamp: 2018-02-02 00:59:19.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282854
+  text: Alpine.ai | San Francisco | ML and full stack engineers | ONSITE
+  timestamp: 2018-02-01 16:04:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286667
+  text: AppOptics (SolarWinds Cloud) | Site Reliability Engineer (SRE) | VAN, ATX,
+    BOS, RTP | ONSITE
+  timestamp: 2018-02-01 22:43:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289547
+  text: Airtame () | Copenhagen, Denmark | Full-time, Onsite/Remote
+  timestamp: 2018-02-02 10:02:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286185
+  text: ShopRunner | Multiple Job Openings | Chicago, IL / Conshy, PA | Full-time
+  timestamp: 2018-02-01 21:39:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287935
+  text: MSC | DevOps | Bethesda MD | ONSITE, VISA | Competitive compensation!
+  timestamp: 2018-02-02 02:33:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286225
+  text: GOAT | iOS Engineer | Los Angeles, CA | Full-time | Onsite
+  timestamp: 2018-02-01 21:45:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291342
+  text: Thinknum | New York | Multiple Positions | On-site - Full-time | $70k-$140k
+    + equity
+  timestamp: 2018-02-02 15:39:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284802
+  text: HomeLight | Multiple Positions | San Francisco | ONSITE | Full-time
+  timestamp: 2018-02-01 19:12:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283405
+  text: 'Ginetta.co | Frontend-Engineer, Javascript, CSS | Zurich, Switzerland | Salary:
+    85k-100k CHF | ONSITE'
+  timestamp: 2018-02-01 16:56:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284846
+  text: NBC News - New York, NY - Full-time, Onsite -
+  timestamp: 2018-02-01 19:15:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283789
+  text: REMOTE or ONSITE (London) Android Native Developer – Pony Bikes
+  timestamp: 2018-02-01 17:34:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282945
+  text: Exa () Burlington, MA (on 128 outside Boston) | Full-time ONSITE | H1B VISA
+    welcome
+  timestamp: 2018-02-01 16:12:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285299
+  text: ViaHero | Senior Full Stack Engineer | New York | Onsite | Full-time
+  timestamp: 2018-02-01 19:58:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284171
+  text: Amperity | Seattle, WA | ONSITE | Full-time
+  timestamp: 2018-02-01 18:14:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283880
+  text: Synap | Chicago | Onsite
+  timestamp: 2018-02-01 17:45:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283648
+  text: Shift Technology is a start-up that provides a SaaS solution to insurers to
+    automate fraud detection. We've raised $28 million series B and already have more
+    than 45 clients and offices in Paris, Singapore, Tokyo and New York.
+  timestamp: 2018-02-01 17:18:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287155
+  text: Kloudless
+  timestamp: 2018-02-02 00:08:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282994
+  text: Jun Group | New York, NY | Senior Software Developer, Full-stack | ONSITE
+  timestamp: 2018-02-01 16:17:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284074
+  text: Vincu | junior to mid-level backend developer | Bogotá, Colombia | ONSITE
+    | VISA
+  timestamp: 2018-02-01 18:05:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284967
+  text: Mystery Applicant | Ruby Developer | ONSITE | Bath, England
+  timestamp: 2018-02-01 19:26:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284821
+  text: "Doctible | San Diego, CA | Full-Time, Onsite | \nDoctible is a San Diego
+    based startup changing the way healthcare practices communicate with their patients
+    by building amazing technologies. Founded in 2014, we are rapidly growing and
+    recently awarded the #1 Top Workplace by San Diego Union Tribune. Our products
+    are built on top of cutting edge technologies and we’re looking to add a motivated
+    and experienced Senior Software Engineer to our team in our Sorrento Mesa office."
+  timestamp: 2018-02-01 19:13:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291031
+  text: Front-end/Full-stack developer | Deskbookers | Amsterdam, The Netherlands
+    | Full-Time, Onsite
+  timestamp: 2018-02-02 15:05:44.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285140
+  text: Realm Five, Inc. | Software Engineer, Firmware Engineer | Lincoln, NE | ONSITE
+    | FULL-TIME
+  timestamp: 2018-02-01 19:42:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285520
+  text: TapFwd | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 20:24:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287236
+  text: Big Health | Python Backend, React Native Frontend, (or Both) | SF/London/Remote
+  timestamp: 2018-02-02 00:21:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286027
+  text: 'Lyft | San Francisco, Seattle, NYC | No Remote :'
+  timestamp: 2018-02-01 21:21:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285430
+  text: DeepMap.ai | Palo Alto, CA | Full-Time & Interns, Onsite
+  timestamp: 2018-02-01 20:13:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287139
+  text: Elvie | London, UK | Full-Time, Onsite
+  timestamp: 2018-02-02 00:05:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284949
+  text: Battlefy | Engineering | Vancouver, Canada | Full-Time | Onsite
+  timestamp: 2018-02-01 19:24:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289219
+  text: Reinforcement Learning and Control Engineers | Optimal | Netherlands | Visas
+    provided for non-EU citizens
+  timestamp: 2018-02-02 08:23:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283806
+  text: Abine.com "the online privacy company" | Full Stack (Ruby + Javascript + Native
+    Mobile |  | Boston, MA or REMOTE | Part time
+  timestamp: 2018-02-01 17:35:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286038
+  text: "AppNeta | Sr. Software Engineer, Software Engineer in Test, Full-Stack Developer,
+    Engineering Manager, Technical Account Manager | Vancouver, BC | Full-Time, On-Site,
+    \nWe help IT and Operations have peace-of-mind when it comes to their applications
+    and infrastructure by offering comprehensive monitoring and forensics of network
+    behaviours and application preformance."
+  timestamp: 2018-02-01 21:23:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283120
+  text: Robinhood | Engineering & Non-Engineering Roles | Palo Alto, CA | Full-Time
+    | Onsite | robinhood.com
+  timestamp: 2018-02-01 16:29:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16312479
+  text: FinFolio | QA Manager (Investment Finance) | Denver, CO
+  timestamp: 2018-02-05 21:40:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286048
+  text: Juji |  | Front-end Software Engineer | San Jose, CA | Onsite | Full time
+  timestamp: 2018-02-01 21:25:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282967
+  text: Coveo | Frontend Developer | Montreal & Quebec City, Canada | Full-time, ONSITE
+  timestamp: 2018-02-01 16:14:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283330
+  text: Compile India | Full Stack Developer | Bangalore, India | Full-time, Onsite
+  timestamp: 2018-02-01 16:50:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283640
+  text: |-
+    Seeking commission-only sales agent to sell high-quality on-site training on IT Operations and DevOps.
+    We deliver on-site training world-wide. Our model achieves real learning: we have small class sizes, expert instructors, excellent materials, and lots of practical, hands-on lab exercises that leave the students really knowing their material and being able to use it.
+  timestamp: 2018-02-01 17:18:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283897
+  text: Turner | CNN Politics | Software Developer | Atlanta, GA | ONSITE | Full-time
+  timestamp: 2018-02-01 17:46:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283739
+  text: Kinetica (GPU-powered-DB) | Full-time | ONSITE | Arlington VA/DC
+  timestamp: 2018-02-01 17:29:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285060
+  text: Formlabs|Somerville, MA|ONSITE|Full-Time|Software Engineers
+  timestamp: 2018-02-01 19:33:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290401
+  text: Profitap | Mid- or Senior Full-Stack Developer | Eindhoven, The Netherlands
+    | Onsite, Fulltime | www.profitap.com
+  timestamp: 2018-02-02 13:40:21.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16336064
+  text: pulseData | Front-End Software Engineer | Onsite | New York City, New York,
+    USA
+  timestamp: 2018-02-08 22:13:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287840
+  text: ShopPad | Software Engineer (Full-stack) | Oakland, CA | ONSITE
+  timestamp: 2018-02-02 02:12:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283633
+  text: MineralSoft | Software Engineers (All Levels), Product Designer | Austin,
+    TX | ONSITE
+  timestamp: 2018-02-01 17:17:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285770
+  text: 'St. Jude Children’s Research Hospital | Memphis, TN | Onsite | Full Time|Competitive
+    |  There’s a reason St. Jude Children’s Research Hospital is consistently ranked
+    on Fortune Magazine’s “100 Best Places to Work For” list. Because at our world-class
+    pediatric research hospital, every one of our professionals shares our commitment
+    to make a difference in the lives of the children we serve. We are looking for
+    experienced candidates in the following role:'
+  timestamp: 2018-02-01 20:52:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284675
+  text: LogRocket | Cambridge, MA | Boston, MA | Full Time, Onsite
+  timestamp: 2018-02-01 19:02:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283756
+  text: Stan (mc-stan.org, Columbia University) | New York City | Full-time, ONSITE
+    | $80-$100k
+  timestamp: 2018-02-01 17:30:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285724
+  text: |-
+    Cloud DevSecOps Engineer | JP Morgan | Seattle, WA
+     | Full Time - Onsite
+    Looking to build a team of gifted engineers to design, develop, test and implement security solutions for our cloud environments. You will work in partnership with Architecture, SecOps and Product Mgmt, in a hands-on environment.  We need people with an elevated cloud acumen (AWS, Azure, Google, Openstack) and the tools to build (RHEL, Java, Python, Ruby, Github, Jenkins...).
+  timestamp: 2018-02-01 20:48:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288851
+  text: Capital Match | Singapore | Full-time | Onsite or Remote | Visa Sponsorship
+  timestamp: 2018-02-02 06:39:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283830
+  text: TheWaveVR | SERVER ENGINEER | Austin, TX and Los Angeles, CA | ONSITE | Full-time
+  timestamp: 2018-02-01 17:39:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285138
+  text: GetYourGuide | Multiple Positions | Berlin & Zurich | ONSITE, VISA + Assistance
+  timestamp: 2018-02-01 19:42:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283853
+  text: BAMTECH | New York | Onsite
+  timestamp: 2018-02-01 17:42:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286355
+  text: 99designs | Frontend Developer | Melbourne, Australia | Full-time | ONSITE
+  timestamp: 2018-02-01 22:03:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284128
+  text: People.ai | San Francisco | Senior Software Engineer + other | Onsite | Full-time
+  timestamp: 2018-02-01 18:10:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285213
+  text: Koddi | ONSITE | Full-time | Fort Worth, TX
+  timestamp: 2018-02-01 19:50:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284824
+  text: SeatGeek — New York, NY — Full Time — We're a mobile marketplace for tickets
+    and live events.
+  timestamp: 2018-02-01 19:13:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285566
+  text: "Common | NYC | \nCommon is building housing for cities that are designed
+    from the ground up for roommates. We build beautiful, furnished homes, provide
+    shared supplies and cleaning, and find roommates to live together. Members can
+    transfer between any home in our 5 cities."
+  timestamp: 2018-02-01 20:29:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283238
+  text: Akvo | Two developers | Amsterdam/Bangalore | REMOTE/ONSITE | Full-time
+  timestamp: 2018-02-01 16:40:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288025
+  text: Real Matters | 2 Devs (Intermediate to Senior, Full-Stack or strong Frontend)
+    , 1 QA, 1 Security Manager, 1 Systems Admin | Toronto | Full Time, Onsite
+  timestamp: 2018-02-02 02:55:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287105
+  text: Drip + Leadpages (www.Drip.com) - Minneapolis, MN | Full Time | ON-SITE |
+    Now Hiring Senior Ruby on Rails Developers, Senior Python Developers, Senior DevOps
+    Engineer, Support Engineer, BI Analyst, Account Executives, Customer Success Director
+    and Technical Support Manager!
+  timestamp: 2018-02-01 23:58:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287651
+  text: Virta Health | Software engineers, data scientists | San Francisco, CA | ONSITE
+    | Full-time
+  timestamp: 2018-02-02 01:35:36.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285400
+  text: Flight Labs | San Francisco, NYC | Full-time | Onsite
+  timestamp: 2018-02-01 20:09:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284895
+  text: Kin.com | Ruby Developer | Chicago, IL | ONSITE
+  timestamp: 2018-02-01 19:19:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308675
+  text: Intel Poland is looking for a Full Stack (Python/Angular/MsSql/NoSql) Developer
+    in the Data Reporting Team
+  timestamp: 2018-02-05 13:48:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282880
+  text: Gitcoin (
+  timestamp: 2018-02-01 16:06:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282969
+  text: Coveo | Solution Developer - Implementation | Montreal & Quebec City, Canada
+    | Full-time, ONSITE
+  timestamp: 2018-02-01 16:14:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16308404
+  text: ClimaCell | Onsite | Full Time, Boston, MA
+  timestamp: 2018-02-05 12:39:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293751
+  text: HubHaus, Inc | Los Altos, CA | Full-time Onsite
+  timestamp: 2018-02-02 20:01:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283609
+  text: REMOTE (US Residents Only) or ONSITE in Connecticut/Virginia USA
+  timestamp: 2018-02-01 17:14:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285889
+  text: 'Symplicity|Arlington (Claredon)|Senior Javascript/PHP Engineers. We are building
+    software to power the future of the workforce. Students use our flagships to find
+    their first job, Universities use our product to increase employability outcomes
+    and employers use it to find talent. We are growing (quickly!) See job description
+    here:'
+  timestamp: 2018-02-01 21:05:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285460
+  text: Sigma () | Software Engineers | Millbrae, California | full-time | ONSITE
+    / VISA transfers
+  timestamp: 2018-02-01 20:17:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284515
+  text: London, UK | Investec () | Fintech | Junior Full Stack Engineer | Full Time
+    | Onsite | Contract or Perm
+  timestamp: 2018-02-01 18:48:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285916
+  text: Wanderu |  | Senior Front End Engineer | Boston, MA, US | Onsite | Full time
+  timestamp: 2018-02-01 21:09:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285882
+  text: 'Symplicity|Arlington (Claredon)|Senior Javascript/PHP Engineers. We are building
+    software to power the future of the workforce. Students use our flagships to find
+    their first job, Universities use our product to increase employability outcomes
+    and employers use it to find talent. We are growing (quickly). Description here:'
+  timestamp: 2018-02-01 21:05:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284806
+  text: WayBetter - New York City - ONSITE
+  timestamp: 2018-02-01 19:12:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289849
+  text: Primitive Social | Full Stack Engineer | Lubbock, TX | ONSITE, REMOTE
+  timestamp: 2018-02-02 11:46:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283466
+  text: Underdog.io | New York, NY |  | Full-Time | ONSITE
+  timestamp: 2018-02-01 17:03:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287066
+  text: WorldRemit | Senior Data Engineer, Machine Learning Engineer | London, UK
+    | VISA
+  timestamp: 2018-02-01 23:49:46.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293676
+  text: San Francisco | Onsite | Zeus (YC S11)
+  timestamp: 2018-02-02 19:51:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289104
+  text: bitExpert AG | Mannheim, Germany | Full-Time, Onsite
+  timestamp: 2018-02-02 07:50:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286560
+  text: Piper | San Francisco, CA | Customer Experience Supervisor | On-site
+  timestamp: 2018-02-01 22:29:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286000
+  text: TextRecruit | Senior Backend Engineer, Data Scientist | San Jose, CA | Full-Time
+    | ONSITE
+  timestamp: 2018-02-01 21:17:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287072
+  text: DraftKings | Backend (C#), Web, Android, iOS, DevOps | Boston, MA | Full-Time
+    | Onsite
+  timestamp: 2018-02-01 23:50:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290633
+  text: Parkour Technologies | React Native Engineer | Budapest (Hungary) | Onsite,
+    VISA
+  timestamp: 2018-02-02 14:18:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288249
+  text: Discovery Digital Media | Client Engineering | Fulltime | New York, NY | ONSITE
+  timestamp: 2018-02-02 03:46:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16316167
+  text: inpher.io | Privacy Preserving Analytics | New York (USA), Lausanne (Switzerland),
+    Paris (France) | ONSITE
+  timestamp: 2018-02-06 13:49:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285519
+  text: |-
+    Location: Dallas, TX (8950 Cypress Waters. ONSITE)
+    Position: Full Stack Developer (multiple openings)
+    Company: Mr. Cooper (8,000 employees)
+    Apply:
+  timestamp: 2018-02-01 20:24:04.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290264
+  text: IP Fabric | Product Evangelist | Prague, CZ | REMOTE
+  timestamp: 2018-02-02 13:15:33.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287355
+  text: |-
+    Brain Corp: Adaptive AI Platform for Self-Driving Robots
+    Investors: Softbank VF and Qualcomm Ventures.
+  timestamp: 2018-02-02 00:42:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284447
+  text: Sauce Labs (San Francisco, CA, Vancouver, B.C., Berlin, Germany and/or Warsaw,
+    Poland)
+  timestamp: 2018-02-01 18:38:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284738
+  text: Primity Bio | San Francisco Bay Area | Frontend or Full-Stack | Onsite or
+    Remote
+  timestamp: 2018-02-01 19:07:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285847
+  text: Sock Club | Web Developer (Ruby on Rails, Javascript) | Austin, TX | FULL-TIME,
+    ONSITE, www.sockclub.com
+  timestamp: 2018-02-01 21:01:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287216
+  text: 'Brain Corp: Adaptive AI Platform for Self-Driving Robots'
+  timestamp: 2018-02-02 00:18:43.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286501
+  text: Detective | Chicago | Software Engineer | ONSITE
+  timestamp: 2018-02-01 22:24:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16299575
+  text: LONDON | BRIDGEU | SENIOR RUBY DEVELOPER | ONSITE
+  timestamp: 2018-02-03 20:52:27.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282953
+  text: Engagency | Sitecore (Enterprise .NET CMS) Partner | Austin, Texas | ONSITE
+    | Full-Time
+  timestamp: 2018-02-01 16:13:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291942
+  text: Social Live Music Startup (pre-launch) | Austin, Texas | Back-End Engineer
+    (Python/Django) | Full-Time | ONSITE strongly preferred, will consider REMOTE
+    for an ideal candidate | Salary + Equity
+  timestamp: 2018-02-02 16:46:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286104
+  text: |-
+    eBay | www.ebay.com | New York | NYC | Full Time | ONSITE | jobs@ebaynyc.com | VISA ok
+    We are hiring experienced data scientists to change the way eBay does advertising. eBay's old advertising strategy was 3rd party focused (Ads that sent people off eBay). Our CEO said that strategy has changed. We need ads that keep people on eBay and offer better choices for our buyers. We are the team blowing up the old strategy and doing something better. You can move the needle when it comes to eBay's profit. We are a small team in a growing remote office. This is a unique opportunity to learn search engine and recommendation technology which rank eBay's 1+ billion active items. We apply cutting edge machine learning techniques on petabytes of data and thousands of Spark/YARN nodes. This includes deep learning, XGBoost and online learning. Our interview consists of two phone screens. Then you come onsite to meet the team and do a code test. The role will be 50% production coding and 50% research.
+  timestamp: 2018-02-01 21:32:13.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285993
+  text: DataKitchen | Boston/Cambridge, MA, ONSITE full-time | UI Focussed Full Stack
+    Senior Software Engineer (Angular, Python, AWS, big data)
+  timestamp: 2018-02-01 21:17:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284919
+  text: MongoDB  | Full Stack Engineer, Cloud Services, Monitoring | New York City
+    | On-Site | full time
+  timestamp: 2018-02-01 19:21:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286063
+  text: intello.io | Full-Stack Engineer | New York | Onsite, Full-Time
+  timestamp: 2018-02-01 21:27:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287144
+  text: Karat is re-engineering the technical interview. We augment engineering organizations
+    by conducting the first-rounds of technical interviews on their behalf. Our service
+    saves material engineering time and drives a highly responsive and consistent
+    experience for candidates. Karat continuously invests in cutting-edge interview
+    methodologies with an aim of reducing bias and letting candidates demonstrate
+    their true ability.
+  timestamp: 2018-02-02 00:06:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282963
+  text: nammu21 | Multiple Positions | REMOTE - US | Full-Time
+  timestamp: 2018-02-01 16:13:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285747
+  text: Vertex IT | Software Engineer | REMOTE
+  timestamp: 2018-02-01 20:50:47.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16329007
+  text: Abide | Mobile Software Engineer | Menlo Park, CA |  | ONSITE, Full-time
+  timestamp: 2018-02-07 23:47:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284188
+  text: CACI International Inc. - Rome, NY
+  timestamp: 2018-02-01 18:15:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16334675
+  text: onX | Bozeman, MT | Remote ok for the right person
+  timestamp: 2018-02-08 19:11:22.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284663
+  text: 2K Games | Novato, CA | ONSITE | 2k.com
+  timestamp: 2018-02-01 19:00:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287290
+  text: 'Databook: Data-driven sales.'
+  timestamp: 2018-02-02 00:30:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288709
+  text: DJI | ME/EE, Robotics SE, Mobile SE, front/backend SE | Palo Alto, CA | Full-Time
+    | On-site
+  timestamp: 2018-02-02 05:55:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16310273
+  text: Engage | Web Developer (Full-time) | Alexandria, VA (metro Washington DC)
+    | ONSITE
+  timestamp: 2018-02-05 17:18:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285239
+  text: Iterable | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-01 19:52:41.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16316423
+  text: Elements Interactive | Fullstack developer (Python/Django) | Almere, The Netherlands
+    | Full-time | ONSITE | EU work permit needed
+  timestamp: 2018-02-06 14:38:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291737
+  text: Narrative I/O | New York, NY | Full-time | ONSITE, REMOTE
+  timestamp: 2018-02-02 16:23:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288959
+  text: SPOTIFY | iOS & Android Engineers | Mid or senior | Stockholm/Gothenburg,
+    Sweden | Onsite only | Visa Sponsorship | Full-time
+  timestamp: 2018-02-02 07:12:29.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287084
+  text: athenahealth () | Austin, TX | Full-time | Onsite | Dev, Architect, Dev-Manager,
+    UX/Design
+  timestamp: 2018-02-01 23:54:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283693
+  text: FanThreeSixty | Lead/Senior Software Developer | Austin, TX | ONSITE
+  timestamp: 2018-02-01 17:24:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288356
+  text: Canva | Sydney, Australia, VISA, Onsite
+  timestamp: 2018-02-02 04:14:38.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285769
+  text: "Wildcard | Sydney, Australia | Fulltime | ONSITE | \nWildcard is building
+    an alternative to traditional banks, mobile only, and with products - not just
+    UI - designed for those under 30, by people who are under 30. We're the sort of
+    company that does actually give a fuck about inequality, that experiments with
+    things like open salaries, and believes revenue is the best indicator of traction.
+    We've just raised a series A round, have our embarrassing MVP in the app store,
+    and are looking to build out an engineering team to take the load off the founders."
+  timestamp: 2018-02-01 20:52:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283309
+  text: Nudge Rewards | Entreprise Employee Engagement | Toronto ON | On-site
+  timestamp: 2018-02-01 16:49:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291738
+  text: BloomReach | Backend Engineer | Dallas, TX | Full time | Onsite
+  timestamp: 2018-02-02 16:23:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288887
+  text: |-
+    eBay |  | San Jose | Software Engineer (backend) | Full time | Onsite
+    We are looking for 4 back-end software engineers(all levels) to work in Risk product development team, which is responsible for managing seller and buyer risk in eBay marketplace. Our core product is a decisioning platform that handles ~ 200 M requests per day integrating with all major flows on eBay.
+  timestamp: 2018-02-02 06:50:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288996
+  text: GUTS Tickets | Junior .. Senior Full stack developer | Amsterdam, The Netherlands
+    | ONSITE €35k-€60k p.a. depending on experience, part-time/full-time, ESOP/token
+    plan available.
+  timestamp: 2018-02-02 07:23:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285227
+  text: Homesnap | Washington DC Metro Area | ONSITE
+  timestamp: 2018-02-01 19:51:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285968
+  text: Olo | Multiple jobs available (see below) | Full-time| REMOTE or ONSITE (NYC)
+  timestamp: 2018-02-01 21:14:39.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16302982
+  text: mystride | iOS Developer | Remote | Minnesota, USA | $40K + 10% Equity
+  timestamp: 2018-02-04 15:06:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283583
+  text: Micro:bit Educational Foundation | Lead Developer - website and services (fullstack)
+    | Oxford, UK | ONSITE with flexibility, Full-time
+  timestamp: 2018-02-01 17:12:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16291966
+  text: Truveris | Backend Engineers | Raleigh, NC | Full Time | On-site with WFH
+    flexibility
+  timestamp: 2018-02-02 16:48:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284017
+  text: Microsoft | Software Engineers | Bellevue, WA | ONSITE | Full Time
+  timestamp: 2018-02-01 17:58:52.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283502
+  text: ''
+  timestamp: 2018-02-01 17:06:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285600
+  text: Dave.com is hiring senior engineers in LA.
+  timestamp: 2018-02-01 20:34:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285462
+  text: admetrics | Junior and Senior Python engineers | Frankfurt, Germany | FULL-TIME,
+    VISA OR REMOTE
+  timestamp: 2018-02-01 20:17:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16299480
+  text: 'SpankChain (ethereum + porn) is hiring:'
+  timestamp: 2018-02-03 20:33:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283512
+  text: NoRedInk | Back-End, Front-End, Full-Stack, and Site Reliability Engineers
+    | San Francisco, CA | REMOTE Pacific Time (PST) to Central European Time (CET)
+  timestamp: 2018-02-01 17:07:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285760
+  text: Jobcase | Boston/Cambridge MA | onsite | full time
+  timestamp: 2018-02-01 20:51:55.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285272
+  text: FocusVision | Portland, OR | ONSITE - Full-time | Senior Software Engineer
+    | $80k - $120k
+  timestamp: 2018-02-01 19:56:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287267
+  text: "keywords: REMOTE, CLEARANCE -- \nOPM Background Investigators --"
+  timestamp: 2018-02-02 00:27:30.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16293374
+  text: San Francisco, Ca. Front-End Engineer- Full Time- Onsite
+  timestamp: 2018-02-02 19:17:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283658
+  text: Poki —  | Amsterdam | Onsite | Full-Time
+  timestamp: 2018-02-01 17:20:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288145
+  text: Hail @ Broad Institute of MIT and Harvard | Software Engineer / Senior / Principal
+    | Boston, MA | ONSITE, , SALARY:$80k-200k
+  timestamp: 2018-02-02 03:20:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282984
+  text: Coveo | GDPR Expert | Montreal, Quebec City, Toronto, Ottawa & New York, Chicago,
+    Austin, Boston | Full-time, ONSITE OR REMOTE
+  timestamp: 2018-02-01 16:16:02.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287876
+  text: Preferred Networks | AI Researchers & Engineers | Tokyo and Berkeley | ONSITE,
+    VISA,
+  timestamp: 2018-02-02 02:18:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284778
+  text: understand.ai - AI-powered training & verification data for Autonomous driving
+  timestamp: 2018-02-01 19:10:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284786
+  text: understand.ai - AI-powered training data for autonomous driving
+  timestamp: 2018-02-01 19:10:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16303222
+  text: mystride | iOS Developer | Remote | Minnesota, USA | $40K + 10% Equity
+  timestamp: 2018-02-04 15:58:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16300028
+  text: |-
+    let location = "remote"
+    let position = "ios developer"
+    let company = "mystride.co"
+    let compensation = "$50K + 10% equity"
+  timestamp: 2018-02-03 22:22:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287674
+  text: Worldwide, REMOTE, full time or part time -- 100% flexibility. $70-100/hr.
+    Expert Interviewer at Karat ()
+  timestamp: 2018-02-02 01:39:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287133
+  text: Lightning Labs | Crypto Protocol Engineer, Frontend Developer | Remote | Fulltime
+  timestamp: 2018-02-02 00:04:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286925
+  text: GitHub | San Francisco, CA (HQ); Boulder, CO; Amsterdam; Tokyo; Remote (65%)
+    | Onsite and Remote-OK
+  timestamp: 2018-02-01 23:26:10.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283792
+  text: Compass | Many Roles - Sr. Engineers, Product Managers, Marketing & More |
+    New York City | Full-time, Onsite
+  timestamp: 2018-02-01 17:34:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282849
+  text: Pivotal | Engineers, Designers, Product Managers, Pre/Post-Sales Engineers,
+    Ops, Sales, Admin | Locations worldwide | ONSITE
+  timestamp: 2018-02-01 16:04:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282845
+  text: Relayr | Berlin/Munich| ONSITE | Full time
+  timestamp: 2018-02-01 16:03:26.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289306
+  text: Clipo Inc. | iOS Engineer | Full-time | ONSITE | Krakow, Poland
+  timestamp: 2018-02-02 08:55:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16312014
+  text: Strava | San Francisco, CA and Denver, CO | Full-Time, Onsite
+  timestamp: 2018-02-05 20:46:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16294505
+  text: Eaze | San Francisco, CA | Full-Time, Onsite
+  timestamp: 2018-02-02 21:53:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16292329
+  text: Auth0 () | Seattle - Buenos Aires - Remote | Full-time | Engineering
+  timestamp: 2018-02-02 17:31:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16290446
+  text: ResearchGate | Berlin, Germany | Visa | Onsite
+  timestamp: 2018-02-02 13:48:42.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289795
+  text: |-
+    Head of Digital Product | NewsNow.co.uk | London, UK  | Full-time, permanent
+    Designer/Developer | NewsNow.co.uk | London, UK  | Full-time, permanent
+    Web Developers / Full Stack Developers / News Algorithm Developers / Back End Software Engineers | NewsNow.co.uk | 100% remote (UK residents only) | Full-time, permanent
+  timestamp: 2018-02-02 11:34:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289418
+  text: BookingGo (part of booking.com) | Java and Node Developers | Manchester, UK
+    |  | ONSITE
+  timestamp: 2018-02-02 09:28:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287063
+  text: 10x Genomics | Software Engineer | San Francisco & Pleasanton, CA | Onsite,
+    10xgenomics.com
+  timestamp: 2018-02-01 23:49:15.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286233
+  text: StackShare | Full-time | San Francisco
+  timestamp: 2018-02-01 21:47:20.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286046
+  text: |-
+    Chesapeake Technology Intl. (
+    CTI is building the next-generation cyber and electronic warfare platform comprising hardware, firmware, software, and user interfaces. We are a rapidly growing company, with remote work policies and flexible schedules. We offer competitive salaries and an excellent benefits package. CTI's platform extends beyond Electronic Warfare-related hardware and software. Data management, from collection to transfer to storage and analysis, is a critical element in transforming information into actionable and intuitive visual intelligence. The mid-level Software Engineer is a position that will work as part of a team to architect, implement, and deploy innovative technologies to support both military and commercial users. We strive to use the right technology for a given problem and foster a learning environment.
+  timestamp: 2018-02-01 21:25:03.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285590
+  text: Rover | Seattle, WA | Onsite | Full-Time
+  timestamp: 2018-02-01 20:32:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285404
+  text: Endjin | UK | Azure
+  timestamp: 2018-02-01 20:10:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285202
+  text: G Adventures | Toronto, Canada | Full-Time, Onsite
+  timestamp: 2018-02-01 19:49:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283969
+  text: HealthRhythms | Backend Engineer, Full-Stack Engineer & Data Scientist | New
+    York City | ONSITE
+  timestamp: 2018-02-01 17:54:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283924
+  text: Envoy | All types of software engineering jobs | San Francisco, CA | Full-time
+    | ONSITE, REMOTE
+  timestamp: 2018-02-01 17:49:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283506
+  text: Drop Technologies Inc |  | Toronto, ON, Canada | ONSITE Full-time
+  timestamp: 2018-02-01 17:06:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283008
+  text: Container Solutions | Amsterdam, Berlin, London, Zurich | ONSITE | FULLTIME
+    | container-solutions.com
+  timestamp: 2018-02-01 16:18:05.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282972
+  text: Coveo | Product Specialist - Technical Support | Montreal & Quebec City, Canada
+    | Full-time, ONSITE
+  timestamp: 2018-02-01 16:15:11.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282869
+  text: Expensify - Portland, OR, San Francisco, CA - Full Stack Engineer, Infrastructure
+    Engineer, Mobile Engineer
+  timestamp: 2018-02-01 16:05:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16331233
+  text: optile in Munich, Germany (noremote (well, a little bit of remote work is
+    already possible), fulltime) - Java, React.JS, Internal IT Sysadmin
+  timestamp: 2018-02-08 10:06:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283833
+  text: Software Engineer @ Splunk (splunk.com) | SF, San Jose, Vancouver, UK (pretty
+    much everywhere -- just ask) | ONSITE | Full-time
+  timestamp: 2018-02-01 17:40:08.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284555
+  text: Interfacing () | Software Developer| Montreal | Onsite
+  timestamp: 2018-02-01 18:51:09.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284971
+  text: |-
+    I'm going to add some roles to what my colleague posted to cover more Product and SRE orientated roles. In general, we are looking for folks that have an entrepreneurial mindset.
+    All based in Amsterdam except for one in Seattle and one in Shanghai:
+  timestamp: 2018-02-01 19:26:32.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288294
+  text: "> An incredibly hard worker, even when it’s not so fun. There is a ton of
+    work to do, and a lot of it downright sucks."
+  timestamp: 2018-02-02 03:57:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288516
+  text: Interviewed here a few years ago and wouldn't recommend it. The interviewer
+    I spoke with only wanted one solution (which they had conceived) to a problem
+    they had and became very defensive when I explained potential engineering issues
+    with their proposed solution and provided alternatives. Not very open to new ideas
+    unless it's coming from the top level.
+  timestamp: 2018-02-02 04:54:37.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285058
+  text: I'm disappointed by how few salary ranges I'm seeing in the job postings this
+    month. I've gone through and upvoted those who mention it, and I hope others do
+    too. Make sure to search for $, €, and £.
+  timestamp: 2018-02-01 19:32:57.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288503
+  text: For anyone considering any of these jobs I wouldn't recommend spending too
+    much time on the application process as they do not respond in the positive or
+    negative and leave you in limbo.
+  timestamp: 2018-02-02 04:51:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288563
+  text: I mail you every month. I have never got a response yet. Hopefully some day.
+  timestamp: 2018-02-02 05:09:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283290
+  text: "| Growth Strategy for YC co's | We train you | $85,000/yr USD or $105,000/yr
+    CAD | Remote (US or Canada)"
+  timestamp: 2018-02-01 16:47:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286097
+  text: How are you all making money? Is this (  ) still the plan?
+  timestamp: 2018-02-01 21:30:48.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288281
+  text: 'SpankChain is also hiring:'
+  timestamp: 2018-02-02 03:55:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16284369
+  text: 'I wrote a script that will upvote all job postings containing a salary range:'
+  timestamp: 2018-02-01 18:30:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16287246
+  text: How come no jobs in Sydney? :/
+  timestamp: 2018-02-02 00:23:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16314958
+  text: Plivo Communications | Bengaluru
+  timestamp: 2018-02-06 07:53:31.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16297097
+  text: |-
+    Multiple roles around the world
+
+    (including NLP/IR/ML research)
+  timestamp: 2018-02-03 10:48:59.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283448
+  text: 'onedot.cc | Data Preparation Expert / Data analyst | Zurich | SALARY: 90k-120k
+    CHF | ONSITE | EU-Passport holders only'
+  timestamp: 2018-02-01 17:01:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283258
+  text: 'Quatico.tech | Java Backend or Full-stack or Frontend | Zurich | SALARY:
+    90k-120k CHF | ONSITE | EU-Passport holders only or eligible to work in Switzerland'
+  timestamp: 2018-02-01 16:42:35.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289461
+  text: ROOMHERO | Backend Developer, Frontend Developer | Frankfurt, Germany | Full-Time
+    | ONSITE
+  timestamp: 2018-02-02 09:42:00.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16289477
+  text: App Annie | Utrecht, The Netherlands (close to Amsterdam) | FULL-TIME | ONSITE
+    | Multiple positions
+  timestamp: 2018-02-02 09:46:40.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16325300
+  text: I am humble to a fault just to end up with a cheating husband. As soon i saw
+    the signs, i was able to get a PI who recommended me to spiderwebhhack@gmail.com
+    who helped me hack my ex-husband internet habits. he hacked my ex-husband email,
+    phone calls, text msg , icloud and dating websites and found the truth about him.
+    I am happy he is now gone from my life. thanks to spiderwebhhack@gmail.com for
+    helping me. Am sure someone out there is looking for how to solve his relationship
+    problems, contact him at spiderwebhhack@gmail.com, and am sure he will help you
+    too. tell him i refered you.
+  timestamp: 2018-02-07 15:59:56.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16315971
+  text: Fy! | Berlin, Germany | Full-time, Onsite
+  timestamp: 2018-02-06 13:03:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16309031
+  text: We Got POP | Lead fullstack developer (JS/Python/AWS) | Shoreditch, London,
+    UK | ONSITE | Full-time
+  timestamp: 2018-02-05 14:48:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16334491
+  text: Apiwin | Heidelberg, Germany | CTO & Co-founder 50% Eq. | Remote or onsite
+  timestamp: 2018-02-08 18:47:17.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285341
+  text: 'Site Reliability Engineer, Machine learning driven hedge fund | New York,
+    Chicago, SF, London | Onsite | Full-­time | Comp: Up to $600k+ depending on exp.'
+  timestamp: 2018-02-01 20:03:12.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16331855
+  text: Nominet's growing Emerging Technology team are looking for brilliant software
+    engineers in London to help develop cloud-based products in the wireless communications
+    space.
+  timestamp: 2018-02-08 13:16:07.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16340504
+  text: Raconteur | full-time developer position onsite | London (E1)
+  timestamp: 2018-02-09 14:46:53.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285505
+  text: "| Growth Strategy for YC co's | We train you | $85,000/yr USD or $105,000/yr
+    CAD | Remote (US or Canada)"
+  timestamp: 2018-02-01 20:21:58.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285567
+  text: Nested.com | Various roles | London | ONSITE | Full time| Right to work in
+    UK
+  timestamp: 2018-02-01 20:29:51.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285718
+  text: I am looking for a Biomedical Engineering position in Florida, full time and
+    onsite. I have a MS in Biomedical Engineering.
+  timestamp: 2018-02-01 20:47:45.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285441
+  text: Vestmark is hiring a Software Engineer in Boston, MA, Wakefield, MA(s). We
+    are a Pre-IPO startup!
+  timestamp: 2018-02-01 20:15:23.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285692
+  text: Org | NYC, Zug, World | Blockchain, AI, Financial Engineering, P2P | ONSITE,
+    REMOTE
+  timestamp: 2018-02-01 20:45:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16297101
+  text: Hi,
+  timestamp: 2018-02-03 10:50:24.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16286662
+  text: SlashData| Technology Lead|Remote or Athens Based
+  timestamp: 2018-02-01 22:43:14.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285631
+  text: Teachers Pay Teachers| NYC (New York City) | ONSITE, REMOTE | Full-Time
+  timestamp: 2018-02-01 20:38:50.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16288474
+  text: Bitt Digital | Bridgetown, Barbados | FULLTIME REMOTE | Lead Engineer & Lead
+    DevOps Engineer
+  timestamp: 2018-02-02 04:43:16.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16282958
+  text: Oscar Insurance is a startup using technology, data & design to change the
+    way people find and access care. We are disrupting the healthcare industry by
+    putting people first, not business and cost.
+  timestamp: 2018-02-01 16:13:25.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285232
+  text: Apple | Apple Pay SRE | London | Onsite | Fulltime
+  timestamp: 2018-02-01 19:52:01.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285220
+  text: MBition | Software Engineers | Berlin, Germany | ONSITE | mbition.io
+  timestamp: 2018-02-01 19:51:06.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16283864
+  text: Prodo.AI | London, UK | Full-time | ONSITE
+  timestamp: 2018-02-01 17:43:34.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16285549
+  text: "(stealth start-up) | Business partner | Anywhere US | Part-time OK | REMOTE
+    (US-only) | up to 50% equity"
+  timestamp: 2018-02-01 20:27:28.000000000 +00:00
+- !ruby/object:JobAd
+  id: 16339417
+  text: Horizon State | Melbourne AU, Wellington NZ | Full time/Contract | Onsite
+    & Remote.
+  timestamp: 2018-02-09 11:26:41.000000000 +00:00

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../src/app'
+
+require 'yaml'
+
+logger = Logger.new($stderr)
+
+$stdout.write(YAML.dump(JobFetcher.new('16282819', logger).get))

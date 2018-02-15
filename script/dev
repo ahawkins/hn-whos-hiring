@@ -2,8 +2,12 @@
 
 set -euo pipefail
 
-if make -q Gemfile.lock; then
+if ! make -q Gemfile.lock &> /dev/null; then
 	make Gemfile.lock
+fi
+
+if ! make -q fixtures.yml &> /dev/null; then
+	make fixtures.yml
 fi
 
 docker-compose build tests

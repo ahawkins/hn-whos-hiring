@@ -35,9 +35,8 @@ test-image: $(ENVIRONMENT)
 test-smoke: $(ENVIRONMENT)
 	@docker-compose run --rm smoke
 
-.PHONY: playground
-playground: $(ENVIRONMENT)
-	@docker-compose run --rm tests test/play.rb
+fixtures.yml: $(ENVIRONMENT)
+	@docker-compose run -T --rm tests script/generate-fixtures > $@
 
 .PHONY: test-ci
 test-ci: test-smoke test-image
