@@ -1,5 +1,5 @@
-body {
-	font-family: monospace;
+li.job {
+	margin: 0.25em 0
 }
 
 li.job a,
