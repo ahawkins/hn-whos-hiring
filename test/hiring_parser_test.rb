@@ -5,7 +5,7 @@ class HiringParserTest < MiniTest::Test
     JobAd.from_hn({
       'id' => id,
       'text' => text,
-      'imestamp' => Time.now
+      'time' => Time.now
     })
   end
 

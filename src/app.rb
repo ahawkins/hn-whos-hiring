@@ -41,6 +41,7 @@ class JobAd
     def from_hn(data)
       new.tap do |job|
         job.id = data.fetch('id')
+        job.timestamp = Time.at(data.fetch('time'))
         job.text = data.fetch('text').
           split('<p>').
           first.
@@ -81,7 +82,7 @@ class JobFetcher
     parent_response = parent_connection.request method: :get, expects: [ 200 ]
 
     child_ids = JSON.parse(parent_response.body).fetch('kids')
-    jobs = Parallel.map(child_ids.shuffle[0..50], in_threads: 4) do |id|
+    jobs = Parallel.map(child_ids, in_threads: 4) do |id|
       child_connection = client.new("https://hacker-news.firebaseio.com/v0/item/#{id}.json?print=pretty")
       child_response = child_connection.request method: :get, expects: [ 200 ]
       data = JSON.parse(child_response.body)

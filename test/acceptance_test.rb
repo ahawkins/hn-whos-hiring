@@ -53,6 +53,10 @@ class AcceptanceTest < MiniTest::Test
     assert_results 1
 
     assert_job_id 2
+
+    click_all_jobs
+
+    assert_results 2
   end
 
   private
@@ -73,5 +77,9 @@ class AcceptanceTest < MiniTest::Test
 
   def click_remote
     find('#remote-only').click
+  end
+
+  def click_all_jobs
+    find('#all-jobs').click
   end
 end
