@@ -16,4 +16,5 @@ group :development do
 	gem 'minitest', '~> 5.11.3'
 	gem 'rack-test', '~> 0.8.2'
 	gem 'rubocop', '~> 0.52.1'
+	gem 'webmock', '~> 3.3.0'
 end

@@ -8,6 +8,7 @@ require 'logger/better'
 require 'minitest/autorun'
 require 'rack/test'
 require 'capybara/dsl'
+require 'webmock/minitest'
 
 Capybara.app = WebServer
 

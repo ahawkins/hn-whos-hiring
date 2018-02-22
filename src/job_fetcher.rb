@@ -1,24 +1,26 @@
+require 'logger'
 require 'excon'
 require 'parallel'
+require 'json'
 
 class JobFetcher
-  # USER_ID = 'whoshiring'
-  # ITEM = '16282819'
-  #
+  class ExconClient
+    def get(url)
+      JSON.parse(Excon.new(url).request(method: :get, expects: [ 200 ]).body)
+    end
+  end
+
   def initialize(item, logger = Logger.new($stderr))
     @item = item
     @logger = logger
   end
 
-  def get(client = Excon)
-    parent_connection = client.new("https://hacker-news.firebaseio.com/v0/item/#{item}.json?print=pretty")
-    parent_response = parent_connection.request method: :get, expects: [ 200 ]
+  def get(client = ExconClient.new, threads: 4)
+    parent = client.get("https://hacker-news.firebaseio.com/v0/item/#{item}.json")
 
-    child_ids = JSON.parse(parent_response.body).fetch('kids')
-    jobs = Parallel.map(child_ids, in_threads: 4) do |id|
-      child_connection = client.new("https://hacker-news.firebaseio.com/v0/item/#{id}.json?print=pretty")
-      child_response = child_connection.request method: :get, expects: [ 200 ]
-      data = JSON.parse(child_response.body)
+    child_ids = parent.fetch('kids')
+    jobs = Parallel.map(child_ids, in_threads: threads) do |id|
+      data = client.get("https://hacker-news.firebaseio.com/v0/item/#{id}.json")
 
       if data.nil?
         logger.info(self.class) { "#{id} did not parse into JSON" }
@@ -44,4 +46,3 @@ class JobFetcher
     @item
   end
 end
-
