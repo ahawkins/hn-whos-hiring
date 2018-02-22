@@ -6,7 +6,23 @@ class AcceptanceTest < MiniTest::Test
 
   CLOCK = Time.now
 
-  def test_simple_case
+  def test_display_of_welformed_job
+    repo << JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary<p>More',
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
+  def test_display_of_job_without_title
     repo << JobAd.new({
       id: 1,
       text: 'Foo | Bar',
@@ -22,16 +38,32 @@ class AcceptanceTest < MiniTest::Test
     end
   end
 
+  def test_long_malformed_jobs_are_truncated
+    repo << JobAd.new({
+      id: 1,
+      text: 'Lorem Ipsum' * 500,
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert link.text.end_with?('...'), 'No truncation'
+    end
+  end
+
   def test_remote_only_job_filter
     repo << JobAd.new({
       id: 1,
-      text: 'Foo | Bar',
+      text: 'Foo | Bar | ONSITE | $60k',
       timestamp: CLOCK
     })
 
     repo << JobAd.new({
       id: 2,
-      text: 'Foo | Bar | REMOTE',
+      text: 'Foo | Bar | REMOTE | $100k<p>More',
       timestamp: CLOCK
     })
 

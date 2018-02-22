@@ -60,7 +60,14 @@ class WebServer < Sinatra::Base
       jobs.each do |job|
         maker.items.new_item do |item|
           item.link = job.link
-          item.title = job.to_s
+
+          if job.title?
+            item.title = job.title
+          else
+            item.title = truncate(job.text)
+          end
+
+          item.description = job.text
           item.updated = job.timestamp.to_s
           item.guid.content = job.id
         end

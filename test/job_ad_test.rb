@@ -9,54 +9,49 @@ class HiringParserTest < MiniTest::Test
     })
   end
 
-  def test_remote_flag_parsing
+  def test_parsing_scenarios
     [
-      [ %Q{Uncountable | Machine Learning Engineers | San Francisco (Onsite) | $150k-220k & Enterprise Sales | San Francisco (Onsite) | $70-120k + Commission}, false ],
-      [ %{Shogun (YC W18) | Mid-Senior Full Stack Engineer | REMOTE, ON SITE (SF) | https://getshogun.com | $100-$140k + generous equity}, true ]
-    ].each do |(text, result)|
+      [ %{Company | Title | Location | $100k<p>Bar},
+        { title: 'Company | Title | Location | $100k', remote: false }
+      ],
+      [ %{Company | Title | REMOTE | $100k<p>Bar},
+        { title: 'Company | Title | REMOTE | $100k', remote: true }
+      ],
+      [
+        # Skips texts without properly formatted first line
+        %{Malformed long lorem ipsum post without paragraphs},
+        { title: nil, remote: false }
+      ],
+      [
+        # Strips links
+        %{Foo | Bar | Baz | <a href="https:&#x2F;&#x2F;alloy.ai" rel="nofollow">https:&#x2F;&#x2F;alloy.ai</a><p>Description},
+        { title: 'Foo | Bar | Baz', remote: false }
+      ],
+      [
+        # Decodes HTML Entities in title
+        %{The Farmer&#x27;s Dog | Title | Location | $100k<p>Description},
+        { title: "The Farmer's Dog | Title | Location | $100k", remote: false }
+      ],
+      [
+        # Skips title for entires without proper header in first paragraph
+        %{Some random text<p>followed by more random text},
+        { title: nil, remote: false }
+      ]
+    ].each do |(text, output)|
       job = parse({
         text: text
       })
 
-      assert job.remote? == result, "#{text} parsed incorrectly"
+      assert_equal text, job.to_s, "#{text} parse failure"
+      assert job.remote? == output.fetch(:remote), "#{text} parse failure"
+
+      if output.fetch(:title)
+        assert job.title?, "#{text} to title parse failure"
+        assert_equal output.fetch(:title), job.title, "#{text} to title parse failure"
+      else
+        refute job.title?, "#{text} to title parse failure"
+        assert_nil job.title, "#{text} to title parse failure"
+      end
     end
-  end
-
-  def test_lops_off_trailing_pipe
-    job = parse({
-      text: 'Company | Position | Location | Tags | Salary |<p>Junk'
-    })
-
-    assert_equal 'Company | Position | Location | Tags | Salary', job.text
-
-    job = parse({
-      text: 'Company | Position | Location | Tags | Salary |'
-    })
-
-    assert_equal 'Company | Position | Location | Tags | Salary', job.text
-  end
-
-  def test_lops_off_extra_paragraphs
-    job = parse({
-      text: 'Company | Position | Location | Tags | Salary<p>Junk'
-    })
-
-    assert_equal 'Company | Position | Location | Tags | Salary', job.text
-  end
-
-  def test_strips_links_from_text
-    job = parse({
-      text: %Q{foo <a href="https:&#x2F;&#x2F;alloy.ai" rel="nofollow">https:&#x2F;&#x2F;alloy.ai</a>}
-    })
-
-    assert_equal 'foo', job.to_s
-  end
-
-  def test_converts_html_entities
-    job = parse({
-      text: 'The Farmer&#x27;s Dog'
-    })
-
-    assert_equal %Q{The Farmer's Dog}, job.to_s
   end
 end

@@ -33,12 +33,14 @@ class MongoRepoTest < MiniTest::Test
       text: 'J1',
       timestamp: CLOCK - 1
     })
+    refute job_1.remote?
 
     job_2 = JobAd.new({
       id: 2,
-      text: 'J1 | REMOTE',
+      text: 'Company | Position | REMOTE | $100k<p>More',
       timestamp: CLOCK
     })
+    assert job_2.remote?
 
     repo << job_1 << job_2
 
