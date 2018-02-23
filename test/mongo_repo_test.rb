@@ -37,7 +37,7 @@ class MongoRepoTest < MiniTest::Test
 
     job_2 = JobAd.new({
       id: 2,
-      text: 'J1 | REMOTE',
+      text: 'J2 | REMOTE',
       timestamp: CLOCK
     })
     assert job_2.remote?
@@ -54,6 +54,38 @@ class MongoRepoTest < MiniTest::Test
 
     assert_equal 1, results.size
     assert_equal job_2, results[0]
+  end
+
+  def test_query_with_remote_and_keyword
+    job_1 = JobAd.new({
+      id: 1,
+      text: 'J1',
+      timestamp: CLOCK - 1
+    })
+    refute job_1.remote?
+
+    job_2 = JobAd.new({
+      id: 2,
+      text: 'J2 | REMOTE',
+      timestamp: CLOCK
+    })
+    assert job_2.remote?
+
+    repo << job_1 << job_2
+
+    results = repo.query({ remote_only: false, keyword: 'J1' })
+
+    assert_equal 1, results.size
+    assert_equal job_1, results[0]
+
+    results = repo.query({ remote_only: true, keyword: 'J2' })
+
+    assert_equal 1, results.size
+    assert_equal job_2, results[0]
+
+    results = repo.query({ remote_only: true, keyword: 'J1' })
+
+    assert_empty results
   end
 
   def test_pushing_works_like_upsert

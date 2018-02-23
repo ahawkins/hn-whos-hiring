@@ -128,7 +128,7 @@ class RSSTest < MiniTest::Test
     repo << job << remote_job
 
     get_rss do |feed, items|
-      assert_equal 2, item.size
+      assert_equal 2, items.size
       assert_feed_item remote_job, items[0]
       assert_feed_item job, items[1]
     end
@@ -136,6 +136,27 @@ class RSSTest < MiniTest::Test
     get_rss filter: :remote do |feed, items|
       assert_equal 1, items.size
       assert_feed_item remote_job, items[0]
+    end
+  end
+
+  def test_keyword
+    job_a = JobAd.new({
+      id: 1,
+      text: 'Foo',
+      timestamp: CLOCK
+    })
+
+    job_b = JobAd.new({
+      id: 2,
+      text: 'Bar',
+      timestamp: CLOCK + 1
+    })
+
+    repo << job_a << job_b
+
+    get_rss q: 'Bar' do |feed, items|
+      refute_equal 1, items.size
+      assert_feed_item job_b, items[0]
     end
   end
 
@@ -166,7 +187,7 @@ class RSSTest < MiniTest::Test
       assert_equal 'application/rss+xml;charset=utf-8', last_response['Content-Type']
     end
 
-    feed = RSS::Parser.parse(last_response.body) do |feed|
+    feed = RSS::Parser.parse(last_response.body).tap do |feed|
       yield feed, feed.items if block_given?
     end
 

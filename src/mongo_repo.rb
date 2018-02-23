@@ -12,6 +12,9 @@ class MongoRepo
       timestamp: -1,
       remote: 1
     })
+    client[COLLECTION].indexes.create_one({
+      text: 'text'
+    })
   end
 
   def clear
@@ -33,14 +36,16 @@ class MongoRepo
     self
   end
 
-  def query(remote_only: false)
-    if remote_only
-      marshal(client[COLLECTION].find({
-        remote: true
-      }).sort({ timestamp: -1 }))
-    else
-      marshal(client[COLLECTION].find.sort({ timestamp: -1 }))
+  def query(remote_only: false, keyword: nil)
+    options = { }
+
+    options[:remote] = true if remote_only
+
+    if keyword
+      options['$text'] = { '$search' => keyword }
     end
+
+    marshal(client[COLLECTION].find(options).sort({ timestamp: -1 }))
   end
 
   private

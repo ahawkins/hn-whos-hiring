@@ -44,11 +44,20 @@ class WebServer < Sinatra::Base
     def all_jobs?
       !remote_only?
     end
+
+    def keyword
+      if params.fetch('q', '').empty?
+        nil
+      else
+        params.fetch('q')
+      end
+    end
   end
 
   get '/' do
     @jobs = repo.query({
-      remote_only: remote_only?
+      remote_only: remote_only?,
+      keyword: keyword
     })
 
     erb(:index)

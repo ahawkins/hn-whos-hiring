@@ -42,6 +42,7 @@
 								<option value="all" <%= all_jobs? ? 'selected' : nil %>>All</option>
 								<option value="remote" <%= remote_only? ? 'selected' : nil %>>Remote</option>
 							</select>
+							<input type="text" class="form-control" id="keyword" name="q" aria-label="Keywords" placeholder="Keywords..." value="<%= keyword %>">
 							<div class="input-group-append">
 								<button class="btn btn-outline-primary" type="submit" formaction="/" formmethod="get" id="get-jobs">Go</button>
 								<button class="btn btn-outline-secondary" type="submit" formaction="/rss" formmethod="get" id="subscribe">Subscribe</button>

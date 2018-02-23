@@ -8,15 +8,16 @@ class FakeRepo < DelegateClass(Array)
     super([ ])
   end
 
-  def query(remote_only: false)
-    if remote_only
-      select(&:remote?).sort do |j1, j2|
-        j2.timestamp <=> j1.timestamp
-      end
-    else
-      sort do |j1, j2|
-        j2.timestamp <=> j1.timestamp
-      end
+  def query(remote_only: false, keyword: nil)
+    select do |job|
+      flag = true
+
+      flag &&= job.remote? if remote_only
+      flag &&= job.text.include?(keyword) if keyword
+
+      flag
+    end.sort do |j1, j2|
+      j2.timestamp <=> j1.timestamp
     end
   end
 end

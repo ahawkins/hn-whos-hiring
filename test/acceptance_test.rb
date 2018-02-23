@@ -150,6 +150,30 @@ class AcceptanceTest < MiniTest::Test
     end
   end
 
+  def test_keyword
+    repo << JobAd.new({
+      id: 1,
+      text: 'Job_A | ONSITE | $60k',
+      timestamp: CLOCK
+    })
+
+    repo << JobAd.new({
+      id: 2,
+      text: 'Job_B | REMOTE | $100k',
+      timestamp: CLOCK
+    })
+
+    open_homepage
+
+    assert_results 2
+
+    search_for 'Job_B'
+    assert_keyword 'Job_B'
+
+    assert_results 1
+    assert_job_id 2
+  end
+
   def test_remote_only_job_filter
     repo << JobAd.new({
       id: 1,
@@ -208,6 +232,11 @@ class AcceptanceTest < MiniTest::Test
     click_button('get-jobs')
   end
 
+  def search_for(query)
+    fill_in('keyword', with: query)
+    click_button('get-jobs')
+  end
+
   def assert_all_jobs_selected
     assert has_select?('job-filter', selected: 'All'), 'All filter incorrect'
   end
@@ -222,5 +251,9 @@ class AcceptanceTest < MiniTest::Test
 
   def refute_remote_only_selected
     refute has_select?('job-filter', selected: 'Remote'), 'Remote filter incorrect'
+  end
+
+  def assert_keyword(query)
+    assert_equal query, find('#keyword').value
   end
 end
