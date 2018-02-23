@@ -52,7 +52,7 @@
 					<ul>
 						<% @jobs.each do |job| %>
 							<li class="job">
-								<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%=h(job.title? ? job.title : truncate(job.to_s)) %></a>
+								<date><%= job.timestamp.strftime("%Y-%m-%d") %></date> - <a id="job-<%= job.id %>" href="<%= job.link %>"><%= html_encode(titleize(job)) %></a>
 							</li>
 						<% end %>
 					</ul>

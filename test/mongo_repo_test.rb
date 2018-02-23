@@ -37,7 +37,7 @@ class MongoRepoTest < MiniTest::Test
 
     job_2 = JobAd.new({
       id: 2,
-      text: 'Company | Position | REMOTE | $100k<p>More',
+      text: 'J1 | REMOTE',
       timestamp: CLOCK
     })
     assert job_2.remote?

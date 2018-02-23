@@ -11,11 +11,24 @@ class HiringParserTest < MiniTest::Test
 
   def test_parsing_scenarios
     [
-      [ %{Company | Title | Location | $100k<p>Bar},
+      [
+        %{Company | Title | Location | $100k<p>Bar},
         { title: 'Company | Title | Location | $100k', remote: false }
       ],
-      [ %{Company | Title | REMOTE | $100k<p>Bar},
+      [
+        # Remote in title
+        %{Company | Title | REMOTE | $100k<p>Bar},
         { title: 'Company | Title | REMOTE | $100k', remote: true }
+      ],
+      [
+        # Remote outside title
+        %{Company | Title | $100k<p>Bar, REMOTE},
+        { title: 'Company | Title | $100k', remote: true }
+      ],
+      [
+        # Splits title by \n as well
+        %{Company | Title | REMOTE | $100k\nBar},
+        { title: 'Company | Title | REMOTE | $100k' }
       ],
       [
         # Skips texts without properly formatted first line
@@ -23,34 +36,27 @@ class HiringParserTest < MiniTest::Test
         { title: nil, remote: false }
       ],
       [
-        # Strips links
-        %{Foo | Bar | Baz | <a href="https:&#x2F;&#x2F;alloy.ai" rel="nofollow">https:&#x2F;&#x2F;alloy.ai</a><p>Description},
-        { title: 'Foo | Bar | Baz', remote: false }
-      ],
-      [
-        # Decodes HTML Entities in title
-        %{The Farmer&#x27;s Dog | Title | Location | $100k<p>Description},
+        # Decodes HTML Entities
+        %{The Farmer&#x27;s Dog | Title | Location | $100k\nMore},
         { title: "The Farmer's Dog | Title | Location | $100k", remote: false }
-      ],
-      [
-        # Skips title for entires without proper header in first paragraph
-        %{Some random text<p>followed by more random text},
-        { title: nil, remote: false }
       ]
     ].each do |(text, output)|
       job = parse({
         text: text
       })
 
-      assert_equal text, job.to_s, "#{text} parse failure"
-      assert job.remote? == output.fetch(:remote), "#{text} parse failure"
+      assert_equal HTMLEntities.new.decode(text), job.to_s, "#{text} parse failure"
 
-      if output.fetch(:title)
-        assert job.title?, "#{text} to title parse failure"
-        assert_equal output.fetch(:title), job.title, "#{text} to title parse failure"
+      if output.key?(:remote)
+        assert job.remote? == output.fetch(:remote), "#{text} parse failure"
+      end
+
+      if output.fetch(:title).nil?
+        refute job.title?, "#{text} set title"
+        assert_nil job.title, "#{text} set title"
       else
-        refute job.title?, "#{text} to title parse failure"
-        assert_nil job.title, "#{text} to title parse failure"
+        assert job.title?, "#{text} title parse failure"
+        assert_equal output.fetch(:title), job.title, "#{text} title parse failure"
       end
     end
   end

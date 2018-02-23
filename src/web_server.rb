@@ -7,8 +7,26 @@ class WebServer < Sinatra::Base
       settings.repo
     end
 
-    def h(text)
+    def html_encode(text)
       HTMLEntities.new.encode(text)
+    end
+
+    def titleize(job)
+      if job.title?
+        truncate(sanitize(job.title))
+      else
+        truncate(sanitize(job.text))
+      end
+    end
+
+    def sanitize(text)
+      text.
+        gsub(/<a[^>]+>.+<\/a>+/, "").
+        gsub(/\(\s*\)/, '').
+        split('|').
+        map(&:strip).
+        reject(&:empty?).
+        join(' | ')
     end
 
     def truncate(string, length: 100, tail: '...')
@@ -60,13 +78,7 @@ class WebServer < Sinatra::Base
       jobs.each do |job|
         maker.items.new_item do |item|
           item.link = job.link
-
-          if job.title?
-            item.title = job.title
-          else
-            item.title = truncate(job.text)
-          end
-
+          item.title = titleize(job)
           item.description = job.text
           item.updated = job.timestamp.to_s
           item.guid.content = job.id
@@ -74,7 +86,7 @@ class WebServer < Sinatra::Base
       end
     end
 
-    content_type 'application/rss+xml'
+    content_type 'application/rss+xml', charset: 'utf-8'
     body rss.to_s
   end
 end

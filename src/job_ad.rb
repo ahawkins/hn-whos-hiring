@@ -6,7 +6,7 @@ class JobAd
       new({
         id: data.fetch('id'),
         timestamp: Time.at(data.fetch('time')),
-        text: data.fetch('text')
+        text: HTMLEntities.new.decode(data.fetch('text'))
       })
     end
   end
@@ -24,7 +24,7 @@ class JobAd
   end
 
   def remote?
-    title? && title.match?(/REMOTE/)
+    text.match?(/REMOTE/)
   end
 
   def to_s
@@ -36,28 +36,9 @@ class JobAd
   end
 
   def title
-    paragraphs = text.split('<p>')
-
-    # NOTE: The if check roughly matches something in the expected format:
-    #
-    # Company | Position | Title | [ REMOTE,ON-SITE | SALARY ]
-    #
-    # Properly formatted items should have at least the company, position,
-    # title, and location. Salary and REMOTE/VISA tags are less likely, but
-    # do occur. Checking for >= 3 bits of information approximates a well
-    # formed submission.
-    if paragraphs.size > 1 && paragraphs.first.count('|') >= 3
-      sanitized = paragraphs.first.
-        gsub(/<a[^>]+>.+<\/a>+/, "").
-        strip
-
-      decoded = HTMLEntities.new.decode(sanitized)
-
-      if decoded.end_with?("|")
-        decoded.chop.strip
-      else
-        decoded
-      end
+    paragraphs = text.split(/($|<p>)/)
+    if paragraphs.size > 1
+      paragraphs.first
     else
       nil
     end

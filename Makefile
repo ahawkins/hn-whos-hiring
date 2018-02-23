@@ -38,6 +38,11 @@ test-smoke: $(ENVIRONMENT)
 fixtures.yml: $(ENVIRONMENT)
 	@docker-compose run -T --rm tests script/generate-fixtures > $@
 
+.PHONY: fixtures
+fixtures:
+	rm fixtures.yml
+	$(MAKE) fixtures.yml
+
 .PHONY: test-ci
 test-ci: test-smoke test-image
 

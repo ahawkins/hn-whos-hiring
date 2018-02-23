@@ -64,6 +64,60 @@ class RSSTest < MiniTest::Test
     end
   end
 
+  def test_links_are_stripped_from_titles
+    job = JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary | <a href="#">Foo</a><p>More',
+      timestamp: CLOCK
+    })
+
+    repo << job
+
+    items = get_rss do |feed, items|
+      assert_equal 1, feed.items.size
+    end
+
+    assert_feed_item job, items[0] do |item|
+      assert_equal 'Company | Position | Location | Salary', item.title
+    end
+  end
+
+  def test_links_are_stripped_from_titlesless_job_ads
+    job = JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary | <a href="#">Foo</a>',
+      timestamp: CLOCK
+    })
+
+    repo << job
+
+    items = get_rss do |feed, items|
+      assert_equal 1, feed.items.size
+    end
+
+    assert_feed_item job, items[0] do |item|
+      assert_equal 'Company | Position | Location | Salary', item.title
+    end
+  end
+
+  def test_empty_pipes_stripped_from_titlesless_job_ads
+    job = JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | <a href="#">Foo</a> | Salary',
+      timestamp: CLOCK
+    })
+
+    repo << job
+
+    items = get_rss do |feed, items|
+      assert_equal 1, feed.items.size
+    end
+
+    assert_feed_item job, items[0] do |item|
+      assert_equal 'Company | Position | Location | Salary', item.title
+    end
+  end
+
   def test_filters
     job = JobAd.new({
       id: 1,
@@ -94,7 +148,7 @@ class RSSTest < MiniTest::Test
   def get_rss(params = { })
     get('/rss', params) do |response|
       assert last_response.ok?
-      assert_equal 'application/rss+xml', last_response['Content-Type']
+      assert_equal 'application/rss+xml;charset=utf-8', last_response['Content-Type']
     end
 
     feed = RSS::Parser.parse(last_response.body) do |feed|

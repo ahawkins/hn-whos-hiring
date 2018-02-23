@@ -54,6 +54,102 @@ class AcceptanceTest < MiniTest::Test
     end
   end
 
+  def test_long_titles_are_truncated
+    repo << JobAd.new({
+      id: 1,
+      text: ('Lorem Ipsum' * 500) + "\nMore",
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert link.text.end_with?('...'), 'No truncation'
+    end
+  end
+
+  def test_links_are_stripped_from_titles
+    repo << JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary | <a href="#">Foo</a><p>More',
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
+  def test_links_are_stripped_from_titleless_jobs
+    repo << JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary | <a href="#">Foo</a>',
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
+  def test_links_are_stripped_from_jobs_with_titles
+    repo << JobAd.new({
+      id: 1,
+      text: %Q{Company | Position | Location | Salary | <a href="#">Foo</a>\nMore},
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
+  def test_paren_wrapped_links_are_stripped_from_jobs_without_titles
+    repo << JobAd.new({
+      id: 1,
+      text: 'Company | Position | Location | Salary | (<a href="#">Foo</a>)',
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
+  def test_paren_wrapped_links_are_stripped_from_jobs_with_titles
+    repo << JobAd.new({
+      id: 1,
+      text: %Q{Company | Position | Location | Salary | (<a href="#">Foo</a>)\nMore},
+      timestamp: CLOCK
+    })
+
+    visit '/'
+
+    assert_results 1
+
+    assert_job_id 1 do |link|
+      assert_equal 'Company | Position | Location | Salary', link.text
+    end
+  end
+
   def test_remote_only_job_filter
     repo << JobAd.new({
       id: 1,
