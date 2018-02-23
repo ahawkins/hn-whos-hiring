@@ -199,26 +199,28 @@ class AcceptanceTest < MiniTest::Test
   end
 
   def click_remote_only
-    find('#remote-only').click
+    select('Remote', from: 'job-filter')
+    click_button('get-jobs')
   end
 
   def click_all_jobs
-    find('#all-jobs').click
+    select('All', from: 'job-filter')
+    click_button('get-jobs')
   end
 
   def assert_all_jobs_selected
-    assert page.has_css?('#all-jobs.is-active'), 'Incorrect filter display'
+    assert has_select?('job-filter', selected: 'All'), 'All filter incorrect'
   end
 
   def refute_all_jobs_selected
-    refute page.has_css?('#all-jobs.is-active'), 'Incorrect filter display'
+    refute has_select?('job-filter', selected: 'All'), 'All filter incorrect'
   end
 
   def assert_remote_only_selected
-    assert page.has_css?('#remote-only.is-active'), 'Incorrect filter display'
+    assert has_select?('job-filter', selected: 'Remote'), 'Remote filter incorrect'
   end
 
   def refute_remote_only_selected
-    refute page.has_css?('#remote-only.is-active'), 'Incorrect filter display'
+    refute has_select?('job-filter', selected: 'Remote'), 'Remote filter incorrect'
   end
 end

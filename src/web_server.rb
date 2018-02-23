@@ -38,19 +38,11 @@ class WebServer < Sinatra::Base
     end
 
     def remote_only?
-      params.fetch('remote', 'false') == 'true'
+      params['remote'] == 'true' || params['filter'] == 'remote'
     end
 
     def all_jobs?
       !remote_only?
-    end
-
-    def rss_url
-      if remote_only?
-        url('/rss?remote=true')
-      else
-        url('/rss')
-      end
     end
   end
 

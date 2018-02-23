@@ -19,12 +19,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert_equal job.title, item.title
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert_equal job.title, item.title
+      end
     end
   end
 
@@ -37,12 +36,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert_equal job.text, item.title
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert_equal job.text, item.title
+      end
     end
   end
 
@@ -55,12 +53,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert item.title.end_with?('...'), 'No truncation'
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert item.title.end_with?('...'), 'No truncation'
+      end
     end
   end
 
@@ -73,12 +70,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert_equal 'Company | Position | Location | Salary', item.title
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert_equal 'Company | Position | Location | Salary', item.title
+      end
     end
   end
 
@@ -91,12 +87,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert_equal 'Company | Position | Location | Salary', item.title
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert_equal 'Company | Position | Location | Salary', item.title
+      end
     end
   end
 
@@ -109,12 +104,11 @@ class RSSTest < MiniTest::Test
 
     repo << job
 
-    items = get_rss do |feed, items|
-      assert_equal 1, feed.items.size
-    end
-
-    assert_feed_item job, items[0] do |item|
-      assert_equal 'Company | Position | Location | Salary', item.title
+    get_rss do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item job, items[0] do |item|
+        assert_equal 'Company | Position | Location | Salary', item.title
+      end
     end
   end
 
@@ -133,16 +127,37 @@ class RSSTest < MiniTest::Test
 
     repo << job << remote_job
 
-    items = get_rss
-
-    assert_feed_item remote_job, items[0]
-    assert_feed_item job, items[1]
-
-    get_rss remote: true do |feed, items|
-      assert_equal 1, feed.items.size
+    get_rss do |feed, items|
+      assert_equal 2, item.size
+      assert_feed_item remote_job, items[0]
+      assert_feed_item job, items[1]
     end
 
-    assert_feed_item remote_job, items[0]
+    get_rss filter: :remote do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item remote_job, items[0]
+    end
+  end
+
+  def test_legacy_remote_query_param
+    job = JobAd.new({
+      id: 1,
+      text: 'Foo | Bar',
+      timestamp: CLOCK
+    })
+
+    remote_job = JobAd.new({
+      id: 2,
+      text: 'Foo | Bar | REMOTE',
+      timestamp: CLOCK + 1
+    })
+
+    repo << job << remote_job
+
+    get_rss remote: true do |feed, items|
+      assert_equal 1, items.size
+      assert_feed_item remote_job, items[0]
+    end
   end
 
   def get_rss(params = { })
