@@ -11,7 +11,7 @@ repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
 	logger: logger
 }))
 
-fetcher = JobFetcher.new('16282819')
+fetcher = JobFetcher.new('16492994')
 fetcher.get.each do |job|
 	repo << job
 end
