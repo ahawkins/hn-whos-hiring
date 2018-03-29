@@ -13,4 +13,9 @@ class SmokeTest < MiniTest::Test
     response = Excon.get(host)
     assert_equal 200, response.status
   end
+
+  def test_rss_path_returns_200
+    response = Excon.get("#{host}/rss")
+    assert_equal 200, response.status
+  end
 end
