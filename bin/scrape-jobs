@@ -4,14 +4,24 @@ require_relative '../src/app'
 require 'logger/better'
 
 logger = Logger::Better.new($stdout).tap do |log|
-	log.level = ENV.fetch('LOG_LEVEL', 'warn').to_sym
+  log.level = ENV.fetch('LOG_LEVEL', 'info').to_sym
 end
 
 repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
-	logger: logger
+  logger: logger
 }))
 
-fetcher = JobFetcher.new('16492994')
-fetcher.get.each do |job|
-	repo << job
+logger.info('Finding active thread')
+
+active_submission = JobFetcher.find_thread
+
+if active_submission
+  logger.info("Found thread #{active_submission}")
+
+  fetcher = JobFetcher.new(active_submission, logger)
+  fetcher.get.each do |job|
+    repo << job
+  end
+else
+  logger.info("No active thread found")
 end

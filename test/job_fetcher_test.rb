@@ -2,7 +2,12 @@ require_relative 'test_helper'
 
 class JobFetcherTest < MiniTest::Test
   TEST_ITEM = 100000
+
   CLOCK = Time.now
+  MONTH = CLOCK.strftime('%B')
+  YEAR = CLOCK.year
+
+  CLIENT = JobFetcher::ExconClient.new
 
   attr_reader :fetcher
 
@@ -19,6 +24,77 @@ class JobFetcherTest < MiniTest::Test
       body: data,
       status: status
     })
+  end
+
+  def test_current_thread_finds_thread_based_on_time
+    stub_request(:get, "https://hacker-news.firebaseio.com/v0/user/whoshiring.json").to_return({
+      body: JSON.dump({
+        submitted: [ 3, 2, item ]
+      }),
+      status: 200
+    })
+
+    stub_item(item, 200, JSON.dump({
+      title: "Who's hiring? (#{MONTH} #{YEAR})"
+    }))
+
+    stub_item(3, 200, JSON.dump({
+      title: "Who's hiring? (Foo 0000)"
+    }))
+
+    stub_item(2, 200, JSON.dump({
+      title: "Who's hiring? (Bar 0000)"
+    }))
+
+    assert_equal item, JobFetcher.find_thread(CLIENT, CLOCK)
+  end
+
+  def test_current_thread_returns_nil_if_no_active_thread
+    stub_request(:get, "https://hacker-news.firebaseio.com/v0/user/whoshiring.json").to_return({
+      body: JSON.dump({
+        submitted: [ 3, 2 ]
+      }),
+      status: 200
+    })
+
+    stub_item(3, 200, JSON.dump({
+      title: "Who's hiring? (Foo 0000)"
+    }))
+
+    stub_item(2, 200, JSON.dump({
+      title: "Who's hiring? (Bar 0000)"
+    }))
+
+    assert_nil JobFetcher.find_thread(CLIENT, CLOCK)
+  end
+
+  def test_current_thread_only_checks_first_three_submissions
+    stub_request(:get, "https://hacker-news.firebaseio.com/v0/user/whoshiring.json").to_return({
+      body: JSON.dump({
+        submitted: [ 3, 2, item, 4 ]
+      }),
+      status: 200
+    })
+
+    stub_item(item, 200, JSON.dump({
+      title: "Who's hiring? (#{MONTH} #{YEAR})"
+    }))
+
+    stub_item(3, 200, JSON.dump({
+      title: "Who's hiring? (Foo 0000)"
+    }))
+
+    stub_item(2, 200, JSON.dump({
+      title: "Who's hiring? (Bar 0000)"
+    }))
+
+    ignored_item = stub_item(4, 200, JSON.dump({
+      title: "Who's hiring? (Qux 0000)"
+    }))
+
+    JobFetcher.find_thread(CLIENT, CLOCK)
+
+    assert_not_requested ignored_item
   end
 
   def test_parses_valid_data_into_jobs

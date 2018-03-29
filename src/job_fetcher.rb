@@ -10,6 +10,22 @@ class JobFetcher
     end
   end
 
+  class << self
+    def find_thread(client = ExconClient.new, clock = Time.now)
+      month = clock.strftime('%B')
+      year = clock.year
+
+      data = client.get("https://hacker-news.firebaseio.com/v0/user/whoshiring.json")
+      # Assumes the submissions are ordered by recent first
+      data.fetch('submitted')[0..2].find do |id|
+       post = client.get("https://hacker-news.firebaseio.com/v0/item/#{id}.json")
+       title = post.fetch('title')
+
+       title.include?("Who's hiring?") && title.include?("#{month} #{year}")
+      end
+    end
+  end
+
   def initialize(item, logger = Logger.new($stderr))
     @item = item
     @logger = logger
