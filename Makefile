@@ -1,5 +1,6 @@
 RUBY_IMAGE:=$(shell grep FROM Dockerfile | cut -f 2 -d ' ')
 TEST_FILES:=$(shell find test -type f -iname '*_test.rb')
+ACCEPTANCE_TEST_FILES:=$(shell find test/acceptance -type f -iname '*_test.rb')
 ENVIRONMENT:=tmp/environment
 
 .DEFAULT_GOAL:=test
@@ -24,6 +25,11 @@ test: $(ENVIRONMENT)
 	@docker-compose run --rm tests \
 		ruby $(addprefix -r./,$(TEST_FILES)) -e exit
 
+.PHONY: test-acceptance
+test-acceptance: $(ENVIRONMENT)
+	@docker-compose run --rm tests \
+		ruby $(addprefix -r./,$(ACCEPTANCE_TEST_FILES)) -e exit
+
 .PHONY: test-image
 test-image: $(ENVIRONMENT)
 	@docker-compose run --rm app \
@@ -40,7 +46,7 @@ fixtures.yml: $(ENVIRONMENT)
 
 .PHONY: fixtures
 fixtures:
-	rm fixtures.yml
+	rm -f fixtures.yml
 	$(MAKE) fixtures.yml
 
 .PHONY: test-ci

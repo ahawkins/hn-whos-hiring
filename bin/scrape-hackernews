@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+
+require_relative '../src/app'
+
+logger = Logger::Better.new($stdout).tap do |log|
+  log.level = ENV.fetch('LOG_LEVEL', 'info').to_sym
+end
+
+repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
+  logger: logger
+}))
+
+repo.setup
+
+thread_finder = ThreadFinder.new
+fetcher = ItemFetcher.new(logger: logger)
+
+logger.info('Finding who is hiring thread')
+
+thread_id = thread_finder.locate do |post|
+  post.fetch('title').include?("Who is hiring")
+end
+
+if thread_id
+  logger.info("Found thread #{thread_id}")
+
+  fetcher.get(thread_id) do |post|
+    repo << JobAd.from_hn(post)
+  end
+else
+  logger.info("No active thread found")
+end
+
+logger.info('Finding freelancer thread')
+
+thread_id = thread_finder.locate do |post|
+  post.fetch('title').include?("Freelancer?")
+end
+
+if thread_id
+  logger.info("Found thread #{thread_id}")
+
+  fetcher.get(thread_id) do |post|
+    repo << FreelanceAd.from_hn(post)
+  end
+else
+  logger.info("No active thread found")
+end

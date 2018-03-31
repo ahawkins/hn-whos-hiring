@@ -1,11 +1,6 @@
-require_relative 'test_helper'
+require_relative '../test_helper'
 
-class AcceptanceTest < MiniTest::Test
-  include Capybara::DSL
-  include DBTest
-
-  CLOCK = Time.now
-
+class FilterJobsTest < AcceptanceTest
   def test_display_of_welformed_job
     repo << JobAd.new({
       id: 1,
@@ -13,11 +8,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -29,11 +24,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Foo | Bar', link.text
     end
   end
@@ -45,11 +40,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert link.text.end_with?('...'), 'No truncation'
     end
   end
@@ -61,11 +56,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert link.text.end_with?('...'), 'No truncation'
     end
   end
@@ -77,11 +72,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -93,11 +88,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -109,11 +104,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -125,11 +120,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -141,11 +136,11 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    visit '/'
+    open_jobs
 
     assert_results 1
 
-    assert_job_id 1 do |link|
+    assert_post 1 do |link|
       assert_equal 'Company | Position | Location | Salary', link.text
     end
   end
@@ -163,7 +158,7 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    open_homepage
+    open_jobs
 
     assert_results 2
 
@@ -171,10 +166,10 @@ class AcceptanceTest < MiniTest::Test
     assert_keyword 'Job_B'
 
     assert_results 1
-    assert_job_id 2
+    assert_post 2
   end
 
-  def test_remote_only_job_filter
+  def test_remote_job_filter
     repo << JobAd.new({
       id: 1,
       text: 'Foo | Bar | ONSITE | $60k',
@@ -187,73 +182,45 @@ class AcceptanceTest < MiniTest::Test
       timestamp: CLOCK
     })
 
-    open_homepage
+    open_jobs
 
     assert_results 2
     assert_all_jobs_selected
 
-    click_remote_only
+    select_remote
 
     assert_results 1
-    assert_job_id 2
-    assert_remote_only_selected
+    assert_post 2
+    assert_remote_selected
     refute_all_jobs_selected
 
-    click_all_jobs
+    select_all_posts
 
     assert_results 2
     assert_all_jobs_selected
-    refute_remote_only_selected
+    refute_remote_selected
   end
 
   private
 
-  def open_homepage
-    visit '/'
-  end
-
-  def assert_results(total)
-    assert_equal total, page.all('li.job').size
-  end
-
-  def assert_job_id(id)
-    find("a#job-#{id}").tap do |link|
-      yield link if block_given?
-    end
-  end
-
-  def click_remote_only
-    select('Remote', from: 'job-filter')
-    click_button('get-jobs')
-  end
-
-  def click_all_jobs
-    select('All', from: 'job-filter')
-    click_button('get-jobs')
-  end
-
-  def search_for(query)
-    fill_in('keyword', with: query)
-    click_button('get-jobs')
+  def select_remote
+    select('Remote', from: 'post-filter')
+    click_button('get-posts')
   end
 
   def assert_all_jobs_selected
-    assert has_select?('job-filter', selected: 'All'), 'All filter incorrect'
+    assert has_select?('post-filter', selected: 'All'), 'All filter incorrect'
   end
 
   def refute_all_jobs_selected
-    refute has_select?('job-filter', selected: 'All'), 'All filter incorrect'
+    refute has_select?('post-filter', selected: 'All'), 'All filter incorrect'
   end
 
-  def assert_remote_only_selected
-    assert has_select?('job-filter', selected: 'Remote'), 'Remote filter incorrect'
+  def assert_remote_selected
+    assert has_select?('post-filter', selected: 'Remote'), 'Remote filter incorrect'
   end
 
-  def refute_remote_only_selected
-    refute has_select?('job-filter', selected: 'Remote'), 'Remote filter incorrect'
-  end
-
-  def assert_keyword(query)
-    assert_equal query, find('#keyword').value
+  def refute_remote_selected
+    refute has_select?('post-filter', selected: 'Remote'), 'Remote filter incorrect'
   end
 end

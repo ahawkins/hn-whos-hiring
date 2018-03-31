@@ -6,4 +6,28 @@ require 'yaml'
 
 logger = Logger.new($stderr)
 
-$stdout.write(YAML.dump(JobFetcher.new('16282819', logger).get))
+data = {
+	job_ads: [ ],
+	freelance_ads: [ ]
+}
+
+thread_finder = ThreadFinder.new
+item_fetcher = ItemFetcher.new(logger: logger)
+
+whos_hiring_thread = thread_finder.locate do |post|
+	post.fetch('title').include?("Who is hiring?")
+end
+
+freelancers_thread = thread_finder.locate do |post|
+	post.fetch('title').include?("Freelancer?")
+end
+
+item_fetcher.get(whos_hiring_thread) do |post|
+	data[:job_ads] << JobAd.from_hn(post)
+end
+
+item_fetcher.get(freelancers_thread) do |post|
+	data[:freelance_ads] << FreelanceAd.from_hn(post)
+end
+
+$stdout.write(YAML.dump(data))

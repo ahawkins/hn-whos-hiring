@@ -2,12 +2,6 @@
 
 require_relative '../src/app'
 
-require 'optparse'
-
-options = {
-	port: ENV.fetch('PORT', 8080).to_i
-}
-
 logger = Logger::Better.new($stdout).tap do |log|
 	log.level = ENV.fetch('LOG_LEVEL', 'info').to_sym
 end
@@ -16,10 +10,15 @@ repo = MongoRepo.new(Mongo::Client.new(ENV.fetch('MONGODB_URI'), {
 	logger: logger
 }))
 
-WebServer.set(:repo, repo)
+logger.info('shutgun') { 'Preparing repo' }
 
-Rack::Server.start({
-	app: WebServer,
-	environment: 'deployment',
-	Port: options.fetch(:port)
-})
+repo.clear
+repo.setup
+
+logger.info('shotgun') { 'Loading fixtures' }
+
+YAML.load_file('fixtures.yml').each_pair do |_collection, items|
+  items.each do |item|
+    repo << item
+  end
+end

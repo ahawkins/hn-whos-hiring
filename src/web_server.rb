@@ -11,11 +11,29 @@ class WebServer < Sinatra::Base
       HTMLEntities.new.encode(text)
     end
 
-    def titleize(job)
-      if job.title?
-        truncate(sanitize(job.title))
+    def titleize(ad)
+      if ad.is_a?(JobAd)
+        titleize_job_ad(ad)
+      elsif ad.is_a?(FreelanceJob)
+        titleize_freelance_ad(ad)
       else
-        truncate(sanitize(job.text))
+        fail "Cannot titleize #{ad}"
+      end
+    end
+
+    def titleize_job_ad(ad)
+      if ad.title?
+        truncate(sanitize(ad.title))
+      else
+        truncate(sanitize(ad.text))
+      end
+    end
+
+    def titleize_freelance_ad(ad)
+      if ad.title?
+        truncate(ad.title)
+      else
+        truncate(ad.text)
       end
     end
 
@@ -37,12 +55,28 @@ class WebServer < Sinatra::Base
       end
     end
 
-    def remote_only?
+    def remote?
       params['remote'] == 'true' || params['filter'] == 'remote'
     end
 
-    def all_jobs?
-      !remote_only?
+    def query_filter
+      if params.key?('filter')
+        params.fetch('filter').to_sym
+      else
+        nil
+      end
+    end
+
+    def seeking_work?
+      params['filter'] == 'seeking_work'
+    end
+
+    def seeking_freelancer?
+      params['filter'] == 'seeking_freelancer'
+    end
+
+    def all_posts?
+      params['filter'].nil? || params['filter'] == 'all'
     end
 
     def keyword
@@ -52,28 +86,51 @@ class WebServer < Sinatra::Base
         params.fetch('q')
       end
     end
+
+    def jobs_page?
+      @navbar_link == :jobs
+    end
+
+    def freelancers_page?
+      @navbar_link == :freelancers
+    end
   end
 
   get '/' do
-    @jobs = repo.query({
-      remote_only: remote_only?,
+    @navbar_link = :jobs
+
+    @ads = repo.query_jobs({
+      filter: query_filter,
       keyword: keyword
     })
 
-    erb(:index)
+    erb(:jobs)
+  end
+
+  get '/freelancers' do
+    @navbar_link = :freelancers
+
+    @ads = repo.query_freelancers({
+      filter: query_filter,
+      remote: remote?,
+      keyword: keyword
+    })
+
+    erb(:freelancers)
   end
 
   get '/rss' do
-    jobs = repo.query({
-      remote_only: remote_only?
+    jobs = repo.query_jobs({
+      filter: query_filter,
+      keyword: keyword
     })
 
     rss = RSS::Maker.make("rss2.0") do |maker|
       maker.channel.author = "HackerNews"
       maker.channel.updated = Time.now.to_s
       maker.channel.about = "https://news.ycombinator.com/user?id=whoishiring"
-      maker.channel.title = "HackerNews Who's Hiring"
-      maker.channel.description = "Summaries of job postings"
+      maker.channel.title = "HackerNews: Who is Hiring?"
+      maker.channel.description = "Post summaries"
       maker.channel.link = request.url
 
       jobs.each do |job|
@@ -83,6 +140,36 @@ class WebServer < Sinatra::Base
           item.description = job.text
           item.updated = job.timestamp.to_s
           item.guid.content = job.id
+        end
+      end
+    end
+
+    content_type 'application/rss+xml', charset: 'utf-8'
+    body rss.to_s
+  end
+
+  get '/rss/freelancers' do
+    ads = repo.query_freelancers({
+      filter: query_filter,
+      remote: remote?,
+      keyword: keyword
+    })
+
+    rss = RSS::Maker.make("rss2.0") do |maker|
+      maker.channel.author = "HackerNews"
+      maker.channel.updated = Time.now.to_s
+      maker.channel.about = "https://news.ycombinator.com/user?id=whoishiring"
+      maker.channel.title = "HackerNews: Freelancer? Seeking Freelancer?"
+      maker.channel.description = "Post summaries"
+      maker.channel.link = request.url
+
+      ads.each do |ad|
+        maker.items.new_item do |item|
+          item.link = ad.link
+          item.title = titleize(ad)
+          item.description = ad.text
+          item.updated = ad.timestamp.to_s
+          item.guid.content = ad.id
         end
       end
     end

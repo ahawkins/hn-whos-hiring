@@ -11,5 +11,6 @@ if ! make -q fixtures.yml &> /dev/null; then
 fi
 
 docker-compose build tests
+docker-compose run tests script/load-fixtures
 docker-compose run --rm -p 9090:9090 tests \
 	bundle exec shotgun --server puma --host 0.0.0.0 --port 9090 script/shotgun.ru
